@@ -1,0 +1,10 @@
+# Recorded core versions, not a complete frozen environment.
+# Install a CUDA-compatible PyTorch distribution separately if necessary.
+torch==2.8.0
+transformers==5.6.2
+pyarrow
+aiohttp
+sympy
+# RFT additionally requires the compatible veRL installation used by the experiment.
+# Its commit/version was not recorded in the supplied package; do not assume the
+# latest veRL has the same Hydra config. See docs/REPRODUCIBILITY.md.

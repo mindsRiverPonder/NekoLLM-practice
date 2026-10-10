@@ -1,0 +1,20 @@
+{
+  "questions": 5000,
+  "rollouts": 40000,
+  "samples_per_question": 8,
+  "model": "small-nmath-minicpm-rft",
+  "test_file": "original_archive/RL_data_high_quality_5k_zh.progress.jsonl",
+  "system_prompt": "original_archive/system_prompt.txt",
+  "sampling": {
+    "test_file": "original_archive/RL_data_high_quality_5k_zh.progress.jsonl",
+    "output": "original_archive/minicpm_global_step_213_high_quality_5k_8samples",
+    "ports": "18100,18101",
+    "batch_size": 16,
+    "max_tokens": 16384,
+    "max_model_len": 20480,
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "seed": 42,
+    "model_name": "small-nmath-minicpm-rft"
+  }
+}

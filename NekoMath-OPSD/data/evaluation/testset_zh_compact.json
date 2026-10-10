@@ -1,0 +1,3102 @@
+[
+  {
+    "problem": "一个家庭中有2个兄弟和3个姐妹。所有姐妹年龄相同，均为16岁，其中一个兄弟12岁，是哥哥年龄的一半。求所有兄弟姐妹的总年龄。",
+    "answer": "84",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "有$25$个不可区分的白筹码和$25$个不可区分的黑筹码，求将这些筹码中的一部分放入$5 \\times 5$网格的方案数，满足以下条件：\n1. 每个格子至多放一个筹码；\n2. 同一行中的所有筹码颜色相同，同一列中的所有筹码颜色相同；\n3. 在网格中再放入任意一个筹码都会违反上述一个或多个条件。",
+    "answer": "902",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "等腰三角形$\\triangle ABC$满足$AB = BC$。设$I$为$\\triangle ABC$的内心。已知$\\triangle ABC$与$\\triangle AIC$的周长之比为$125:6$，且两个三角形的所有边长均为整数。求$AB$的最小可能值。",
+    "answer": "245",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "最大的八位二进制整数是多少？请用十进制表示你的答案。",
+    "answer": "255",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "$7$个人围圆桌就坐，若其中皮埃尔、罗莎、托马斯$3$人任意两人均不能相邻，且旋转后重合的坐法视为同一种，问共有多少种不同的坐法？",
+    "answer": "144",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "贾马尔的手机能存放的照片数量是布里塔尼手机的6倍。布里塔尼的手机最多能存放的照片数量是贾马尔拍摄的动物园鸭子照片中鸭子数量的50倍。如果贾马尔的手机能存放1800张照片，那么贾马尔拍摄的动物园鸭子照片里能看到多少只鸭子？",
+    "answer": "6",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "1立米有多少升？\nA. 10\nB. 1\nC. 100\nD. 1000",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "在任意直角三角形中，若$a$、$b$为两条直角边的长度，$c$为斜边的长度，则勾股定理的表达式是什么？\n\nA. $a^2+b^2=c^2$\nB. $a^2+b^2={(a+b)}^2$\nC. $a^2+b^2=c$\nD. $a+b=c$",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "一个正方形的一组对边的长度减少$40\\%$，另一组对边的长度增加$50\\%$，得到一个新的矩形。这个正方形的面积减少了百分之多少？",
+    "answer": "10",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "求使下列等式成立的最小正角$\\theta$的度数：\n\\[\\tan \\theta = \\frac{\\cos 5^\\circ \\cos 20^\\circ + \\cos 35^\\circ \\cos 50^\\circ - \\sin 5^\\circ \\sin 20^\\circ - \\sin 35^\\circ \\sin 50^\\circ}{\\sin 5^\\circ \\cos 20^\\circ - \\sin 35^\\circ \\cos 50^\\circ + \\cos 5^\\circ \\sin 20^\\circ - \\cos 35^\\circ \\sin 50^\\circ}.\\]",
+    "answer": "120^\\circ",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "Henry需要组装一些玩具，具体为57辆小汽车和73辆摩托车。Henry知道，要组装完所有玩具，每辆小汽车需要4个轮子，每辆摩托车需要2个轮子。如果他有一盒650个轮子，组装完这些玩具后还剩多少个轮子？",
+    "answer": "276",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "汤姆的船航行速度为10英里每小时。他于下午1点至4点期间航行，随后以每小时6英里的速度返航，他返航需要多长时间？",
+    "answer": "5",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "$y$ 的值与 $\\sqrt{x}$ 成反比，当 $x=24$ 时，$y=15$。当 $y=3$ 时，$x$ 的值是多少？",
+    "answer": "600",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "若级数 $\\sum_{n=1}^{\\infty} a_{n}$ 各项的绝对值所构成的正项级数 $\\sum_{n=1}^{\\infty}\\left|a_{n}\\right|$ 收敛，则称级数 $\\sum_{n=1}^{\\infty} a_{n}$\nA. 绝对收敛\nB. 发散\nC. 条件收敛\nD. 收敛",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "若函数由参数方程 $\\left\\{\\begin{array}{l}x=\\varphi(t), \\\\ y=\\psi(t)\\end{array}\\right.$ 确定，$\\varphi(t)$、$\\psi(t)$ 均二阶可导，且 $\\varphi^{\\prime}(t) \\neq 0$，则 $\\frac{\\mathrm{d} y}{\\mathrm{~d} x}$ 是：\n\nA. $\\frac{\\psi(t)}{\\varphi^{\\prime}(t)}$\nB. $\\frac{\\psi^{\\prime}(t)}{\\varphi^{\\prime}(t)}$\nC. $\\frac{\\psi(t)}{\\varphi(t)}$\nD. $\\frac{\\psi^{\\prime}(t)}{\\varphi(t)}$",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "萨拉多斯王子用他的利剑杀死了100条龙，亚瑟王子用长矛杀死的龙的数量是萨拉多斯王子的四分之三。沃尔特王子用一把生锈的铁斧杀死的龙的数量是亚瑟王子的两倍。而布鲁斯王子因把剑忘在家中，用指甲锉杀死的龙的数量是沃尔特王子的五分之一。布鲁斯王子杀死了多少条龙？",
+    "answer": "30",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "以下等式反映了除法的什么性质：$\\frac{0}{a}=0$（$a\\neq 0$）\nA. 1的同一律\nB. 零的性质\nC. 1的性质\nD. 逆律",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "（ ）一般可分为以下三类：\n(1) $y''=f(x, y')$ 型：令 $y'=p$，则 $y''=p'$，方程化为 $p'=f(x, p)$。\n(2) $y''=f(y, y')$ 型：令 $y'=p$，则 $y''=p \\frac{dp}{dy}$，方程化为 $p \\frac{dp}{dy}=f(y, p)$。\n(3) $y^{(n)}=f(x)$ 型：对 $f(x)$ 连续进行 $n$ 次不定积分。\nA. 可降阶的低阶微分方程\nB. 不可降阶的高阶微分方程\nC. 不可降阶的低阶微分方程\nD. 可降阶的高阶微分方程",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "对每个小于502的正整数$r$，定义\n\\[\nS_r=\\sum_{m\\ge 0}\\dbinom{10000}{502n+r},\n\\]\n其中当$n>10000$时，规定$\\binom{10000}{n}=0$。即$S_r$是所有满足$0\\le k\\le 10000$且$k-r$是502的倍数的形如$\\binom{10000}{k}$的二项式系数的和。求列表$S_0,S_1,\\dots,S_{501}$中是素数503的倍数的整数的个数。",
+    "answer": "39",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "Mike决定用数字版替换自己的电影收藏，现有电影共600部。其中$\\frac{1}{3}$为各类系列片，购买系列片时每部仅需花费6美元，仅为正常电影价格的水平。剩余电影中40%为老电影，每部售价5美元。若正常电影每部售价10美元，求替换这些电影的总花费。",
+    "answer": "4400",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "假设$a^x=N$，那么如何用a和N表示x？\nA. $x=a^N$\nB. $x=\\log_N a$\nC. $x=\\log_a N$\nD. $x=N^a$",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "求和 $1+3+5+7+9+\\dots+195+197+199$ 模 $7$ 的余数。",
+    "answer": "4",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "在平移得到的新图形中，每个点都是由原图形中的某一个点移动得到的，这样的两个点称为什么？\nA. 等价点\nB. 对应点\nC. 相似点\nD. 同似点",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "从如图所示的网格中随机选取三个点，每个三点集合被选中的概率相同。求这三个点位于同一条直线上的概率？\n\n[asy]\nsize(50);\nfor (int i=0; i<3; ++i) {\nfor (int j=0; j<3; ++j) {\ndot((i,j));};}\n[/asy]",
+    "answer": "\\frac{2}{21}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "实值函数$f$满足：对任意实数$a$和$b$，有$f(a + b) + f(a - b) = 2f(a) f(b)$。下列哪个数不可能是$f(1)$的值？\n$\\textbf{(A) } -1 \\qquad \\textbf{(B) } -2 \\qquad \\textbf{(C) } 0 \\qquad \\textbf{(D) } 1 \\qquad \\textbf{(E) } 2$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "马诺洛买了5根棒棒糖和4颗糖果，共花费3.20美元。若每根棒棒糖的售价为0.40美元，购买10根棒棒糖和10颗糖果需要花费多少钱？",
+    "answer": "7",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设$S$表示无穷和\n\\[\n\\frac{1}{9} + \\frac{1}{99} + \\frac{1}{999} + \\frac{1}{9999}  + \\cdots\n\\]\n的值。求不超过$10^{100} S$的最大整数除以$1000$的余数。",
+    "answer": "669",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "已知圆$C_1: x^2+y^2-4x-6y+9=0$，圆$C_2: x^2+y^2+12x+6y-19=0$，则两圆的位置关系是____\nA. 相交\nB. 内切\nC. 外切\nD. 相离",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "你在玩一个游戏。一个$2 \\times 1$的矩形覆盖$3 \\times 3$方格网中两个相邻的方格（可水平或垂直放置），但未告知你覆盖的是哪两个方格。你的目标是找到至少一个被该矩形覆盖的方格。每一“轮”你猜测一个方格，之后会被告知该方格是否被隐藏的矩形覆盖。确保你至少有一个猜测的方格被矩形覆盖所需的最少轮数是多少？\n$\\textbf{(A)}~6\\qquad\\textbf{(B)}~3\\qquad\\textbf{(C)}~8\\qquad\\textbf{(D)}~5\\qquad\\textbf{(E)}~4$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "若$X$为随机变量，$C$为常数，则$D(X+C)=$\n\nA. $D(X)$\nB. $CD(X)$\nC. $C$\nD. $C^{2} D(X)$",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "将两个等边三角形分别贴在正五边形$ABCDE$的五个所示位置中的两个位置上，可以构造出多个图形。一共可以构造出多少个不全等的图形？\n\n[asy]\npair A,B,C,D,I;\nA=(10,0);\nB=(0,0);\nC=(-3.1,9.5);\nD=(5,15.4);\nI=(13.1,9.5);\ndraw(A--B--C--D--I--cycle,linewidth(0.7));\ndraw(A--B--(5,-8.7)--cycle,dashed);\ndraw(A--I--(19.8,2.1)--cycle,dashed);\ndraw(C--B--(-9.8,2.1)--cycle,dashed);\ndraw(I--D--(14.15,19.4)--cycle,dashed);\ndraw(D--C--(-4.15,19.4)--cycle,dashed);\nlabel(\"$A$\",A,SE);\nlabel(\"$B$\",B,SW);\nlabel(\"$C$\",C,W);\nlabel(\"$E$\",I,E);\nlabel(\"$D$\",D,N);\n[/asy]",
+    "answer": "2",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "定义 $f(x)=|| x|-\\tfrac{1}{2}|$ 和 $g(x)=|| x|-\\tfrac{1}{4}|$。求函数 $y=4 g(f(\\sin (2 \\pi x)))$ 与 $x=4 g(f(\\cos (3 \\pi y)))$ 的图像的交点个数。",
+    "answer": "385",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "Verna爱吃水果。她买了3个苹果，每个1.50美元，5个橙子，每个0.80美元，6个桃子，每个0.75美元。若她支付20美元，应找回多少零钱？",
+    "answer": "7",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "在餐厅工作期间，进店的四十位顾客每人给了Rafaela 20美元的小费。Julieta收到的小费比Rafaela少10%。Julieta和Rafaela一共收到多少美元的小费？",
+    "answer": "1520",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "每年夏天，丽塔手工摘除植株上的六月甲虫。周一她摘除了39只，周二和周三每天摘除的数量均为周一的2倍，周四摘除了48只，周五摘除了57只。求她平均每天摘除多少只六月甲虫？",
+    "answer": "60",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "已知以下条件：\n1. $Z$ 和 $K$ 均为整数，且 $500 < Z < 1000$，$K > 1$；\n2. $Z = K \\times K^2$。\n求使 $Z$ 为完全平方数的 $K$ 的值。",
+    "answer": "9",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "对于某个满足$0 < x < 180$的$x$，\n\\[\\tan 53^\\circ \\tan 81^\\circ \\tan x^\\circ = \\tan 53^\\circ + \\tan 81^\\circ + \\tan x^\\circ.\\]\n求$x$.",
+    "answer": "46",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "一公斤等于多少克？\nA. 500克\nB. 10000克\nC. 1000克\nD. 2000克",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "第一条直线由\n\\[\\begin{pmatrix} 3 \\\\ -10 \\\\ 1 \\end{pmatrix} + t \\begin{pmatrix} 2 \\\\ -9 \\\\ -2 \\end{pmatrix}\\]\n定义，另一条直线由\n\\[\\begin{pmatrix} -5 \\\\ -3 \\\\ 6 \\end{pmatrix} + u \\begin{pmatrix} 4 \\\\ -18 \\\\ -4 \\end{pmatrix}\\]\n定义。这两条直线互相平行，求这两条直线之间的距离。",
+    "answer": "7",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "某社区共有20人，其中10人说英语，10人说德语，10人说法语。若一个3元子集中至少有1人说英语、至少有1人说德语、至少有1人说法语，则称该子集为一个委员会。该社区中最多有多少个这样的委员会？",
+    "answer": "1020",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "从3数到201时，53是第$51^{st}$个被数到的数。从201倒数到3时，53是第$n^{th}$个被数到的数。求$n$的值。",
+    "answer": "149",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "若$b - a = c - b$，则数$a$、$b$、$c$构成等差数列。设$a$、$b$、$c$为满足$a < b < c$的构成等差数列的正整数，设$f(x) = ax^2 + bx + c$。两个不同的实数$r$、$s$满足$f(r) = s$且$f(s) = r$。若$rs = 2017$，求$a$的最小可能值。",
+    "answer": "9",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "考虑两个实心球体：\n1. 第一个球体：\n   - 球心为 $(0, 0, \\frac{21}{2})$\n   - 半径为 $6$\n2. 第二个球体：\n   - 球心为 $(0, 0, 1)$\n   - 半径为 $\\frac{9}{2}$\n\n求位于这两个球体交集中的整点（坐标均为整数的点 $(x, y, z)$）的个数。",
+    "answer": "13",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "三个数$a_1, a_2, a_3$从集合$\\{1, 2, 3,\\ldots, 1000\\}$中不放回随机抽取，另外三个数$b_1, b_2, b_3$再从剩余的997个数中不放回随机抽取。设$p$为满足以下条件的概率：经过适当旋转，尺寸为$a_1 \\times a_2 \\times a_3$的砖块可以放入尺寸为$b_1 \\times b_2 \\times b_3$的盒子中，且砖块的各边与盒子的各边平行。若$p$化为最简分数，求其分子与分母的和。",
+    "answer": "5",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "贾马尔在健身房。他原本使用一个8磅的哑铃，将其重量增加了50%。结果发现过重，于是他使用的哑铃比增加后的重量轻2磅。他现在使用的哑铃重量是多少磅？",
+    "answer": "10",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "将数$1,2,\\ldots,10000$填入$100\\times100$的正方形网格的各个格子中，每个数恰好出现一次。在此排列中，差为$1$的两个数位于相邻的格子中。接着，计算所有差恰好为$5000$的数对对应的两个格子中心之间的距离。设$S$为这些距离的最小值，求$S$能取到的最大值是多少？",
+    "answer": "50",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "方程$\\log_{7x}2023 \\cdot \\log_{289x} 2023 = \\log_{2023x} 2023$的所有解的乘积是多少？\n$\\textbf{(A) }(\\log_{2023}7 \\cdot \\log_{2023}289)^2 \\qquad\\textbf{(B) }\\log_{2023}7 \\cdot \\log_{2023}289\\qquad\\textbf{(C) } (\\log_{7}2023 \\cdot \\log_{289}2023)^2 \\textbf{(D) }\\log_{7}2023 \\cdot \\log_{289}2023\\qquad\\textbf{(E) } 1$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "所有小于30的质数构成的集合与所有大于0的奇数构成的集合的交集中有多少个元素？",
+    "answer": "9",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "特德初始有 200 美元。他买了 3 本书，每本 16 美元，又买了 3 支铅笔，每支 6 美元。他总共花了多少钱？",
+    "answer": "66",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "考虑在$8\\times 8$的网格上，沿网格线从左下角到右上角、长度为$16$的路径。求这样的路径中恰好改变方向4次的条数，如下方示例所示。\n[asy] size(7.5cm); usepackage(\"tikz\");label(\"\\begin{tikzpicture}[scale=.4]\\draw(0,0)grid(8,8);\\draw[line width=2,red](0,0)--(2,0)--(2,3)--(5,3)--(5,8)--(8,8);\\end{tikzpicture}\",origin); label(\"\\begin{tikzpicture}[scale=.4]\\draw(0,0)grid(8,8);\\draw[line width=2,red](0,0)--(0,3)--(3,3)--(3,5)--(8,5)--(8,8);\\end{tikzpicture}\",E); [/asy]",
+    "answer": "294",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "一个面积为$\\sqrt{5}+1$的正五边形被印在纸上并剪下。将五边形的五个顶点向正五边形的中心折叠，形成一个更小的五边形。这个新五边形的面积是多少？\n$\\textbf{(A)}~\\sqrt{5}-1\\qquad\\textbf{(B)}~\\frac{2+\\sqrt{5}}{3}\\qquad\\textbf{(C)}~\\frac{\\sqrt{5}+1}{2}\\qquad\\textbf{(D)}~8-3\\sqrt{5}\\qquad\\textbf{(E)}~4-\\sqrt{5}$",
+    "answer": "A",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "化简下列关于 $x$ 的表达式：$$19x + 1 - 4x - 81.$$",
+    "answer": "15x - 80",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设$N$表示满足条件的有序正整数三元组$(a, b, c)$的个数，其中$a, b, c \\le 3^6$，且$a^3 + b^3 + c^3$是$3^7$的倍数。求$N$除以$1000$的余数。",
+    "answer": "735",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "查理正骑着他的独轮车。若该独轮车的车轮半径为9英寸，且每3秒转动2圈，求该独轮车的速度是多少英寸每秒？",
+    "answer": "12\\pi",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "吉姆看2小时电视后，便上床读书，读书时长为看电视时长的一半。他每周进行3次这样的活动。请问4周内他花在看电视和读书上的总时长是多少小时？",
+    "answer": "36",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设$S$是坐标平面内点$(a,b)$的集合，其中$a$与$b$均可以取$-1$、$0$、$1$。求经过$S$中至少两个点的不同直线的条数。",
+    "answer": "20",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "考虑满足 $|1+z+z^{2}|=4$ 的复数 $z$ 的集合。$z$ 的虚部的最大值可写成 $\\tfrac{\\sqrt{m}}{n}$ 的形式，其中 $m$ 和 $n$ 是互素的正整数，求 $m+n$ 的值。\n$\\textbf{(A)}~20\\qquad\\textbf{(B)}~21\\qquad\\textbf{(C)}~22\\qquad\\textbf{(D)}~23\\qquad\\textbf{(E)}~24$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "所有满足$\\tfrac{13!}{m}$为完全平方数的正整数$m$的和可表示为$2^{a}3^{b}5^{c}7^{d}11^{e}13^{f}$，其中$a, b, c, d, e, f$均为正整数，求$a+b+c+d+e+f$。",
+    "answer": "12",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "求最大整数$n$，使得三次多项式\n\\[\nx^{3} - \\displaystyle\\frac{n}{6}x^{2} + (n - 11)x - 400\n\\]\n的根为$\\alpha^{2}$、$\\beta^{2}$和$\\gamma^{2}$，其中$\\alpha$、$\\beta$、$\\gamma$为复数，且$\\alpha + \\beta + \\gamma$恰好有7个不同的可能取值。",
+    "answer": "132",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "同余式$14u \\equiv 46 \\pmod{100}$的两个最小正整数解的平均值是多少？",
+    "answer": "64",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "两点之间的距离公式是什么？\n\nA. $d^2 = \\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$\nB. $d^2 = (x_2-x_1)^2+(y_2-y_1)^2$\nC. $d^2 = \\sqrt{(x_2+x_1)^2+(y_2+y_1)^2}$\nD. $d = \\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "恰有三个正实数 $k$，使得定义在正实数集上的函数\n$$f(x) = \\frac{(x - 18)(x - 72)(x - 98)(x - k)}{x}$$\n的最小值恰好在两个正实数 $x$ 处取得，求这三个 $k$ 的值之和。",
+    "answer": "240",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "设$n$为正整数，使得无论$10^n$如何表示为两个正整数的乘积，这两个整数中至少有一个含有数字0。求$n$的最小可能值。",
+    "answer": "8",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "考虑由三个单位正方形在边上连接而成的L形区域，如图所示。两点$A$和$B$独立地均匀随机取自该区域内部，线段$\\overline{AB}$的中点也落在该L形区域内的概率可表示为$\\frac{m}{n}$，其中$m$和$n$是互素的正整数。求$m+n$。\n\n[asy]\nsize(2.5cm);\ndraw((0,0)--(0,2)--(1,2)--(1,1)--(2,1)--(2,0)--cycle);\ndraw((0,1)--(1,1)--(1,0), dotted);\n[/asy]",
+    "answer": "35",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "在一场乒乓球锦标赛中，每位参赛者都与其他每位参赛者恰好进行一场比赛。尽管右手球员的数量是左手球员的2倍，但左手球员赢得的比赛场次比右手球员多$40\\%$（没有平局，也没有双手都擅长的球员）。总共进行了多少场比赛？\n$\\textbf{(A) }15\\qquad\\textbf{(B) }36\\qquad\\textbf{(C) }45\\qquad\\textbf{(D) }48\\qquad\\textbf{(E) }66$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "在学生委员会选举中，候选人A获得总票数的20%，候选人B的得票数比候选人A多50%，剩余票数全部计入候选人C名下。若共有100名选民参与投票，候选人C获得了多少张选票？",
+    "answer": "50",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "赤道长约为$40000000m$，用科学记数法可以把数字$40000000$表示为（  ）\nA. $4\\times 10^{7}$\nB. $40\\times 10^{6}$\nC. $400\\times 10^{5}$\nD. $40000\\times 10^{3}$",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "设整数$b \\geq 2$。若正整数$n$在$b$进制下恰好有两位，且这两个数位上的数字之和等于$\\sqrt{n}$，则称$n$为$b$-美观数。例如，$81$是$13$-美观数，因为$81=\\underline{6}\\underline{3}_{13}$，且$6+3=\\sqrt{81}$。求满足存在超过十个$b$-美观数的最小整数$b \\geq 2$。",
+    "answer": "211",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "表达式$\\frac{7n + 12}{2n + 3}$在取某些整数$n$时的值为整数，求所有这些整数值的和？$\\textbf{(A) }4\\qquad\\textbf{(B) }8\\qquad\\textbf{(C) }10\\qquad\\textbf{(D) }12\\qquad\\textbf{(E) }14$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "若函数$\\log x^2$的定义域为$x < a$或$x > b$，求$a + b$的值。",
+    "answer": "0",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "完全展开并化简：\\begin{align*}\nx\\left(x(1+x)+2x\\right)-3(x^2-x+2)\n\\end{align*}",
+    "answer": "x^3+3x-6",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "一些人在公交终点站上了车。在第一个公交站，又有5人上车。随后在第二个公交站，有7人下车，又有8人上车。如果前往第三个公交站的总人数为20人，那么在终点站上车的有多少人？",
+    "answer": "14",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "求所有可表示为$x^3 + 2y^2$（其中$x$、$y$为整数）的连续整数序列的最大可能长度。",
+    "answer": "5",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "一个整数$n$的最小三个正真约数为$d_1 < d_2 < d_3$，且满足$d_1 + d_2 + d_3 = 57$，求$d_2$的所有可能值的和。",
+    "answer": "42",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "一个坛子中装有$n$个弹珠，每个弹珠要么是红色，要么是蓝色，且每种颜色的弹珠都至少有7个。从该坛子中不放回地随机抽取7个弹珠，恰好抽到4个红色弹珠的概率等于恰好抽到5个红色弹珠的概率。求满足该条件的$n$的五个最小值之和。",
+    "answer": "190",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "卡琳达正和她的妈妈一起拼一幅360块的拼图。卡琳达通常每分钟可放4块拼图，她的妈妈每分钟通常能放置的拼图块数是卡琳达的一半。她们共同完成这幅拼图需要多少小时？",
+    "answer": "1",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设$\\triangle ABC$内接于圆$\\omega$，圆$\\omega$在$B$、$C$处的切线交于点$D$，线段$\\overline{AD}$与$\\omega$交于点$P$。已知$AB=5$，$BC=9$，$AC=10$，若$AP$可表示为$\\frac{m}{n}$（$m$、$n$为互质的整数），求$m+n$。",
+    "answer": "113",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "玛德琳吃了6颗葡萄。她的哥哥想做一杯葡萄汁，所用葡萄的数量是玛德琳的5倍。随后他们的妈妈用剩下的葡萄做了4个派。若每个派需要12颗葡萄，一开始有多少颗葡萄？",
+    "answer": "84",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "Bob每天早上掷一枚均匀的六面骰子。若掷出合数，他食用加糖麦片；若掷出质数，他食用无糖麦片；若掷出1，则重新掷骰。在非闰年中，Bob食用无糖麦片的天数与食用加糖麦片的天数之差的期望值是多少？\n[asy]\nimport olympiad; import geometry; size(50);\n\ndefaultpen(linewidth(0.8));\ndraw(unitsquare);\ndraw((0,1)--(0.5,1.5)--(1.5,1.5)--(1.5,0.5)--(1,0)^^(1.5,1.5)--(1,1));\ndot((0.3,0.2)); dot((0.7,0.2));\ndot((0.3,0.5)); dot((0.7,0.5));\ndot((0.3,0.8)); dot((0.7,0.8));\ndot((1.125,0.375)); dot((1.25,0.75)); dot((1.375,1.125));\ndot((0.5,0.5/3 + 1)); dot((1.0,4/3));\n[/asy]",
+    "answer": "73",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "三角形$ABC$的面积等于$a^2 - (b - c)^2$，其中$a$、$b$、$c$为三角形$ABC$的三边，与通常记法一致。求$\\tan A$。",
+    "answer": "\\frac{8}{15}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "一个面积为$2$的正方形内接于一个面积为$3$的正方形，形成四个全等的三角形，如下图所示。阴影直角三角形中短直角边与长直角边的比是多少？\n\n[asy] size(200); defaultpen(linewidth(0.6pt)+fontsize(10pt)); real y = sqrt(3); pair A,B,C,D,E,F,G,H; A = (0,0); B = (0,y); C = (y,y); D = (y,0); E = ((y + 1)/2,y); F = (y, (y - 1)/2); G = ((y - 1)/2, 0); H = (0,(y + 1)/2); fill(H--B--E--cycle, gray); draw(A--B--C--D--cycle); draw(E--F--G--H--cycle); [/asy] $\\textbf{(A) }\\frac15\\qquad\\textbf{(B) }\\frac14\\qquad\\textbf{(C) }2-\\sqrt3\\qquad\\textbf{(D) }\\sqrt3-\\sqrt2\\qquad\\textbf{(E) }\\sqrt2-1$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "一个正方形与一个等边三角形的周长相等。该三角形的面积为$16\\sqrt{3}$平方厘米。求该正方形的对角线长度（单位：厘米），并将结果化为最简根式。\n\n[asy]\ndefaultpen(linewidth(1));\ndraw((0,0)--(1,0)--(1,1)--(0,1)--cycle);\npair a = (1.25,0)+1.25*dir(60);\npair b = a+1.25*dir(-60);\ndraw((1.25,0)--a--b--cycle);\n\n[/asy]",
+    "answer": "6\\sqrt{2}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "James决定给他的2个儿子买生日蜡烛。其中一个12岁，另一个小4岁。5根蜡烛一包售价3美元。James买蜡烛一共花了多少钱？",
+    "answer": "12",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "小于200的正整数中，与15或24互质的有多少个？",
+    "answer": "120",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "某番茄商决定更换番茄的供货商，他每日售出番茄500个，原先每番茄进价为0.5美元，新供货商的每番茄进价为0.4美元，问每周可节省多少钱？",
+    "answer": "350",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "一年中，每月末在校学生人数较月初翻倍。若年初时在校学生有10人，到五月底，比年初已在校的学生多新加入多少名学生？",
+    "answer": "310",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设坐标平面上的点$O(0,0)$，$A\\left(\\tfrac{1}{2},0\\right)$，$B\\left(0,\\tfrac{\\sqrt{3}}{2}\\right)$。设$\\mathcal{F}$是第一象限内所有单位长度线段$\\overline{PQ}$的集合，其中线段端点$P$在$x$轴上，$Q$在$y$轴上。线段$\\overline{AB}$上存在唯一的点$C$（$C$与$A$、$B$均不重合），该点不属于$\\mathcal{F}$中除$\\overline{AB}$外的任何线段。若$OC^2=\\tfrac{p}{q}$，其中$p$和$q$为互质的正整数，求$p+q$。",
+    "answer": "023",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "在美国计量单位中，缩写“in.”代表下列哪个长度单位？\nA. 输入\nB. 学院\nC. 英寸\nD. 利息",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "已知$BC=6$，$BX=3$，$CX=5$，设$F$为线段$\\overline{BC}$的中点，$\\overline{AX} \\perp \\overline{BC}$，且$AF=\\sqrt{247}$。若$AC$可表示为$\\sqrt{b}$，$AB$可表示为$\\sqrt{c}$，其中$b$、$c$均为非负整数，求$2c+3b$的值。",
+    "answer": "1288",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "3位朋友购买3张游乐园门票共花费20.25美元，他们在食物上的花费比门票花费少4.50美元，他们还乘坐了2个不同的游乐项目，每个项目每人收费33美元。若他们约定平分所有费用，每人需支付多少钱？",
+    "answer": "34",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "三个全等的等腰三角形$DAO$、$AOB$和$OBC$满足$AD=AO=OB=BC=10$，$AB=DO=OC=12$，它们拼接成如图所示的梯形$ABCD$。点$P$在边$AB$上，且$OP\\perp AB$。\n[asy]\npair A, B, C, D, O, P;\nA= (6, 8);\nB=(18, 8);\nC=(24, 0);\nD=(0,0);\nO=(12,0);\nP=(12,8);\ndraw(A--B--C--D--A);\ndraw(A--O--B);\ndraw(O--P, dashed);\nlabel(\"A\", A, NW);\nlabel(\"B\", B, NE);\nlabel(\"C\", C, SE);\nlabel(\"D\", D, SW);\nlabel(\"O\", O, S);\nlabel(\"P\", P, N);\nlabel(\"12\", (D+O)/2, S);\nlabel(\"12\", (O+C)/2, S);\nlabel(\"10\", (A+D)/2, NW);\nlabel(\"10\", (B+C)/2, NE);\n[/asy]\n点$X$是$AD$的中点，点$Y$是$BC$的中点。连接$X$与$Y$后，梯形被分成两个较小的梯形。梯形$ABYX$与梯形$XYCD$的面积比的最简形式为$p:q$，求$p+q$。\n[asy]\npair A, B, C, D, O, P, X, Y;\nA= (6, 8);\nB=(18, 8);\nC=(24, 0);\nD=(0,0);\nO=(12,0);\nP=(12,8);\nX=(A+D)/2;\nY=(B+C)/2;\ndraw(X--Y, dashed);\ndraw(A--B--C--D--A);\ndraw(A--O--B);\ndraw(O--P, dashed);\nlabel(\"A\", A, NW);\nlabel(\"B\", B, NE);\nlabel(\"C\", C, SE);\nlabel(\"D\", D, SW);\nlabel(\"O\", O, S);\nlabel(\"P\", P, N);\nlabel(\"X\", X, NW);\nlabel(\"Y\", Y, NE);\n[/asy]",
+    "answer": "12",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "平面上有40条直线，其中任意两条均不平行。已知存在3个恰好为3条直线交点的点，4个恰好为4条直线交点的点，5个恰好为5条直线交点的点，6个恰好为6条直线交点的点，且不存在超过6条直线共点的点。求恰好为2条直线交点的点的个数。",
+    "answer": "607",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "贝基买了20个苹果，每个45美分，获得1美元折扣；凯莉买了20个苹果，每个50美分，获得10%的折扣。凯莉比贝基多付了多少钱？",
+    "answer": "1",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "约翰决定参加烹饪课。该课程每周上课4次，每次2小时，共持续6周。如果每1.5小时课时学习1个新食谱，他一共学习多少个食谱？",
+    "answer": "32",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "求所有素数 $p, q, r$ 满足 $\\frac{p}{q} - \\frac{4}{r+1} = 1$，求所有满足条件的 $p+q+r$ 的和。",
+    "answer": "37",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "正八边形的每个顶点独立地以等概率染成红色或蓝色。若可将该正八边形旋转，使得所有蓝色顶点都恰好落在原本为红色顶点的位置，则称该染色方式符合要求。符合要求的染色概率为$\\frac{m}{n}$，其中$m$与$n$为互质的正整数，求$m+n$的值。",
+    "answer": "371",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "求在一个固定的正十二边形（$12$ 边形）内部可以形成多少个矩形，使得矩形的每条边都位于该正十二边形的边或对角线上。下图展示了其中的三个矩形。\n\n<asy>\nunitsize(0.6 inch);\nfor(int i=0; i<360; i+=30) {\ndot(dir(i), 4+black);\ndraw(dir(i)--dir(i+30));\n}\ndraw(dir(120)--dir(330));\nfilldraw(dir(210)--dir(240)--dir(30)--dir(60)--cycle, mediumgray, linewidth(1.5));\ndraw((0,0.366)--(0.366,0), linewidth(1.5));\n</asy>",
+    "answer": "315",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "因德拉斯的名字有6个字母。她妹妹的名字的字母数比因德拉斯名字字母数的一半多4个。因德拉斯和她妹妹的名字一共有多少个字母？",
+    "answer": "13",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "为给班级基金筹款，某班30名学生每人售卖每根售价0.8美元的棒棒糖，平均每名学生卖出10根棒棒糖。已知他们购入棒棒糖的价格为每根0.5美元，问售卖棒棒糖的利润共为班级筹集了多少钱？",
+    "answer": "90",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "圆$C_1$与$C_2$的半径均为$1$，两圆圆心之间的距离为$\\frac{1}{2}$。圆$C_3$是同时内切于$C_1$和$C_2$的最大圆。圆$C_4$同时内切于$C_1$和$C_2$，且与$C_3$外切。求$C_4$的半径。\n[asy] import olympiad;  size(10cm);  draw(circle((0,0),0.75));  draw(circle((-0.25,0),1));  draw(circle((0.25,0),1));  draw(circle((0,6/7),3/28));  pair A = (0,0), B = (-0.25,0), C = (0.25,0), D = (0,6/7), E = (-0.95710678118, 0.70710678118), F = (0.95710678118, -0.70710678118); dot(B^^C);  draw(B--E, dashed); draw(C--F, dashed); draw(B--C);  label(\"$C_4$\", D);  label(\"$C_1$\", (-1.375, 0));  label(\"$C_2$\", (1.375,0)); label(\"$\\frac{1}{2}$\", (0, -.125)); label(\"$C_3$\", (-0.4, -0.4)); label(\"$1$\", (-.85, 0.70)); label(\"$1$\", (.85, -.7)); import olympiad;  markscalefactor=0.005;  [/asy]\n$\\textbf{(A) } \\frac{1}{14} \\qquad \\textbf{(B) } \\frac{1}{12} \\qquad \\textbf{(C) } \\frac{1}{10} \\qquad \\textbf{(D) } \\frac{3}{28} \\qquad \\textbf{(E) } \\frac{1}{9}$",
+    "answer": "D",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "对于复数$u=a+bi$和$v=c+di$，定义二元运算$\\otimes$如下：\n\\[u\\otimes v=ac+bdi.\\]\n设$z$是满足$z\\otimes z=z^{2}+40$的复数，求$|z|$？\n$\\textbf{(A) }\\sqrt{5}\\qquad\\textbf{(B) }5\\sqrt{2}\\qquad\\textbf{(C) }\\sqrt{10}\\qquad\\textbf{(D) }2\\qquad\\textbf{(E) }5$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "$\\triangle ABC$ 的顶点为 $A=(0,0)$，$B=(0,420)$，$C=(560,0)$。一个骰子的六个面分别标有两个$A$、两个$B$和两个$C$。点$P_1=(k,m)$取在$\\triangle ABC$的内部，点$P_2,P_3,P_4,\\dots$通过反复掷骰子并按如下规则生成：若骰子显示标签$L$（其中$L\\in\\{A,B,C\\}$），且$P_n$是最新得到的点，则$P_{n+1}$是线段$\\overline{P_n L}$的中点。已知$P_7=(14,92)$，求$k+m$的值。",
+    "answer": "344",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "已知抛物线 $y^{2}=2 p x(p>0)$，$A$、$B$ 是抛物线上不同于顶点 $O$ 的两个动点，记 $\\angle A O B=\\theta\\left(\\theta \\neq 90^{\\circ}\\right)$。若 $S_{\\triangle A O B}=m \\tan \\theta$，试求当 $m$ 取得最小值时 $\\tan \\theta$ 的最大值。原始的答案是 $k\\sqrt{m}+n$ 的形式，请给出 $k + m + n$ 的值。",
+    "answer": "0",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "一条曲线的参数方程为\n\\[(x,y) = (t^3 + 7, -3t^2 - 6t - 5).\\]\n求当$t = 2$时，该曲线经过的点。",
+    "answer": "(15,-29)",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "多项式 $P(x) = (x-1)^1 (x-2)^2 (x-3)^3 \\cdot \\cdot \\cdot (x-10)^{10}$ 的根从数轴上去掉后，剩余部分是 11 个互不相交的开区间的并集。请问在这些区间中，有多少个区间上的 $P(x)$ 取正值？\n$\\textbf{(A)}~3\\qquad\\textbf{(B)}~7\\qquad\\textbf{(C)}~6\\qquad\\textbf{(D)}~4\\qquad\\textbf{(E)}~5$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "把2023个球逐个放入3个箱子中的任意一个，下列哪个选项最接近每个箱子中球数均为奇数的概率？$\\textbf{(A) } \\dfrac{2}{3} \\qquad \\textbf{(B) } \\dfrac{3}{10} \\qquad \\textbf{(C) } \\dfrac{1}{2} \\qquad \\textbf{(D) } \\dfrac{1}{3} \\qquad \\textbf{(E) } \\dfrac{1}{4}$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "求所有首项为4、且同时包含24和34作为项的整数等差数列的第10项的和。",
+    "answer": "178",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "矩阵方程 $AX=B$ 有解的充分必要条件是什么？\n\nA. $r(A)>r(A, B)$\nB. $r(A)<r(A, B)$\nC. $r(A)=r(A, B)$\nD. $r(A, B)<n$",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "求下列式子的值：\n$2^3 - 1^3 + 4^3 - 3^3 + 6^3 - 5^3 + \\dots + 18^3 - 17^3$\n$\\textbf{(A) } 2023 \\qquad\\textbf{(B) } 2679 \\qquad\\textbf{(C) } 2941 \\qquad\\textbf{(D) } 3159 \\qquad\\textbf{(E) } 3235$",
+    "answer": "D",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "A、B两城相距45英里。Alicia住在A城，Beth住在B城。Alicia以每小时18英里的速度骑车前往B城，两人同时出发，Beth以每小时12英里的速度骑车前往A城。他们相遇时距离A城多少英里？\n$\\textbf{(A) }20\\qquad\\textbf{(B) }24\\qquad\\textbf{(C) }25\\qquad\\textbf{(D) }26\\qquad\\textbf{(E) }27$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "Billie的矩形卧室面积为360平方英尺。若房间的长为3码，求该房间的周长（单位：英尺）。",
+    "answer": "98",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设$P_n\\left(x\\right)$是$n$次泰勒多项式，求$\\int{\\frac{P_n\\left(x\\right)}{\\left(x-a\\right)^{n+1}}}\\mathrm{d}x$____\n\nA. $\\sum_{k=0}^{n-1}{\\frac{P_{n}^{\\left( k \\right)}\\left( a \\right)}{k!\\left( k-n \\right)}\\cdot \\left( x-a \\right) ^{k-n}+\\frac{P_{n}^{\\left( n \\right)}\\left( a \\right)}{n!}\\cdot \\ln \\left| x-a \\right|+C}$\nB. $\\sum_{k=0}^{n-1}{\\frac{P_{n}^{\\left( k \\right)}\\left( a \\right)}{(k-1)!\\left( k-n \\right)}\\cdot \\left( x-a \\right) ^{k-n}+\\frac{P_{n}^{\\left( n \\right)}\\left( a \\right)}{n!}\\cdot \\ln \\left| x-a \\right|+C}$\nC. $\\sum_{k=0}^{n-1}{\\frac{P_{n}^{\\left( k \\right)}\\left( a \\right)}{(k-1)!\\left( k-n \\right)}\\cdot \\left( x-a \\right) ^{k-n}+\\frac{P_{n}^{\\left( n \\right)}\\left( a \\right)}{(n+1)!}\\cdot \\ln \\left| x-a \\right|+C}$\nD. $\\sum_{k=0}^{n-1}{\\frac{P_{n}^{\\left( k \\right)}\\left( a \\right)}{k!\\left( k-n \\right)}\\cdot \\left( x-a \\right) ^{k-n}+\\frac{P_{n}^{\\left( n \\right)}\\left( a \\right)}{(n+1)!}\\cdot \\ln \\left| x-a \\right|+C}$",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "六年级教师乔治为六年级班级野餐订购了600份墨西哥卷饼。若野餐共有50名学生，每名学生分得10份墨西哥卷饼，乔治老师吃了20份，求野餐后剩余的墨西哥卷饼总数。",
+    "answer": "80",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "若实数 $x, y$ 满足 $x^{2}+2 \\cos y=1$，求 $x-\\cos y$ 的取值范围端点和的平方的值。",
+    "answer": "3",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "玛利亚的奶奶教她织毛衣。玛利亚用了$\\frac{1}{4}$团毛线，她的奶奶用了$\\frac{1}{2}$团毛线。每团毛线有364码。她们一共用了多少码毛线？",
+    "answer": "273",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "Josh经营一家汽车修理店，每天服务3辆汽车。他每周除周日和周三外均营业，每服务1辆汽车可获得4美元。他两周能赚多少钱？",
+    "answer": "120",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "某工厂生产一批滚珠，其直径$X$服从正态分布$N\\left(\\mu,\\sigma^{2}\\right)$，随机抽取20个滚珠，测得样本均值记为$\\bar{x}$，样本方差记为$s^{2}$，则$\\mu$的单侧置信下限、$\\sigma^{2}$单侧置信上限分别为（置信度都为$1-\\alpha$）____\n\nA. $$\n\\bar{x}-\\frac{s}{\\sqrt{20}} t_{\\alpha}(19), \\quad \\frac{19 s^{2}}{\\chi_{1-\\alpha}^{2}(19)}\n$$\nB. $$\n\\bar{x}-\\frac{\\sigma}{\\sqrt{20}} u_{\\alpha}, \\quad \\frac{19 s^{2}}{\\chi_{1-\\alpha}^{2}(19)}\n$$\nC. $$\n\\bar{x}-\\frac{s}{\\sqrt{20}} t_{\\alpha}(19), \\quad \\frac{19 s^{2}}{\\chi_{\\alpha}^{2}(19)}\n$$\nD. $$\n\\bar{x}-\\frac{\\sigma}{\\sqrt{20}} u_{\\alpha}, \\quad \\frac{19 s^{2}}{\\chi_{\\alpha}^{2}(19)}\n$$",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "考虑一个四面体，它有两个等腰三角形面，边长分别为$5\\sqrt{10}$、$5\\sqrt{10}$和$10$，另外两个等腰三角形面的边长分别为$5\\sqrt{10}$、$5\\sqrt{10}$和$18$。该四面体的四个顶点都在以$S$为球心的球面上，且四个面都与以$R$为球心的球相切。距离$RS$可表示为$\\tfrac{m}{n}$，其中$m$与$n$是互素的正整数，求$m+n$。",
+    "answer": "223",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "求力$\\mathbf{F}=8 \\mathbf{i}-6 \\mathbf{j}+9 \\mathbf{k}$将物体沿直线从点$(0,10,8)$移动到点$(6,12,20)$所做的功。距离的单位为米，力的单位为牛。\n\nA. 211.3\nB. 144.0\nC. 148.8\nD. -163.5",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "实数 $x$ 满足 $\\sqrt[20]{x^{\\log_{2026}x}}=26x$，求所有可能的正实数 $x$ 的乘积的正因数的个数。",
+    "answer": "441",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "锐角$\\triangle ABC$的外接圆圆心为$O$。过点$O$且垂直于$\\overline{OB}$的直线分别交直线$AB$、$BC$于点$P$、$Q$。已知$AB=5$，$BC=4$，$BQ=4.5$，且$BP=\\frac{m}{n}$，其中$m$、$n$是互质的正整数，求$m+n$。",
+    "answer": "23",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "把 $\\frac{3}{20}$ 写成小数。",
+    "answer": "0.15",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "亚伯拉罕有80平方米的闲置土地。他先卖掉了这块地的一半，获得50美元；一个月后，他又卖掉了自己土地的$\\frac{1}{4}$，获得30美元。随后他将剩余的土地以每平方米3美元的价格售出。问：亚伯拉罕售完所有闲置土地总共能赚取多少钱？",
+    "answer": "170",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设$x,y,z$为正实数，满足以下方程组：\n$$\\log_2\\left({x \\over yz}\\right) = {1 \\over 2}$$\n$$\\log_2\\left({y \\over xz}\\right) = {1 \\over 3}$$\n$$\\log_2\\left({z \\over xy}\\right) = {1 \\over 4}$$\n则$\\left|\\log_2(x^4y^3z^2)\\right|$的值为$\\tfrac{m}{n}$，其中$m$和$n$是互质的正整数，求$m+n$。",
+    "answer": "33",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "2016年，5000米三人两足赛的世界纪录为19分6秒，该纪录由Damian Thacker和Luke Symonds在谢菲尔德创造。他们的近似平均速度是多少km/h？$\\textbf{(A) }10\\qquad\\textbf{(B) }12\\qquad\\textbf{(C) }15\\qquad\\textbf{(D) }18\\qquad\\textbf{(E) }25$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "平面上有两点$A$、$B$，且$AB=1$。将点$A$在平面内绕点$B$逆时针旋转锐角$\\theta$得到点$A^\\prime$，再将点$B$在平面内绕点$A^\\prime$顺时针旋转角度$\\theta$得到点$B^\\prime$。已知$AB^\\prime=\\frac{4}{3}$，$\\cos\\theta$的值可表示为$\\frac{m}{n}$，其中$m$、$n$是互质的正整数，求$m+n$。",
+    "answer": "65",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "方程 $x^2 + y^2 + 6x - 24y + 72 = 0$ 与 $x^2 - y^2 + 6x + 16y - 46 = 0$ 的图像相交于四个点，求这四个点到点 $(-3,2)$ 的距离之和。",
+    "answer": "40",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "已知$m \\times n$矩阵$\\boldsymbol{A}$与$n \\times l$矩阵$\\boldsymbol{B}$满足$\\boldsymbol{A}\\boldsymbol{B}=\\boldsymbol{O}$，求$\\boldsymbol{A}$的秩与$\\boldsymbol{B}$的秩之和的最大值。\nA. $n$\nB. $m + l$\nC. $m + n$\nD. $n + l$",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "设函数$f(u,v)$有二阶连续导数，$\\mathrm{d}f|_{(1,1)} = 3\\mathrm{d}u + 4\\mathrm{d}\\nu$，令$y=f(\\cos x,1+x^{2})$，则$\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}\\Bigg|_{x=0}=$\n\nA. 3\nB. 4\nC. 5\nD. 8",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "面积为$2$的正方形内接于面积为$3$的正方形，形成四个全等的三角形，如下图所示。阴影直角三角形的短直角边与长直角边的比值是多少？\n[asy] size(200); defaultpen(linewidth(0.6pt)+fontsize(10pt)); real y = sqrt(3); pair A,B,C,D,E,F,G,H; A = (0,0); B = (0,y); C = (y,y); D = (y,0); E = ((y + 1)/2,y); F = (y, (y - 1)/2); G = ((y - 1)/2, 0); H = (0,(y + 1)/2); fill(H--B--E--cycle, gray); draw(A--B--C--D--cycle); draw(E--F--G--H--cycle); [/asy]\n$\\textbf{(A) }\\sqrt2-1\\qquad\\textbf{(B) }2-\\sqrt3\\qquad\\textbf{(C) }\\frac15\\qquad\\textbf{(D) }\\frac14\\qquad\\textbf{(E) }\\sqrt3-\\sqrt2$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "求不定积分：$I=\\int{x\\sin^2x}\\mathrm{d}x$\n\nA. $\\frac{1}{2}-\\frac{1}{4}x\\sin 2x-\\frac{1}{8}\\cos 2x+C$\nB. $\\frac{1}{4}-\\frac{1}{2}x\\sin 2x-\\frac{1}{4}\\cos 2x+C$\nC. $\\frac{1}{4}-\\frac{1}{4}x\\sin 2x-\\frac{1}{8}\\cos 2x+C$\nD. $\\frac{1}{2}-\\frac{1}{4}x\\sin 2x-\\frac{1}{4}\\cos 2x+C$",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "Steve 60岁。他的妻子比他大4岁。他们的儿子目前的年龄是他母亲的一半，儿子的妻子比她丈夫小3岁。Steve的儿媳多大？",
+    "answer": "29",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "求 $\\log_2{3} \\cdot \\log_3{4} \\cdot \\log_4{5} \\cdot \\log_5{6} \\cdot \\log_6{7} \\cdot \\log_7{8}$ 的值。",
+    "answer": "3",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "若$N$为内角均为整数（单位：度）且形状互不相似（即不相似）的三角形的个数，求$\\frac{N}{100}$的值。",
+    "answer": "27",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "求 $x^6 - 3$ 除以 $x + 1$ 的商。",
+    "answer": "x^5 - x^4 + x^3 - x^2 + x - 1",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "矩形$ABCD$与$EFGH$如图所示绘制，使得$D,E,C,F$三点共线。此外，$A,D,H,G$四点共圆。若$BC=16$，$AB=107$，$FG=17$，$EF=184$，求$CE$的长度。\n[asy]\nimport graph; unitsize(0.1cm);  pair A = (0,0);pair B = (70,0);pair C = (70,16);pair D = (0,16);pair E = (3,16);pair F = (90,16);pair G = (90,33);pair H = (3,33); dot(A^^B^^C^^D^^E^^F^^G^^H); label(\"$A$\", A, S);label(\"$B$\", B, S);label(\"$C$\", C, N);label(\"$D$\", D, N);label(\"$E$\", E, S);label(\"$F$\", F, S);label(\"$G$\", G, N);label(\"$H$\", H, N); draw(E--D--A--B--C--E--H--G--F--C); \n[/asy]",
+    "answer": "104",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "阿纳金和洛克辛今天去了海滩。阿纳金抓了10只海星、6只海马和3只小丑鱼，洛克辛抓的海星数量比阿纳金少5只，海马数量比阿纳金少3只，小丑鱼数量比阿纳金多2只。他们一共抓了多少条鱼？",
+    "answer": "32",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "佩顿安排了下班后的活动：周一有一节1小时的瑜伽课，周二有一节烹饪课，时长是周一瑜伽课的3倍，周三有半小时的奶酪品鉴活动，周四的博物馆参观时长是烹饪课的一半，周五有2小时的杂事。问所有这些下班后的活动总共需要多少小时？",
+    "answer": "8",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "称有限整数集$S$和$T$为亲集，如果同时满足以下条件：\n- $S$与$T$的元素个数相同；\n- $S$与$T$互不相交；\n- 可将$S$中的元素与$T$中的元素一一配对，使得每一对中的两个元素恰好相差$1$。\n例如，$\\{1,2,5\\}$与$\\{0,3,4\\}$是亲集。若集合$S$恰好有$4040$个亲集，求$S$最少可能有多少个元素。",
+    "answer": "107",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "一个整数三角形阵列的第1、2、3、4、5行如下所示：\n[asy] size(4.5cm); label(\"$1$\", (0,0)); label(\"$1$\", (-0.5,-2/3)); label(\"$1$\", (0.5,-2/3)); label(\"$1$\", (-1,-4/3)); label(\"$3$\", (0,-4/3)); label(\"$1$\", (1,-4/3)); label(\"$1$\", (-1.5,-2)); label(\"$5$\", (-0.5,-2)); label(\"$5$\", (0.5,-2)); label(\"$1$\", (1.5,-2)); label(\"$1$\", (-2,-8/3)); label(\"$7$\", (-1,-8/3)); label(\"$11$\", (0,-8/3)); label(\"$7$\", (1,-8/3)); label(\"$1$\", (2,-8/3)); [/asy]\n除第一行外，其余每行的两端均填入1，每个内部位置的数等于其上一行中位于其左上、右上的两个数之和再加1。第2023行全部2023个数字的和的个位数是多少？\n$\\textbf{(A) }1\\qquad\\textbf{(B) }3\\qquad\\textbf{(C) }5\\qquad\\textbf{(D) }7\\qquad\\textbf{(E) }9$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "化简 $\\frac{(10r^3)(4r^6)}{8r^4}$。",
+    "answer": "5r^5",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "过点$A$的线段与$\\overline{BC}$平行，且$AB=BC$，求$x$所表示的度数是多少？\n[asy]\ndraw((0,0)--(10,0));\ndraw((0,3)--(10,3));\ndraw((2,3)--(8,0));\ndraw((2,3)--(4,0));\nlabel(\"$A$\",(2,3),N);\nlabel(\"$B$\",(4,0),S);\nlabel(\"$C$\",(8,0),S);\nlabel(\"$124^{\\circ}$\",(2,3),SW);\nlabel(\"$x^{\\circ}$\",(4.5,3),S);\n[/asy]",
+    "answer": "28",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "8个半径为$34$的圆可放置在$\\triangle ABC$的边$\\overline{BC}$上，使得这些圆依次互相外切，且第一个圆与$\\overline{AB}$相切，最后一个圆与$\\overline{AC}$相切，如图所示。类似地，$2024$个半径为$1$的圆也可按相同方式放置在边$\\overline{BC}$上。$\\triangle ABC$的内切圆半径可表示为$\\frac{m}{n}$，其中$m$、$n$为互质的正整数，求$m+n$。\n\n<asy>\npair A = (2,1); pair B = (0,0); pair C = (3,0);\ndot(A^^B^^C);\nlabel(\"$A$\", A, N); label(\"$B$\", B, S); label(\"$C$\", C, S);\ndraw(A--B--C--cycle);\nfor(real i=0.62; i<2.7; i+=0.29){\ndraw(circle((i,0.145), 0.145));\n}\n</asy>",
+    "answer": "197",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "有多少个由三个不同质数组成的递增序列的和为20？",
+    "answer": "2",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "数$(\\sqrt{2}+\\sqrt{3})^3$可以写成$a\\sqrt{2} + b\\sqrt{3} + c\\sqrt{6}$的形式，其中$a$、$b$、$c$均为整数，求$a+b+c$的值。",
+    "answer": "20",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "一个三边长为$3$、$4$、$5$的直角三角形内接于圆$Q$，一个三边长为$5$、$12$、$13$的直角三角形内接于圆$A$。求圆$Q$的面积与圆$A$的面积的比值是多少？\n$\\textbf{(A)}~\\frac{25}{169}\\qquad\\textbf{(B)}~\\frac{4}{25}\\qquad\\textbf{(C)}~\\frac{1}{9}\\qquad\\textbf{(D)}~\\frac{1}{5}\\qquad\\textbf{(E)}~\\frac{9}{25}$",
+    "answer": "A",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "设条件概率密度为$f_{x\\mid Y}(x\\mid Y)=\\left\\{\\begin{array}{cc}\\frac{2x}{y^2},&0\\leq x\\leq y,\\\\0,&\\text{其他}\\end{array}\\right.$，则$P\\left(X>\\frac{1}{4}\\mid Y=\\frac{3}{4}\\right)=$____\n\nA. $\\frac{1}{9}$\nB. $\\frac{9}{16}$\nC. $\\frac{7}{16}$\nD. $\\frac{8}{9}$",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "如图，三个同心圆的半径分别为$4$、$6$和$7$。下方三个区域分别标记为$X$、$Y$或$Z$。在这三个区域中，面积最大的区域的面积与面积最小的区域的面积之差是多少？请将答案以精确形式表示。\n[asy]\nimport graph;\nfilldraw(circle((0,0),7), lightgray, black+linewidth(1));\nfilldraw(circle((0,0),6), gray, black+linewidth(1));\nfilldraw(circle((0,0),4), white, black+linewidth(1));\ndot((0,0));\nlabel(\"$X$\",(2,0));\nlabel(\"$Y$\",(5,0));\nlabel(\"$Z$\",(6.5,0));\n[/asy]",
+    "answer": "7\\pi",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "下图所示模拟时钟有两个可相互独立移动的指针。初始时，两个指针都指向数字12。该时钟进行一系列指针移动操作，每次移动时，两个指针中的一个顺时针转到时钟上的下一个数字，另一个指针保持不动。设$N$为满足如下条件的144次指针移动的序列数：在序列执行过程中，指针的每一种可能位置都恰好出现一次，且144次移动结束后，指针回到初始位置。求$N$除以1000的余数。\n[asy]\nunitsize(2cm);\ndraw(unitcircle,black+linewidth(2));\n\nfor (int i = 0; i < 12; ++i) {\ndraw(0.9*dir(30*i)--dir(30*i));\n}\nfor (int i = 0; i < 4; ++i) {\ndraw(0.85*dir(90*i)--dir(90*i),black+linewidth(2));\n}\nfor (int i = 0; i < 12; ++i) {\nlabel(\"\\small\" + (string) i, dir(90 - i * 30) * 0.75);\n}\ndraw((0,0)--0.6*dir(90),black+linewidth(2),Arrow(TeXHead,2bp));\ndraw((0,0)--0.4*dir(90),black+linewidth(2),Arrow(TeXHead,2bp));\n[/asy]",
+    "answer": "608",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "矩形$ABCD$的边长为$AB = 107$，$BC = 16$，矩形$EFGH$的边长为$EF = 184$，$FG = 17$。点$D$、$E$、$C$、$F$按顺序位于直线$DF$上，且点$A$与点$H$位于直线$DF$的两侧，如图所示。点$A$、$D$、$H$、$G$四点共圆，求$CE$。\n\n<asy>\nimport graph;\nunitsize(0.1cm);\n\npair A = (0,0);pair B = (70,0);pair C = (70,16);pair D = (0,16);pair E = (3,16);pair F = (90,16);pair G = (90,33);pair H = (3,33);\ndot(A^^B^^C^^D^^E^^F^^G^^H);\nlabel(\"$A$\", A, S);label(\"$B$\", B, S);label(\"$C$\", C, N);label(\"$D$\", D, N);label(\"$E$\", E, S);label(\"$F$\", F, S);label(\"$G$\", G, N);label(\"$H$\", H, N);\ndraw(E--D--A--B--C--E--H--G--F--C);\n</asy>",
+    "answer": "104",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "考虑以下两个运算：\n$$\n\\begin{align*} a \\, \\blacklozenge \\, b &= a^2 - b^2\\\\ a \\, \\bigstar \\, b &= (a - b)^2 \\end{align*}\n$$\n求 $(5 \\, \\blacklozenge \\, 3) \\, \\bigstar \\, 6$ 的结果？\n\nA. 4 \nB. 100 \nC. 16 \nD. -20",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "在6、7、8、9、10这五个数中，有多少个是$2^{2024} + 2^{2023} + 2^{2022}$的因数？$\\textbf{(A) }1\\qquad\\textbf{(B) }2\\qquad\\textbf{(C) }3\\qquad\\textbf{(D) }4\\qquad\\textbf{(E) }5$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "拉尼比莫妮克多10只螃蟹，莫妮克比博少4只螃蟹。已知博有120只螃蟹，求三人拥有的螃蟹总数。",
+    "answer": "362",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "设$N$是满足如下性质的最大四位数：将其任意一位数字改为$1$后，得到的数都能被$7$整除。设$Q$和$R$分别是$N$除以$1000$时的商和余数，求$Q+R$。",
+    "answer": "699",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "艾普莉尔正在记录这学期她测验分数的平均分。如果她下一次测验得11分，平均分将提高1分。如果她在接下来的三次测验中均得11分，平均分将提高2分。她目前的测验分数平均分是多少？$\\textbf{(A) }5\\qquad\\textbf{(B) }6\\qquad\\textbf{(C) }4\\qquad\\textbf{(D) }8\\qquad\\textbf{(E) }7$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "$8^5 \\cdot 5^{10} \\cdot 15^5$ 的十进制表示有多少位？\n$\\textbf{(A)}~14\\qquad\\textbf{(B)}~15\\qquad\\textbf{(C)}~16\\qquad\\textbf{(D)}~17\\qquad\\textbf{(E)}~18$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "一个灯罩呈直圆台侧面的形状。该圆台的高为$3\\sqrt3$英寸，顶面直径为$6$英寸，底面直径为$12$英寸。一只甲虫位于灯罩底部，灯罩顶部边缘离甲虫最远的位置有一滴蜂蜜。甲虫需要爬到蜂蜜处，且必须始终在灯罩表面上。求甲虫最短路径的长度是多少英寸？\n$\\textbf{(A) } 6\\sqrt5\\qquad \\textbf{(B) }6\\sqrt3 + \\pi\\qquad \\textbf{(C) } 6 + 3\\pi \\qquad \\textbf{(D) } 6 + 6\\pi \\qquad \\textbf{(E) } 6\\sqrt3$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "求所有满足 $17_b$ 整除 $97_b$ 的整数进制 $b>9$ 的和。",
+    "answer": "70",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "已知集合 $A=\\{x \\mid 5x - a \\leqslant 0\\}$，$B=\\{x \\mid 6x - b > 0\\}$，$a, b \\in \\mathbf{N}$，且 $A \\cap B \\cap \\mathbf{N}=\\{2,3,4\\}$，求整数对 $(a, b)$ 的个数。",
+    "answer": "30",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "90°的圆周角所对的弦是\nA. 任意一条弦\nB. 都不是\nC. 半径\nD. 直径",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "将数字$1$，$2$，$3$，$4$，$5$，$6$放在正六边形的顶点上，若恰好有$3$个数字大于其两个相邻顶点上的数字，且旋转、反射视为同一种，则共有多少种不同的放法？",
+    "answer": "8",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "如果一个班级中的女生人数是男生的3倍，非二元性别儿童的人数是男生的$\\frac{1}{10}$，且该班级有30名男生，那么这个班级总共有多少名儿童？",
+    "answer": "123",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设$\\mathcal{B}$是表面积为$54$、体积为$23$的长方体的集合。设$r$是能包含$\\mathcal{B}$中所有长方体的最小球的半径。$r^2$的值可以写成$\\frac{p}{q}$的形式，其中$p$和$q$是互质的正整数。求$p+q$。",
+    "answer": "721",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "一个集合最多可以有多少个元素，使得其中所有元素都小于$102$，且该集合不包含它的任意两个元素的和？",
+    "answer": "51",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "设$N$为$17017^{17}$的正整数因数中除以$12$余$5$的个数，求$N$除以$1000$的余数。",
+    "answer": "244",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "若随机变量 $X$ 的概率密度为 $f(x)$，$Y=g(X)$，如何通过定义求得 $Y$ 的概率密度？\nA. $F_{Y}(y)=\\int_{f(x) \\leqslant y} g(x) \\mathrm{d} x$\nB. $F_{Y}(y)=\\int_{g(x) \\leqslant y} f(x) \\mathrm{d} x$\nC. $g(x)$\nD. $f(x)$",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "求方程组 $y=x^2-8$ 和 $y^2=-5x+44$ 的所有不同解 $(x,y)$ 的 $y$ 坐标的乘积。",
+    "answer": "1736",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "实数 $x$ 和 $y$ 满足 $x,y>1$，且 $\\log_x(y^x)=\\log_y(x^{4y})=10$，求 $xy$ 的值。",
+    "answer": "025",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "$-a - b =$\n\nA. $(-a)+(-b)$\nB. $a+(-b)$\nC. $a+b$\nD. $(-a)+b$",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "正实数$b\\neq 1$和$n$满足方程\n\\[\\sqrt{\\log_b n} = \\log_b \\sqrt{n} \\qquad \\text{且} \\qquad b \\cdot \\log_b n = \\log_b (bn).\\]\n$n$的值为$\\frac{j}{k}$，其中$j$和$k$是互素的正整数，求$j+k$。",
+    "answer": "881",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "伊莱恩最初有20张宝可梦卡。一个月后，她收集了该数量的3倍。第二个月，她收集的宝可梦卡比第一个月少20张。第三个月，她收集的宝可梦卡数量是第一个月和第二个月收集总数的2倍。她现在总共有多少张宝可梦卡？",
+    "answer": "320",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "Johnny正在收拾自己房间地板上的玩具。他把一盒装有500块的乐高套装倒在了地板上，另一盒的块数是500块那盒的3倍，还有一盒的块数是500块那盒的1/4。如果 Johnny 捡起所有的乐高，他一共捡起多少块？",
+    "answer": "2,125",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设$x_1, x_2, x_3, \\ldots$为有理数数列，满足$x_1 = \\frac{25}{11}$，且对所有$k \\ge 1$，有\n$$x_{k+1} = \\frac{1}{3}\\left(x_k + \\frac{1}{x_k} - 1\\right)$$\n则$x_{2025}$可表示为$\\frac{m}{n}$，其中$m$和$n$为互素的正整数。求$m + n$除以$1000$的余数。",
+    "answer": "248",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "点$A$和点$B$在函数$y=\\log_{2}x$的图像上，线段$\\overline{AB}$的中点是$(6, 2)$。求点$A$与点$B$的$x$坐标的正差值？\n$\\textbf{(A)}~2\\sqrt{11}\\qquad\\textbf{(B)}~4\\sqrt{3}\\qquad\\textbf{(C)}~8\\qquad\\textbf{(D)}~4\\sqrt{5}\\qquad\\textbf{(E)}~9$",
+    "answer": "D",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "当$x$为何值时，$2^3\\cdot3^x=72$？",
+    "answer": "2",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "有多少个有序整数对$(a,b)$，使得多项式$x^3+ax^2+bx+6$有3个互不相同的整数根？$\\textbf{(A)}\\ 5 \\qquad\\textbf{(B)}\\ 6 \\qquad\\textbf{(C)}\\ 8 \\qquad\\textbf{(D)}\\ 7 \\qquad\\textbf{(E)}\\ 4$",
+    "answer": "A",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "函数$f(x)=\\left|x-2\\right|- \\ln x$在定义域内零点可能落在下列哪个区间内____\n\nA. $\\left( 0,1\\right)$\nB. $\\left( 2,3\\right)$\nC. $\\left( 3,4\\right)$\nD. $\\left( 4,5\\right)$",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "求闭区间$[-500,500]$中，使得方程$\\log(kx)=2\\log(x+2)$恰好有一个实数解的整数$k$的个数。",
+    "answer": "501",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "犬舍养有3只德国牧羊犬和2只斗牛犬。已知每只德国牧羊犬每天消耗5千克狗粮，每只斗牛犬每天消耗3千克狗粮，它们一周需要多少千克狗粮？",
+    "answer": "147",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "在一场乒乓球锦标赛中，每位参赛者都与其他每位参赛者恰好比赛一次。尽管右撇子选手的人数是左撇子选手的两倍，但左撇子选手赢的比赛场次比右撇子选手多$40\\%$。（没有平局，也没有双手都擅长的选手。）总共进行了多少场比赛？$\\textbf{(A) }45\\qquad\\textbf{(B) }66\\qquad\\textbf{(C) }48\\qquad\\textbf{(D) }36\\qquad\\textbf{(E) }15$",
+    "answer": "D",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "袋中装有若干黄色和蓝色弹珠。现有蓝色弹珠与黄色弹珠的数量比为4:3。若加入5颗蓝色弹珠，取出3颗黄色弹珠，两者的数量比将变为7:3。加入弹珠前，袋中有多少颗蓝色弹珠？",
+    "answer": "16",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "定义\n\\[p = \\sum_{k = 1}^\\infty \\frac{1}{k^2} \\quad \\text{且} \\quad q = \\sum_{k = 1}^\\infty \\frac{1}{k^3}.\\]\n求将\n\\[\\sum_{j = 1}^\\infty \\sum_{k = 1}^\\infty \\frac{1}{(j + k)^3}\\]\n用 $p$ 和 $q$ 表示。",
+    "answer": "p - q",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "从6名学生中选出5名学生，共有多少种选法？",
+    "answer": "6",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "哈里痴迷于三次多项式。他构造了一个首项系数为1、系数均为有理数、且实根满足$0 < a < b < c < 1$的三次多项式，已知以下三个事实：\n1. $P(0) = -\\frac{1}{8}$\n2. 根$a,b,c$按此顺序构成等比数列。\n3. \\[ \\sum_{k=1}^{\\infty} (a^k + b^k + c^k) = \\frac{9}{2} \\]\n\n$a+b+c$的值可表示为$\\frac{m}{n}$，其中$m,n$是互质的正整数，求$m+n$。",
+    "answer": "31",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "一个无向图共有6个顶点，其中5个顶点的度数分别为1，2，2，3，4，则第六个顶点的度数不可能是下列哪项？____\nA. 4\nB. 2\nC. 1\nD. 0",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "求 $\\sin 20^\\circ \\sin 40^\\circ \\sin 60^\\circ \\sin 80^\\circ \\sin 100^\\circ \\sin 120^\\circ \\sin 140^\\circ \\sin 160^\\circ$.",
+    "answer": "\\frac{9}{256}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "$\\frac{1}{1+x}$ 的无穷级数展开为\nA. $\\sum{n=0}^{\\infty} \\frac{(-1)^{n}}{(2 n+1) !} x^{2 n+1}(-\\infty<x<+\\infty)$\nB. $\\sum_{n=0}^{\\infty} \\frac{(-1)^{n}}{(2 n) !} x^{2 n}(-\\infty<x<+\\infty)$\nC. $\\sum_{n=0}^{\\infty}(-1)^{n} x^{n}(-1<x<1)$\nD. $\\sum{n=0}^{\\infty} \\frac{(\\ln a)^{n}}{n !} x^{n}(-\\infty<x<+\\infty)$",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "在一个等角五边形中，各边长度的平方和等于308，各对角线长度的平方和等于800。该五边形周长的平方可表示为$m\\sqrt{n}$，其中$m$和$n$为正整数，且$n$不被任何素数的平方整除。求$m+n$。",
+    "answer": "681",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "托尼正在粉刷一个拥有四面墙的房间。北墙和南墙的尺寸为10英尺×8英尺，东墙和西墙的尺寸为5英尺×8英尺。1加仑油漆可覆盖20平方英尺，售价为12美元。粉刷这个房间总共需要花费多少钱？",
+    "answer": "144",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "当 $n=1$ 时，二项分布 $b(1, p)$ 和 $(0-1)$ 分布具有什么关系？\n\nA. 不同\nB. 线性相关\nC. 无关\nD. 相同",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "尼克、理查德、杰森和DJ每人都有彩弹枪。DJ有8支，尼克有10支，RJ有1支，理查德有5支。若他们平分这些彩弹枪，每人能分到多少支？",
+    "answer": "6",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "迈克尔喜欢骑自行车。他每周至少骑行5次，每次骑行25千米，这样持续了4周；之后他决定每周仅骑行2次，但每次骑行60千米，这样持续了3周。问迈克尔总共骑行多少千米？",
+    "answer": "860",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "存在有限个素数 $p$，使得同余式 $$8x\\equiv 1\\pmod{p}$$ 无解 $x$。求所有这样的 $p$ 的和。",
+    "answer": "2",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设$\\triangle ABC$的三个内角分别为$\\angle BAC = 84^\\circ$，$\\angle ABC = 60^\\circ$，$\\angle ACB = 36^\\circ$。记$D$、$E$、$F$分别为边$\\overline{BC}$、$\\overline{AC}$、$\\overline{AB}$的中点。$\\triangle DEF$的外接圆分别与$\\overline{BD}$、$\\overline{AE}$、$\\overline{AF}$相交于点$G$、$H$、$J$。如图，点$G$、$D$、$E$、$H$、$J$、$F$将$\\triangle DEF$的外接圆分成六段劣弧。求$\\wideparen{DE} + 2 \\cdot \\wideparen{HJ} + 3 \\cdot \\wideparen{FG}$的值（弧的度数以度为单位）。\n\n\\begin{tikzpicture}[scale=1.2]\n    \\coordinate (B) at (0,0);\n    \\coordinate (C) at (6,0);\n    \\coordinate (A) at (1.78,3.07);\n    \n    \\coordinate (D) at ($(B)!0.5!(C)$);\n    \\coordinate (E) at ($(A)!0.5!(C)$);\n    \\coordinate (F) at ($(A)!0.5!(B)$);\n    \n    \\draw (A) -- (B) -- (C) -- cycle;\n\n    \\fill (A) circle (2pt) node[above] {$A$};\n    \\fill (B) circle (2pt) node[below] {$B$};\n    \\fill (C) circle (2pt) node[below] {$C$};\n\n    \\fill (D) circle (2pt) node[below] {$D$};\n    \\fill (E) circle (2pt) node[right] {$E$};\n    \\fill (F) circle (2pt) node[left] {$F$};\n\n    \\draw (D) -- (E) -- (F) -- cycle;\n\n    \\coordinate (O) at (2.39,1.38);\n    \n    \\draw (O) circle (1.51);\n\n    \\coordinate (G) at (1.72, 0.03);\n    \\coordinate (J) at (1.5, 2.6);\n    \\coordinate (H) at (2.08, 2.85);\n\n    \\fill (G) circle (2pt) node[below] {$G$};\n    \\fill (H) circle (2pt) node[above] {$H$};\n    \\fill (J) circle (2pt) node[above left] {$J$};\n\\end{tikzpicture}",
+    "answer": "336",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "考虑一个高为$5\\sqrt{3}$的直圆柱。一个平面与圆柱的每个底面都恰好交于一点，且圆柱截面（即该平面与圆柱的交线）为椭圆。求该椭圆的长轴与短轴长度之和与差的乘积。",
+    "answer": "75",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "有多少个有序正实数对$(a,b)$满足方程\\[(1+2a)(2+2b)(2a+b) = 32ab?\\] $\\textbf{(A) }0\\qquad\\textbf{(B) }1\\qquad\\textbf{(C) }2\\qquad\\textbf{(D) }3\\qquad\\textbf{(E) }\\text{无穷多个}$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "对于整数$a$和$b$，规定运算$a \\circ b$如下：若$a$为奇数且$b$为偶数，则$a \\circ b = a - b$；否则$a \\circ b = a + b$。求满足条件的正整数序列$a_1, a_2, a_3, \\ldots, a_n$的个数，使得\n\\[\na_1 + a_2 + a_3 + \\cdots + a_n = 12 \\quad \\text{且} \\quad a_1 \\circ a_2 \\circ a_3 \\circ \\cdots \\circ a_n = 0\n\\]\n其中运算从左到右依次进行，即$a_1 \\circ a_2 \\circ a_3$表示$(a_1 \\circ a_2) \\circ a_3$。",
+    "answer": "157",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "拉尔夫去商店买了12双袜子，总共花费24美元。他购买的袜子中，有的每双1美元，有的每双3美元，有的每双4美元。若他每种袜子至少购买了一双，则拉尔夫购买了多少双1美元的袜子？\n\nA. 6\nB. 4\nC. 5\nD. 7",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "方程$x^3+Px^2+Qx-19=0$的根均比方程$x^3-Ax^2+Bx-C=0$的根大1。若$A,B,C,P,Q$为常数，求$A+B+C$的值。",
+    "answer": "18",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "设$ABCDE$为一个非凸五边形，其内角满足$\\angle A = \\angle E = 90^\\circ$，$\\angle B = \\angle D = 45^\\circ$。已知$DE < AB$，$AE = 20$，$BC = 14\\sqrt{2}$，且点$B$、$C$、$D$位于直线$AE$的同侧。此外，$AB$为整数，且$AB < 2026$，五边形$ABCDE$的面积是$16$的整数倍。求$AB$的可能取值的个数。",
+    "answer": "503",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "设矩阵 $ A = \\begin{pmatrix} a+1 & a \\\\ a & a \\end{pmatrix} $，若对任意实向量 $ \\alpha = \\begin{pmatrix} x_1 \\\\ x_2 \\end{pmatrix} $，$ \\beta = \\begin{pmatrix} y_1 \\\\ y_2 \\end{pmatrix} $，都有 $ (\\alpha^T A \\beta)^2 \\leq \\alpha^T A \\alpha \\cdot \\beta^T A \\beta $ 成立，则 $ a $ 的取值范围是\n\nA. $a>0$\nB. $a\\geq0$\nC. $a\\leq0$\nD. $a<0$",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "道布尔菲尔姐妹开车回家时，带了7只从当地动物收容所领养的小猫。此时她们的母亲打来电话，告知她们家里的两只家猫刚刚生了小猫。其中，第一只猫Patchy生的小猫数量是领养小猫数量的3倍，另一只猫Trixie生了12只小猫。请问道布尔菲尔家现在一共有多少只小猫？",
+    "answer": "40",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "$42!$（42的阶乘）的末尾有多少个零？（提示：$n!$ 表示从1到$n$的所有整数的乘积。例如，$5!=5\\cdot 4\\cdot3\\cdot2\\cdot 1= 120$。）",
+    "answer": "9",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设多项式\n$$f(x) = a_nx^n + a_{n-1}x^{n-1} + \\cdots + a_2x^2 + a_1x + a_0$$\n各项系数均为整数，且其根为互不相同的整数。\n已知$a_n=2$，$a_0=66$，求$|a_{n-1}|$的最小可能值。",
+    "answer": "14",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "乘积\n$$\\prod_{k=4}^{63} \\frac{\\log_k \\left(5^{k^2 - 1}\\right)}{\\log_{k+1} \\left(5^{k^2 - 4}\\right)} = \\frac{\\log_4 (5^{15})}{\\log_5 (5^{12})} \\cdot \\frac{\\log_5 (5^{24})}{\\log_6 (5^{21})} \\cdot \\frac{\\log_6 (5^{35})}{\\log_7 (5^{32})} \\dots \\frac{\\log_{63} (5^{3968})}{\\log_{64} (5^{3965})}$$\n等于$\\frac{m}{n}$，其中$m$和$n$是互素的正整数。求$m+n$。",
+    "answer": "106",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "Elvis的每月储蓄目标为$1125。四月时，为了达成目标，他下半月每日的储蓄金额是上半月的2倍，问这个月下半月他每天需要储蓄多少？",
+    "answer": "50",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设$N$是满足如下性质的最大四位数：将其任意一位数字改为$1$后，得到的数都能被$7$整除。将$N$除以$1000$，设商为$Q$，余数为$R$，求$Q+R$。",
+    "answer": "699",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "若函数 $f(x)$ 在区间 $[a, b]$ 上连续，则在 $[a, b]$ 上至少存在一点 $\\xi$，使得\n$$\n\\int_{a}^{b} f(x) \\mathrm{d} x=f(\\xi)(b-a) \\quad(a \\leqslant \\xi \\leqslant b) .\n$$\n上式称为什么？\nA. 积分中值公式\nB. 洛必达定理\nC. 其他选项均错\nD. 拉格朗日中值定理",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "埃莉斯正在学习写字，决定反复书写字母表直到完全记住。她完整书写字母表两遍，书写字母表的一半一遍，随后将她此前已经书写过的所有内容重新书写了一遍。埃莉斯一共书写了多少个字母？",
+    "answer": "130",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "若$a$是直线方程$\\frac{x}{4} + \\frac{y}{12} = 1$的$x$截距，$b$是该直线的$y$截距，$m$是该直线的斜率，求$a + b + m$的值。",
+    "answer": "13",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设自然数 $n \\geqslant 3$，实数 $x_{1}, x_{2}, \\cdots, x_{n}$ 满足 $x_{1}+x_{2}+\\cdots+x_{n}=n$，$x_{1}^{2}+x_{2}^{2}+\\cdots+x_{n}^{2}=n^{2}$，求 $\\sum_{i=1}^{n} x_{i}^{3}$ 的最小值。请给出 $n=3$ 时该最小值的整数结果。",
+    "answer": "23",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "卡萝尔创作一首歌耗时4小时，录制该歌曲耗时为创作时间的一半，剪辑耗时90分钟。她用于剪辑的时间占其总工作时间的百分比是多少？",
+    "answer": "20",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "化简\n\\[\\cos \\left( \\frac{2 \\pi}{15} \\right) \\cos \\left (\\frac {4 \\pi}{15} \\right) \\cos \\left( \\frac{8 \\pi}{15} \\right) \\cos \\left( \\frac {16 \\pi}{15} \\right).\\]",
+    "answer": "\\frac{1}{16}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "在aime_ii_2024ville的$900$名居民中，有$195$人拥有钻戒，$367$人拥有高尔夫球具，$562$人拥有花园铲。此外，这$900$名居民每人都拥有一袋心形糖果。有$437$名居民恰好拥有上述物品中的两件，$234$名居民恰好拥有上述物品中的三件。求aime_ii_2024ville中拥有这四件物品的居民人数。",
+    "answer": "073",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "德纳利和纳特在一家遛狗公司工作，报酬按每遛一只狗结算。德纳利目前负责遛16只狗，纳特负责遛12只。根据公司的新政策，新分配或撤销的遛狗任务均以$x$只狗为单位进行分组。若德纳利多遛$4x$只狗、纳特的遛狗数量保持12只不变，或者将纳特的$x$只狗重新分配给德纳利，这两种情况下德纳利的报酬与纳特的报酬之比相同，求$x$的值（$x\\neq0$）。",
+    "answer": "5",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "如果一个不含0的数列从第2项起，每一项与它的前一项的比等于同一个常数，那么这个数列叫做？\nA. 常数列\nB. 等比数列\nC. 等差数列\nD. 单增数列",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "有多少个小于$2023$的正完全平方数能被$5$整除？$\\textbf{(A) }8\\qquad\\textbf{(B) }9\\qquad\\textbf{(C) }10\\qquad\\textbf{(D) }11\\qquad\\textbf{(E) }12$",
+    "answer": "A",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "求集合$\\{1,2,3,\\dots,10\\}$中恰好包含一对连续整数的子集的个数。例如$\\{1,2,5\\}$和$\\{1,3,6,7,10\\}$就是这样的子集。",
+    "answer": "235",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "设$\\vec{a}=(x_1,y_1)$，$\\vec{b}=(x_2,y_2)$，则$\\vec{a}+\\vec{b}=$\nA. $(y_1+x_2,x_1+y_2)$\nB. $(x_1+x_2,y_1+y_2)$\nC. $(x_1+y_2,y_1+x_2)$\nD. $(x_1-x_2,y_1-y_2)$",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "若整数$m$、$n$满足$3m + 4n = 100$，求$\\left| m - n \\right|$的最小可能值。",
+    "answer": "3",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "一个$3 \\times 9$网格的27个格子用数字$1$至$9$进行填充，要求每一行包含$9$个互不相同的数，且如下示例中粗线标出的三个$3 \\times 3$宫各自包含$9$个互不相同的数，规则与数独的前三行一致。\n\\[\n\\begin{array}{|c|c|c||c|c|c||c|c|c|}\n\\hline\n4 & 2 & 8 & 9 & 6 & 3 & 1 & 7 & 5 \\\\\n\\hline\n3 & 7 & 9 & 5 & 2 & 1 & 6 & 8 & 4 \\\\\n\\hline\n5 & 6 & 1 & 8 & 4 & 7 & 9 & 2 & 3 \\\\\n\\hline\n\\end{array}\n\\]\n满足条件的网格的不同填充方法数可表示为$p^a \\cdot q^b \\cdot r^c \\cdot s^d$，其中$p$、$q$、$r$、$s$为互不相同的素数，$a$、$b$、$c$、$d$为正整数。求$p \\cdot a + q \\cdot b + r \\cdot c + s \\cdot d$的值。",
+    "answer": "81",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "有多少个正实数的有序对 $(a,b)$ 满足方程\\[(1+2a)(2+2b)(2a+b) = 32ab?\\] $\\textbf{(A) }$无穷多$\\qquad\\textbf{(B) }3\\qquad\\textbf{(C) }1\\qquad\\textbf{(D) }2\\qquad\\textbf{(E) }0$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "设$\\{x_n\\}$为一数列，若存在常数$a$，对于任意给定的$\\varepsilon>0$，总存在正整数$N$，使得当$n>N$时，不等式$|x_n - a| < \\varepsilon$都成立，则称数列$\\{x_n\\}$？\nA. 周期性\nB. 发散\nC. 收敛于$a$\nD. 有界性",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "某营销公司实行佣金制工资。若销售额为1000美元，可获得30%的佣金；超出1000美元的部分，可额外获得10%的佣金。若Antonella的销售额为2500美元，求她获得的佣金金额。",
+    "answer": "450",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "下图展示了一行由10个正方形组成的网格，每个正方形都有一条连接其左下顶点与右上顶点的对角线。一只虫子沿线段从顶点移动到顶点，从不重复经过同一条线段，且从不沿水平或对角线线段从右向左移动。设$N$为该虫子从左下角（$A$）到右上角（$B$）的路径总数，图中粗线段展示了$A$到$B$的一条路径。求$\\sqrt{N}$。\n\n[asy]\nsize(12cm);\ndraw((0, 0)--(0, 1));\nfor (int i = 0; i <= 9; i += 1)\n{\ndraw((i, 1)--(i + 1, 1)--(i + 1, 0)--(i, 0)--(i + 1, 1));\n}\ndraw((0, 0)--(0, 1)--(2, 1)--(2, 0)--(3, 1)--(3, 0)--(4, 1)--(4, 0)--(5, 0)--(5, 1)--(6, 1)--(6, 0)--(7, 1)--(8, 1)--(8, 0)--(10, 0)--(10, 1), red + linewidth(2));\nlabel(\"$A$\", (0, 0), dir(180));\nlabel(\"$B$\", (10, 1), dir(0));\n[/asy]",
+    "answer": "243",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "求能整除$201020112012$的最小的两位正整数。",
+    "answer": "12",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "设坐标平面上的点$O(0,0)$，$A\\left(\\tfrac{1}{2},0\\right)$，$B\\left(0,\\tfrac{\\sqrt{3}}{2}\\right)$。令$\\mathcal{F}$为第一象限内所有长度为1的线段$\\overline{PQ}$构成的集合，其中端点$P$在$x$轴上，端点$Q$在$y$轴上。线段$\\overline{AB}$上存在唯一的点$C$，$C$与$A$、$B$均不重合，且$C$不属于$\\mathcal{F}$中除$\\overline{AB}$之外的任何线段。若$OC^2=\\tfrac{p}{q}$，其中$p$、$q$为互质的正整数，求$p+q$。",
+    "answer": "23",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "$\\frac{1}{3}$个生日蛋糕的重量加上$3\\frac{1}{2}$品脱葡萄干的重量，等于$\\frac{3}{4}$个生日蛋糕的重量加上$\\frac{1}{2}$品脱葡萄干的重量。1品脱葡萄干的重量是$\\frac{1}{4}$磅。一个生日蛋糕的重量是多少磅？$\\textbf{(A) }3\\frac{3}{5}\\qquad\\textbf{(B) }1\\frac{4}{5}\\qquad\\textbf{(C) }3\\qquad\\textbf{(D) }2\\frac{2}{5}\\qquad\\textbf{(E) }2$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "一月的前三天，Bob居住的地方每天下雪的概率为$\\frac{1}{3}$；接下来的四天，每天下雪的概率为$\\frac{1}{4}$。求一月第一周至少下雪一次的概率。答案可表示为$\\frac{m}{n}$的形式，其中$m$与$n$的最大公约数为$1$，请给出$m+n$的值。",
+    "answer": "61",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "Marilyn想在网上购买一双靴子。在亚马逊（Amazon.com）上，这双靴子售价16美元，运费为4美元。在eBay上，同款的鞋仅售13美元，但运费是亚马逊上的两倍。在eBay上购买这双靴子最终贵多少？",
+    "answer": "1",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "一个矩形的两条边长分别为$a$和$36$。在矩形的每个顶点处，以及每条长为$36$的边的中点处均安装有铰链。可将两条长为$a$的边相互按压，同时保持这两条边平行，使矩形变为如图所示的凸六边形。当该图形为六边形，且两条长为$a$的边平行、间距为$24$时，该六边形的面积与原矩形的面积相等，求$a^2$。",
+    "answer": "720",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "设随机变量$X,Y$相互独立，且$X$服从正态分布$N(0,2)$，$Y$服从正态分布$N(-2,2)$，若$P\\{2X+Y<a\\}=P\\{X>Y\\}$，则$a=$\n\nA. $-2-\\sqrt{10}$\nB. $-2+\\sqrt{10}$\nC. $-2-\\sqrt{6}$ \nD. $-2+ \\sqrt 6$",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "四个人围坐在圆桌旁，每人掷一枚标准六面骰子。求每人各掷一次后，任意相邻两人掷出的点数均不相同的概率，将答案表示为最简分数$\\frac{m}{n}$（其中$\\gcd(m,n)=1$），求$m+n$的值。",
+    "answer": "107",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "单词 \\text{UNCOPYRIGHTABLE} 中有多少个字母至少有一条对称轴？",
+    "answer": "9",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "Kenneth和Ellen共同选取一个实数$a$。Kenneth将每个1000次单位根（即满足$\\omega^{1000}=1$的一千个复数$\\omega$）减去$a$，再对每个结果取倒数，最后将所有结果相加；Ellen将每个1000次单位根取倒数，再从每个结果中减去$a$，最后将所有结果相加。他们惊讶地发现两人得到的结果相同！求实数$a$的可能取值个数。",
+    "answer": "3",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "在等腰三角形$ABC$中，边$AB$与边$BC$的长度均为125，边$AC$的长度为150。点$D$是边$AC$的中点。点$E$在边$BC$上，且$BC \\perp DE$；点$F$在边$AB$上，且$AB \\perp DF$。求三角形$DEF$的面积。",
+    "answer": "1728",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "求满足以下条件的三次多项式$p(x) = x^3 + ax^2 + bx + c$的个数：其中$a$，$b$，$c$均为整数，且属于集合$\\{-20, -19,-18, \\dots , 18, 19, 20\\}$，存在唯一的整数$m \\neq 2$使得$p(m) = p(2)$。",
+    "answer": "738",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "3B班的学生正在收集品行积分，若总积分达到要求即可外出旅行。班内有Adam、Martha、Betty和Tom四人。Adam获得了50分，Betty的表现优于Adam，获得的积分比Adam多30%；Martha获得的积分是Tom的3倍，Tom的积分比Betty少30分。若出行所需的最低积分阈值为400分，该班还差多少积分才能满足要求？",
+    "answer": "145",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "正十二边形的每个顶点染成红色或蓝色，因此共有$2^{12}$种染色方式。求满足不存在四个同色顶点是某个矩形的四个顶点的染色方式数目。",
+    "answer": "928",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "在$xy$平面中，一个半径为$4$、圆心在$x$轴正半轴上的圆与$y$轴切于原点，另一个半径为$10$、圆心在$y$轴正半轴上的圆与$x$轴切于原点。求过这两个圆交点的直线的斜率。$\\textbf{(A)}\\ \\dfrac{2}{7} \\qquad\\textbf{(B)}\\ \\dfrac{3}{7}  \\qquad\\textbf{(C)}\\ \\dfrac{2}{\\sqrt{29}}  \\qquad\\textbf{(D)}\\ \\dfrac{1}{\\sqrt{29}}  \\qquad\\textbf{(E)}\\ \\dfrac{2}{5}$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "艾伦和瓦内萨是跑步队接力赛的搭档。艾伦跑每英里的速度是瓦内萨的2倍，而瓦内萨跑的距离是艾伦的2倍。已知瓦内萨跑了4英里，艾伦完成他的赛段用时16分钟，问瓦内萨完成她的赛段用了多少分钟？",
+    "answer": "64",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "什么整数 $x$ 满足 $\\frac{1}{4}<\\frac{x}{7}<\\frac{1}{3}$？",
+    "answer": "2",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设$\\omega\\neq 1$是13次单位根，求$\\prod_{k=0}^{12}(2-2\\omega^k+\\omega^{2k})$除以1000的余数。",
+    "answer": "321",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "一支棒球队的9名成员在赛后前往了一家冰淇淋店。每名队员点了一个单球甜筒，口味为巧克力、香草或草莓中的一种。每种口味至少有1名队员选择，且选择巧克力的人数多于选择香草的人数，选择香草的人数多于选择草莓的人数。设$N$为满足上述条件的口味分配方案数，求$N$除以$1000$的余数。",
+    "answer": "16",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "假设我有6本不同的书，其中2本为数学书。若将这6本书摆放在书架上，且2本数学书不相邻，则共有多少种不同的摆放方式？",
+    "answer": "480",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "Noor正在一个长100米、宽30米的矩形场地中折线行走锻炼，起点为点$A$，终点落在线段$\\overline{BC}$上。她希望通过如图所示的折线路径（$APQRS$）增加行走的距离。若$\\angle PAB=\\angle QPC=\\angle RQB=\\cdots=\\theta$，求当行走总长度为120米时$\\theta$的值为多少？（此图未按比例绘制，请勿假设折线路径恰好包含图中所示的4段，段数可能更多或更少。）\n[asy] import olympiad; draw((-50,15)--(50,15)); draw((50,15)--(50,-15)); draw((50,-15)--(-50,-15)); draw((-50,-15)--(-50,15)); draw((-50,-15)--(-22.5,15)); draw((-22.5,15)--(5,-15)); draw((5,-15)--(32.5,15)); draw((32.5,15)--(50,-4.090909090909)); label(\"$\\theta$\", (-41.5,-10.5)); label(\"$\\theta$\", (-13,10.5)); label(\"$\\theta$\", (15.5,-10.5)); label(\"$\\theta$\", (43,10.5)); dot((-50,15)); dot((-50,-15)); dot((50,15)); dot((50,-15)); dot((50,-4.09090909090909)); label(\"$D$\",(-58,15)); label(\"$A$\",(-58,-15)); label(\"$C$\",(58,15)); label(\"$B$\",(58,-15)); label(\"$S$\",(58,-4.0909090909)); dot((-22.5,15)); dot((5,-15)); dot((32.5,15)); label(\"$P$\",(-22.5,23)); label(\"$Q$\",(5,-23)); label(\"$R$\",(32.5,23)); [/asy]\n$\\textbf{(A)}~\\arccos\\frac{4}{5}\\qquad\\textbf{(B)}~\\arcsin\\frac{4}{5}\\qquad\\textbf{(C)}~\\arccos\\frac{5}{6}\\qquad\\textbf{(D)}~\\arcsin\\frac{5}{6}\\qquad\\textbf{(E)}~\\arccos\\frac{3}{10}$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "设$f$为实值函数，对任意正实数$x$，均有$4f(x)+xf\\left(\\tfrac1x\\right)=x+1$，求$f(2014)$。",
+    "answer": "403",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "一个半径为200的半球体放置在一个半径为200的水平圆形圆盘上方，且半球体与圆盘共圆心。设$\\mathcal T$是圆盘中满足如下条件的点$P$的集合：将半径为42的球体放置在圆盘上的$P$点处时，该球体可完全位于半球体内部。$\\mathcal T$的面积与圆盘的面积之比为$\\tfrac{p}{q}$，其中$p$和$q$是互质的正整数，求$p+q$。",
+    "answer": "79",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "当$x$为实数时，求$(x^2+2x+8-4\\sqrt{3})\\cdot(x^2-6x+16-4\\sqrt{3})$的最小值，答案形式为$a - b\\sqrt{3}$，求$a + b$的值。",
+    "answer": "176",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "伊芙原有20个柚子。给朋友一些柚子后，伊芙剩下的柚子数量是她原有数量的$\\frac{1}{4}$。伊芙一共给了朋友多少个柚子？",
+    "answer": "15",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "方程$y=ax^2+bx+c$、顶点为$(h,k)$的抛物线关于直线$y=k$对称，得到方程$y=dx^2+ex+f$的抛物线，用$k$表示$a+b+c+d+e+f$。",
+    "answer": "2k",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设$\\triangle ABC$的内心为$I$，外心为$O$，满足$\\overline{IA} \\perp \\overline{OI}$，外接圆半径为$13$，内切圆半径为$6$，求$AB \\cdot AC$。",
+    "answer": "468",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "Sarah去书店购书，共花费300美元。每本书售价15美元，她把所买图书平均分给4个孩子，每个孩子得到多少本？",
+    "answer": "5",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "复数$({\\frac{3+i}{1-i}})^{2}$的值为____\n\nA. $-3-4i$\nB. $-3+4i$\nC. $3-4i$\nD. $3+4i$",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "某碰碰车场有12辆红色碰碰车，其绿色碰碰车数量比红色碰碰车少2辆，蓝色碰碰车数量是绿色碰碰车的3倍，该场地还配有黄色碰碰车。若该场地碰碰车总数为75辆，求黄色碰碰车的数量。",
+    "answer": "23",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设$\\omega\\neq 1$是13次单位根，求\n$$\\prod_{k=0}^{12}(2-2\\omega^k+\\omega^{2k})$$\n除以1000的余数。",
+    "answer": "321",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "多项式 $P(x) = (x-1)^1 (x-2)^2 (x-3)^3 \\cdot \\cdot \\cdot (x-10)^{10}$ 的根从数轴上移除后，剩余部分是11个互不相交的开区间的并集。在这些区间中，有多少个区间上 $P(x)$ 为正？$\\textbf{(A)}~4\\qquad\\textbf{(B)}~6\\qquad\\textbf{(C)}~3\\qquad\\textbf{(D)}~5\\qquad\\textbf{(E)}~7$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "求在一个固定的正十二边形（$12$边形）内部可构成的矩形的个数，要求矩形的每条边都位于该正十二边形的边或对角线上。下图展示了其中三个矩形。\n[asy] unitsize(0.6 inch); for(int i=0; i<360; i+=30) { dot(dir(i), 4+black); draw(dir(i)--dir(i+30)); } draw(dir(120)--dir(330)); filldraw(dir(210)--dir(240)--dir(30)--dir(60)--cycle, mediumgray, linewidth(1.5)); draw((0,0.366)--(0.366,0), linewidth(1.5)); [/asy]",
+    "answer": "315",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "如果两个函数的定义域相同，并且对应关系完全一致，则称这两个函数？\nA. 相似\nB. 相同\nC. 一致\nD. 相等",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "在墨水国，货币体系十分独特。1个Trinket等于4个Blinkets，3个Blinkets等于7个Drinkets。56个Drinkets相当于多少个Trinkets？",
+    "answer": "6",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "当$a \\ge 0$时，$\\sqrt{a^{2}}$的结果是？\nA. $a$\nB. $1$\nC. $2$\nD. $3$",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "等边三角形是特殊的什么？\nA. 梯形\nB. 长方体\nC. 正方体\nD. 等腰三角形",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "腰长为1、一条底边长度是另一条底边两倍的等腰梯形的最大面积是多少？\n$\\textbf{(A) }\\frac{3\\sqrt3}4 \\qquad \\textbf{(B) } \\frac 54 \\qquad \\textbf{(C)} \\frac 32 \\qquad \\textbf{(D) } \\frac{5\\sqrt2}4  \\qquad \\textbf{(E) } \\frac 87$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "多米诺骨牌是一种由两个正方形组成的矩形牌，每个正方形上标有一个整数。0到9的每个整数均与0到9的每个整数恰好配对一次，组成完整的一套。若一块多米诺骨牌的两个正方形上的整数相同，则称其为$\\textit{double}$（对子）。从一套中随机选取一块多米诺骨牌，它是$\\textit{double}$的概率是多少？将答案表示为最简分数形式。答案形如$\\frac{m}{n}$，其中$\\gcd(m,n)=1$，求$m+n$的值。",
+    "answer": "13",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "函数$f(x)=\\frac{2x}{x^2-5x-14}$的图像有垂直渐近线$x=a$和$x=b$，以及水平渐近线$y=c$，求$a+b+c$的值。",
+    "answer": "5",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "方程$1 + 2 \\sin X - 4 \\sin^2 X - 8 \\sin^3 X = 0$在$0^{\\circ} < X < 360^{\\circ}$范围内有多少个解？$\\textbf{(A) }1\\qquad\\textbf{(B) }2\\qquad\\textbf{(C) }4\\qquad\\textbf{(D) }6\\qquad\\textbf{(E) }8$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "越野队训练跑的结果如下图所示。哪位学生的平均速度最大？\n[asy]\nfor ( int i = 1; i <= 7; ++i )\n{\n\ndraw((i,0)--(i,6));\n}\n\nfor ( int i = 1; i <= 5; ++i )\n{\n\ndraw((0,i)--(8,i));\n}\ndraw((-0.5,0)--(8,0), linewidth(1));\ndraw((0,-0.5)--(0,6), linewidth(1));\nlabel(\"$O$\", (0,0), SW);\nlabel(scale(.85)*rotate(90)*\"distance\", (0, 3), W);\nlabel(scale(.85)*\"time\", (4, 0), S);\ndot((1.25, 4.5));\nlabel(scale(.85)*\"Evelyn\", (1.25, 4.8), N);\ndot((2.5, 2.2));\nlabel(scale(.85)*\"Briana\", (2.5, 2.2), S);\ndot((4.25,5.2));\nlabel(scale(.85)*\"Carla\", (4.25, 5.2), SE);\ndot((5.6, 2.8));\nlabel(scale(.85)*\"Debra\", (5.6, 2.8), N);\ndot((6.8, 1.4));\nlabel(scale(.85)*\"Angela\", (6.8, 1.4), E);\n[/asy]",
+    "answer": "\\text{Evelyn}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "考虑描述抛物面的函数$z(x,y)$，满足\n\\[z = (2x - y)^2 - 2y^2 - 3y.\\]\n阿基米德和婆罗摩笈多正在进行一项游戏。阿基米德首先选取$x$，随后婆罗摩笈多选取$y$。阿基米德希望最小化$z$，而婆罗摩笈多希望最大化$z$。假设婆罗摩笈多会采取最优策略，阿基米德应当选取怎样的$x$？",
+    "answer": "-\\frac{3}{8}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "如图，矩形$ABCD$的边长$AB=12\\sqrt{3}$，$BC=13\\sqrt{3}$。对角线$\\overline{AC}$与$\\overline{BD}$交于点$P$。若剪去$\\triangle ABP$，将$\\overline{AP}$与$\\overline{BP}$拼接，再沿$\\overline{CP}$、$\\overline{DP}$折叠，可得到一个三棱锥，其四个面均为等腰三角形。求该三棱锥的体积。\n[asy] pair D=origin, A=(13,0), B=(13,12), C=(0,12), P=(6.5, 6); draw(B--C--P--D--C^^D--A); filldraw(A--P--B--cycle, gray, black); label(\"$A$\", A, SE); label(\"$B$\", B, NE); label(\"$C$\", C, NW); label(\"$D$\", D, SW); label(\"$P$\", P, N); label(\"$13\\sqrt{3}$\", A--D, S); label(\"$12\\sqrt{3}$\", A--B, E);[/asy]",
+    "answer": "594",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "梅拉妮是一名上门推销员。她先在绿房子卖出了所持吸尘器的三分之一，又在红房子卖出了2台，随后在橙房子卖出了剩余数量的一半。若梅拉妮最后还剩下5台吸尘器，问她一开始有多少台吸尘器？",
+    "answer": "18",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "某天，充20个氦气球的总费用为900美元。两天后，每个气球的充气费用上涨了20美元。若本特利在价格上涨后去充170个气球，他需支付多少费用？",
+    "answer": "11050",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "有多少个正整数$k$，使得方程$\\dfrac{k}{2013}(a+b)=lcm(a,b)$存在正整数解$(a,b)$？",
+    "answer": "1006",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "在$\\triangle ABC$中，边长$AB=13$，$BC=14$，$CA=15$，设$M$是$\\overline{BC}$的中点。设$P$是$\\triangle ABC$外接圆上的点，使得$M$在线段$\\overline{AP}$上。线段$\\overline{AM}$上存在唯一的点$Q$，满足$\\angle PBQ = \\angle PCQ$。则$AQ$可表示为$\\frac{m}{\\sqrt{n}}$，其中$m$和$n$是互素的正整数，求$m+n$。",
+    "answer": "247",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "20打杯子的总费用比单价为6000美元的半打盘子的总费用少1200美元。计算购买每个杯子的总费用。",
+    "answer": "145",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "在数列0, 1, 1, 3, 6, 9, 27, ...中，首项为0。后续项通过交替对从1开始的每一个连续整数进行加法和乘法运算得到。例如，第二项由首项加1得到；第三项由第二项乘1得到；第四项由第三项加2得到，以此类推。第一个大于125的项的值是多少？",
+    "answer": "129",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "特蕾莎售卖大号毛绒玩具的单价是小号毛绒玩具的3倍。今日她卖出的小号毛绒玩具数量是大号毛绒玩具的2倍，销售总额为120美元，每个小号毛绒玩具的售价为4美元。她卖出了多少个小号毛绒玩具？",
+    "answer": "12",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设$P_1$是正$r$边形，$P_2$是正$s$边形（$r\\geq s\\geq 3$），且$P_1$的每个内角是$P_2$的每个内角的$\\frac{59}{58}$倍，求$s$的最大可能值。",
+    "answer": "117",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "埃斯梅拉达设计了一种特殊的马，用于在和国际象棋棋盘完全相同的四边形方格棋盘上对弈。若马位于某一方格内，它可以沿某一方向移动1格、再沿垂直方向移动3格到达另一个方格（这一移动对应$2\\times4$矩形的对角线，而非国际象棋中马移动所对应的$2\\times3$矩形的对角线）。进行这一移动时，马不会落在起始方格与目标方格之间的任何方格上。\n\n马的**长度为$n$的路径**是指由$n$个互不相同的方格$C_1, C_2, \\ldots, C_n$构成的序列，满足：马从$C_1$出发，对于任意$1\\leq i\\leq n-1$，马都可以通过前述移动方式从$C_i$到达$C_{i+1}$。\n\n求最大的正整数$N\\in\\mathbb{N}$，使得在$5\\times5$的棋盘上存在长度为$N$的马的路径。",
+    "answer": "12",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "三维坐标空间中，位于平面$x+y+z=75$上且坐标满足不等式\n$$x-yz<y-zx<z-xy$$\n的所有点构成的集合是三个不相交的凸区域。其中恰好有一个区域的面积有限，该有限区域的面积可表示为$a\\sqrt{b}$的形式，其中$a,b$为正整数，且$b$不被任何素数的平方整除。求$a+b$。",
+    "answer": "510",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "艾玛每月可以制作并上传 72 个 vlog。但她第一周仅制作了 18 个，第二周制作了 21 个，第三周制作了 15 个。她还需要制作多少个 vlog 才能完成每月 72 个的目标？",
+    "answer": "18",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "求有序数对$(x,y)$的个数，其中$x$与$y$均为整数，且取值在$-100$到$100$之间（包括$-100$和$100$），满足$12x^2 - xy - 6y^2 = 0$。",
+    "answer": "117",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "求满足是$9$的倍数且各位数字互不相同的八位正整数的个数。",
+    "answer": "181440",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "对于分式$Q=\\frac{\\sqrt{(x-a)^2+(y-b)^2} }{\\frac{|Am+By+C|}{\\sqrt{A^2+B^2} } } $，当$0<Q<1$时，$(x,y)$的轨迹为？\n\nA. 抛物线\nB. 双曲线\nC. 直线\nD. 椭圆",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "在某张特定的地图上，地图上3英寸对应现实中10英里。若已知地图上两栋建筑对应的现实距离为53.25英里，那么这两栋建筑在地图上的距离（单位为英寸）用分数表示是多少？",
+    "answer": "\\frac{639}{40}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "解\\[\\frac{|x^2 - 81|}{x^2 - 36x} < 0.\\]",
+    "answer": "(0,9) \\cup (9,36)",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设$N$为满足如下条件的函数$f$的个数：$f:\\{1,2,3,4,5,6,7,8,9,10\\} \\rightarrow \\{1,2,3,4,5\\}$，且对任意满足$1 \\leq x \\leq 5$的$x$，都有$f(f(x)) = x$。已知$N$可表示为$5^a \\cdot b$的形式，其中$a$、$b$为正整数，且$b$不能被$5$整除，求$a+b$的值。",
+    "answer": "31",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "求复数$z$满足$|z|=4$时，$(75+117i)z+\\dfrac{96+144i}{z}$的实部的最大值。",
+    "answer": "540",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "Craig和他的兄弟轮流拼写他们知道的最长单词，并统计这些单词的字母数量。经过10轮后，Craig共拼写了20个单词，每个单词含15个字母。若Craig的兄弟拼写的单词的字母总数比Craig多50，求10轮后两人拼写的所有单词的字母总数。",
+    "answer": "650",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "成倍数关系的两个数的最大公约数是小数，最小公倍数是？\nA. 因数\nB. 分数\nC. 大数\nD. 小数",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "设$\\triangle ABC$内接于圆$\\omega$，$\\omega$在$B$、$C$处的切线交于点$D$，线段$\\overline{AD}$与$\\omega$交于点$P$。若$AB=5$，$BC=9$，$AC=10$，则$AP$可表示为$\\frac{m}{n}$的形式，其中$m$、$n$为互素整数，求$m+n$的值。",
+    "answer": "113",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "给定整数 $n>1$，记 $S_n$ 为数字 $1,2,\\ldots,n$ 的置换群。两名玩家A、B进行如下游戏：双方轮流从群 $S_n$ 中选取元素，每次仅能选取一个元素，已选取过的元素不可重复选取。当已选取的所有元素生成整个群 $S_n$ 时游戏结束，最后选取元素的玩家输掉游戏，由A先手。对于哪些正整数 $n$，玩家A有必胜策略？求这些 $n$ 的和。",
+    "answer": "5",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "一个水母箱中饲养着大量水母。其中五分之一的水母体型较大，这些大体型水母中有三分之一在紫外线照射下会从绿色变为蓝色；其余水母体型较小，始终呈蓝色。打开紫外线后，共有6只水母改变了颜色。箱内共有多少只水母？",
+    "answer": "90",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "点$A$位于以$(0,0)$和$(2,2)$为对角顶点的正方形的内部或边界上，点$B$位于以$(4,2)$和$(5,3)$为对角顶点的正方形的内部或边界上。求过$A$、$B$两点的直线斜率的最大可能值，将你的答案写成一个普通分数。",
+    "answer": "\\frac{3}{2}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "多项式 $(1+x+x^2+\\cdots+x^{203})^3$ 的展开式在合并同类项以后，$x^{300}$ 这一项的系数为__________.(李纪琛供题)",
+    "answer": "31192",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "$f$、$g$、$h$、$j$ 的取值分别为 5、6、7、8，但不一定按此顺序对应。求四个乘积 $fg$、$gh$、$hj$、$fj$ 的和的最大可能值。",
+    "answer": "169",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "五名男性和九名女性等间距围成一个圆圈，顺序随机排列。若每名男性的直径对顶点均为女性，则该事件的概率为$\\frac{m}{n}$，其中$m$与$n$是互质的正整数，求$m+n$的值。",
+    "answer": "191",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "求由集合$\\{1,2,3,4,5\\}$的16个互异子集构成的集合族的个数，要求该集合族中任意两个子集$X$和$Y$都满足$X\\cap Y\\neq\\emptyset$。",
+    "answer": "81",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "对于复数$u=a+bi$和$v=c+di$，定义二元运算$\\otimes$为$u\\otimes v=ac+bdi$。设$z$是满足$z\\otimes z=z^2+40$的复数，求$|z|$？$\\textbf{(A) }2\\qquad\\textbf{(B) }5\\qquad\\textbf{(C) }\\sqrt{5}\\qquad\\textbf{(D) }\\sqrt{10}\\qquad\\textbf{(E) }5\\sqrt{2}$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "十二个字母$A$、$B$、$C$、$D$、$E$、$F$、$G$、$H$、$I$、$J$、$K$、$L$被随机分成六组，每组两个字母。将每组内的两个字母按字母顺序排列，得到六个双字母序列，再将这六个序列按字母顺序依次列出。例如，一种可能的结果为$AB$、$CJ$、$DG$、$EK$、$FL$、$HI$。最后一个列出的序列包含字母$G$的概率为$\\frac{m}{n}$，其中$m$与$n$是互质的正整数，求$m+n$的值。",
+    "answer": "821",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "某场派对中有若干对夫妇参加。宾客陆续到场时，每位到场者都会与房间里已有的所有其他宾客交谈。所有宾客到齐后，派对中形成了若干个人群，满足如下条件：\n1. 构成一对夫妇的两人不能属于同一人群；\n2. 对于任意两个并非夫妇的人，有且仅有一个人群同时包含这两人。\n已知人群的数量少于参加派对的总人数，求出席派对的夫妇对数。",
+    "answer": "4",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "设$p$为满足存在正整数$n$使得$n^{4}+1$能被$p^{2}$整除的最小素数。求使得$m^{4}+1$能被$p^{2}$整除的最小正整数$m$。",
+    "answer": "110",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "罗拉、洛洛、蒂亚和蒂约四人参加了一场乒乓球锦标赛。每两名选手之间恰好进行两场比赛。下表给出了选手的胜负记录，其中数字$1$表示获胜，$0$表示落败。例如，罗拉共获胜5场，输掉了第4场比赛。请问蒂约的胜负记录是什么？\n\\begin{array}{c | c}\n选手 & 战绩 \\\\\n\\hline\n罗拉 & \\texttt{111011} \\\\\n洛洛 & \\texttt{101010} \\\\\n蒂亚 & \\texttt{010100} \\\\\n蒂约 & \\texttt{??????}\n\\end{array}\nA. \\texttt{001001}\nB. \\texttt{010000}\nC. \\texttt{000101}\nD. \\texttt{011000}",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "若正方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 的棱长为 1，中心为 $O$，$\\overrightarrow{BC}=2\\overrightarrow{BF}$，$\\overrightarrow{A_{1}A}=4\\overrightarrow{A_{1}E}$，则四面体 $OEBF$ 的体积为 \\qquad。原始的答案是 $\\frac{m}{n}$ 的形式，其中 $m$、$n$ 互质，求 $m+n$ 的值。",
+    "answer": "97",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "围成一个图形的所有边长的总和就是这个图形的什么？\n\nA. 周长\nB. 边长\nC. 面积\nD. 体积",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "一个正整数列表满足以下性质：\n$\\bullet$ 列表所有项的和为30。\n$\\bullet$ 该列表的唯一众数为9。\n$\\bullet$ 列表的中位数是一个正整数，且该数不在列表中出现。\n求列表中所有项的平方和。",
+    "answer": "236",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "有多少个复数满足方程 $z^{5}=\\overline{z}$，其中 $\\overline{z}$ 是复数 $z$ 的共轭？\n$\\textbf{(A)}~2\\qquad\\textbf{(B)}~3\\qquad\\textbf{(C)}~5\\qquad\\textbf{(D)}~6\\qquad\\textbf{(E)}~7$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "斜率为$2$和$\\tfrac{1}{3}$的两条直线所成锐角的度数是多少？$\\textbf{(A)}~30\\qquad\\textbf{(B)}~37.5\\qquad\\textbf{(C)}~45\\qquad\\textbf{(D)}~52.5\\qquad\\textbf{(E)}~60$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "我们把图上距离和实际距离的比，叫做这幅图的？\n\nA. 比例尺\nB. 坐标轴\nC. 坐标\nD. 比例",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "对每个正整数$n$，记$a_n$为满足$a_n\\equiv1\\pmod{2^n}$的最小正整数23的倍数。求不超过1000的正整数$n$中满足$a_n=a_{n+1}$的个数。",
+    "answer": "363",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "比它的倒数的两倍小1的最小数是多少？",
+    "answer": "-2",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "Alice选取一个正整数集$A$。随后，Bob列出所有满足“其最大元属于$A$”的有限非空正整数集$B$。Bob的列表中包含2024个集合，求$A$的元素和。",
+    "answer": "55",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "设 $A, B, C$ 是 $\\triangle A B C$ 的三个内角，则 $3 \\cos A+2 \\cos 2 B+\\cos 3 C$ 的取值范围为 $\\qquad$。",
+    "answer": "47",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "16把椅子排成一排。8个人每人选一把椅子就坐，使得没有人坐在另外两人中间。设$N$为满足上述条件的16把椅子的子集的个数，求$N$除以$1000$的余数。",
+    "answer": "907",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "一枚标准公平正六面体骰子被反复投掷。每次掷出1点或2点时，Alice获得1枚硬币；每次掷出3点或4点时，Bob获得1枚硬币；每次掷出5点或6点时，Carol获得1枚硬币。Alice和Bob都至少各获得2枚硬币，且在Carol获得任何硬币之前发生该事件的概率可表示为$\\tfrac{m}{n}$，其中$m$与$n$为互素的正整数，求$100m+n$的值。",
+    "answer": "754",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "去年书法班有50名学生入学，今年入学人数增加了20%，今年书法班有多少名学生入学？",
+    "answer": "60",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "四个数排成一排，前两个数的平均数是$21$，中间两个数的平均数是$26$，最后两个数的平均数是$30$。求第一个数与最后一个数的平均数是多少？\n\nA. $28$\nB. $24$\nC. $26$\nD. $25$",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "如何用集合表示自然数？\nA. {2,3,4,...}\nB. {0,1,2,3,4,...}\nC. {...,-2,-1,0,1,2,...}\nD. {1,2,3,4,...}",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "一名医生关注血压与不规律心跳的关联。针对她的患者，她将血压划分为高、正常、低三类，将心跳划分为规律、不规律两类，统计结果如下：16%的患者血压偏高；19%的患者血压偏低；17%的患者心跳不规律；心跳不规律的患者中，35%血压偏高；血压正常的患者中，11%心跳不规律。问：该医生所诊治的患者中，心跳规律且血压偏低的占比是多少？\n\nA. 17.7\nB. 16.1\nC. 15.1\nD. 15.4",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "已知$f(x) = 2x-3$，$g(x) = x+1$，求$g(f(5)-1)$的值。",
+    "answer": "7",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "在$8\\times 8$的方格网中，沿网格线从左下角到右上角、长度为$16$的路径，求其中恰好改变方向$4$次的路径的条数，如下面的示例所示。\n<asy>\nsize(7.5cm);\nusepackage(\"tikz\");label(\"\\begin{tikzpicture}[scale=.4]\\draw(0,0)grid(8,8);\\draw[line width=2,red](0,0)--(2,0)--(2,3)--(5,3)--(5,8)--(8,8);\\end{tikzpicture}\",origin);\nlabel(\"\\begin{tikzpicture}[scale=.4]\\draw(0,0)grid(8,8);\\draw[line width=2,red](0,0)--(0,3)--(3,3)--(3,5)--(8,5)--(8,8);\\end{tikzpicture}\",E);\n</asy>",
+    "answer": "294",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "设$a$、$b$、$c$、$d$为正整数，满足以下所有关系：\n$abcd=2^6\\cdot 3^9\\cdot 5^7$\n$\\text{lcm}(a,b)=2^3\\cdot 3^2\\cdot 5^3$\n$\\text{lcm}(a,c)=2^3\\cdot 3^3\\cdot 5^3$\n$\\text{lcm}(a,d)=2^3\\cdot 3^3\\cdot 5^3$\n$\\text{lcm}(b,c)=2^1\\cdot 3^3\\cdot 5^2$\n$\\text{lcm}(b,d)=2^2\\cdot 3^3\\cdot 5^2$\n$\\text{lcm}(c,d)=2^2\\cdot 3^3\\cdot 5^2$\n求$\\text{gcd}(a,b,c,d)$的值。\n$\\textbf{(A)}~30\\qquad\\textbf{(B)}~45\\qquad\\textbf{(C)}~3\\qquad\\textbf{(D)}~15\\qquad\\textbf{(E)}~6$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "下列组合数公式错误的是？\n\nA. $C_{n}^{m}={\\frac{n(n-1)(n-2)\\cdots(n-m)}{m!}}$\nB. $C_{n}^{m}={\\frac{n(n-1)(n-2)\\cdots(n-m+1)}{m!}}$\nC. $C_{n}^{m}=\\frac{n!}{m!\\left(n-{m}\\right)!}$\nD. $C_{n}^{m}=C_{n}^{n-m}$，规定$C_{n}^{0}=1$",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "在正六棱锥中，侧面与底面的夹角均为 \\df{\\pi}{3}，则其外接球与内切球的半径的比值为__________。",
+    "answer": "19",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "杰夫比他的妹妹玛莎大10岁，而玛莎比她的男友迈克小4岁。如果迈克24岁，请问杰夫多大？",
+    "answer": "30",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "Frederick正在制作冰棍售卖，为了省钱，他自制冰棍棍。一块2×4的木材可制得200根冰棍棍，一块2×8的木材可制得400根冰棍棍。他有24美元用于购买制棍木材，一块2×4木材售价4美元，一块2×8木材售价6美元。若他购买最便宜的木材，最多可制作多少根冰棍棍？",
+    "answer": "1,600",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "平行四边形的面积公式：$平行四边形的面积=底\\times高$，其符号表达式可以是？\nA. $S_{平}=ah$\nB. $S_{三}=ah \\div 2$\nC. $S_{平}=ah \\div 2$\nD. $S_{三}=ah \\div 3$",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "一个分段线性函数由以下方式定义：\n\\[f(x) = \\begin{cases} x & \\text{if } x \\in [-1, 1) \\\\ 2 - x & \\text{if } x \\in [1, 3)\\end{cases}\\]\n且对任意实数$x$，均有$f(x + 4) = f(x)$。$f(x)$的图像具有下图所示的锯齿形。\n\n\\begin{asy}\nimport graph;\n\nsize(18cm);\nreal f(real x) {\n    real x_mod = x - 4 * floor((x+1) / 4);\n    if (-1 <= x_mod && x_mod < 1) {\n        return x_mod;\n    } else if (1 <= x_mod && x_mod < 3) {\n        return 2 - x_mod;\n    }\n    return 0; // Should never reach here\n}\n\n// Set up axes\nreal xmin = -8, xmax = 11, ymin = -2, ymax = 2;\nxaxis(\"\", xmin, -2, Ticks(2.0));\nxaxis(\"\", -2, 2);\nxaxis(\"\", 2, xmax, Ticks(2.0));\nyaxis(\"\", ymin, ymax, Ticks(2.0));\n// Plot the function in segments due to periodicity\nreal step = 0.01;\nfor (real k = -8; k < 7; k += 4) {\n    draw(graph(f, k, k + 4, n=(int)((4)/step)),blue);\n}\n    draw(graph(f, 8, 11, n=(int)((4)/step)),blue);\n\\end{asy}\n\n抛物线$x = 34y^2$与$f(x)$的图像有有限个交点，这些交点的$y$坐标之和可表示为$\\tfrac{a + b\\sqrt c}d$的形式，其中$a, b, c$和$d$均为正整数，$a, b,$和$d$的最大公约数为$1$，且$c$不被任何素数的平方整除，求$a + b + c + d$的值。",
+    "answer": "259",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "琼斯夫人正为她的四个儿子往四个相同的杯子中倒橙汁。她将前三个杯子完全倒满，但倒第四个杯子时，仅倒入了$\\frac{1}{3}$杯橙汁就用完了。需从每个前三个杯子中各倒出多少杯橙汁到第四个杯子中，才能使四个杯子内的橙汁量相同？\n\nA. $\\frac{2}{9}$\nB. $\\frac{1}{6}$\nC. frac{1}{12}\nD. $\\frac{1}{8}$",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "艾梅维尔共有900名居民，其中195人拥有钻戒，367人拥有高尔夫球具，562人拥有园艺铲。此外，这900名居民每人各拥有一袋心形糖果。有437名居民恰好拥有上述物品中的两件，234名居民恰好拥有上述物品中的三件。求艾梅维尔拥有这全部四件物品的居民人数。",
+    "answer": "73",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "两个不全等的平行六面体的每个面都是菱形，这些菱形的对角线长分别为$\\sqrt{21}$和$\\sqrt{31}$。这两个多面体中体积较大的与体积较小的体积比为$\\frac{m}{n}$，其中$m$和$n$是互质的正整数，求$m+n$。平行六面体是拥有六个平行四边形面的立体，如下图所示。\n\n[asy]\nunitsize(2cm);\npair o = (0, 0), u = (1, 0), v = 0.8*dir(40), w = dir(70);\n\ndraw(o--u--(u+v));\ndraw(o--v--(u+v), dotted);\ndraw(shift(w)*(o--u--(u+v)--v--cycle));\ndraw(o--w);\ndraw(u--(u+w));\ndraw(v--(v+w), dotted);\ndraw((u+v)--(u+v+w));\n[/asy]",
+    "answer": "125",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "一位工程师称，使用现有数量的某类机器，他可以在$3$天完成一段公路工程。若再多配备$3$台同类型机器，该工程可在$2$天完工。若所有机器的工作效率相同，仅使用$1$台机器完成该工程需要多少天？",
+    "answer": "18",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "将 $\\frac{57}{160}$ 化为有限小数。",
+    "answer": ".35625",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "称一个正整数$N$为$7$-$10$双数，如果$N$的七进制表示的各位数字所组成的十进制数是$N$的两倍。例如，$51$是$7$-$10$双数，因为它的七进制表示为$102$。求最大的$7$-$10$双数。",
+    "answer": "315",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "计算下列表达式：\n\\[2 \\times (2 \\times (2 \\times (2 \\times (2 \\times (2 \\times 2 - 2) - 2) - 2) - 2) - 2) - 2.\\]",
+    "answer": "2",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "上一学年，约兰达和泽尔达分别选修了不同的课程，这些课程在两个学期中每学期安排的测验数量不一定相同。约兰达第一学期所有测验的平均分比泽尔达第一学期所有测验的平均分高3分。约兰达第二学期所有测验的平均分比她第一学期的平均分高18分，且仍比泽尔达第二学期所有测验的平均分高3分。下列陈述中哪一个不可能成立？\n$\\textbf{(A)}$ 约兰达整个学年的测验平均分比泽尔达的高22分。\n$\\textbf{(B)}$ 泽尔达整个学年的测验平均分比约兰达的高。\n$\\textbf{(C)}$ 约兰达整个学年的测验平均分比泽尔达的高3分。\n$\\textbf{(D)}$ 泽尔达整个学年的测验平均分与约兰达的相等。\n$\\textbf{(E)}$ 如果泽尔达在每场她参加的测验中都多得3分，那么她整个学年的测验平均分就会和约兰达的相等。",
+    "answer": "A",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "琼斯夫人正在给她的四个儿子往四个相同的玻璃杯里倒橙汁。她将前三个玻璃杯倒满，但倒第四个玻璃杯时只倒了$\\frac{1}{3}$杯橙汁就用完了。要从每个前三个玻璃杯中各倒出几分之一的橙汁到第四个玻璃杯中，使得四个玻璃杯中的橙汁量相同，这个分数是多少？\n$\\textbf{(A) }\\frac{1}{12}\\qquad\\textbf{(B) }\\frac{1}{4}\\qquad\\textbf{(C) }\\frac{1}{6}\\qquad\\textbf{(D) }\\frac{1}{8}\\qquad\\textbf{(E) }\\frac{2}{9}$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "将1到64的整数按某种顺序填入$8 \\times 8$的方格中，每个方格恰好填一个数。记$a_{i,j}$为第$i$行第$j$列方格中所填的数，$M$为所有相邻方格中数字的绝对值差之和，即\n\\[\nM = \\sum^8_{i=1} \\sum^7_{j=1} (|a_{i,j+1} - a_{i,j}| + |a_{j+1,i} - a_{j,i}|).\n\\]\n求$M$的最大可能值除以1000所得的余数。",
+    "answer": "896",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "已知$m\\angle A= 60^\\circ$，$BC=12$个单位，$\\overline{BD} \\perp \\overline{AC}$，$\\overline{CE} \\perp \\overline{AB}$，且$m\\angle DBC = 3m\\angle ECB$，线段$EC$的长度可表示为$a(\\sqrt{b}+\\sqrt{c})$个单位，其中$b$和$c$不含完全平方因子，求$a+b+c$的值。\n\n[asy]\ndraw((0,0)--(8,.7)--(2.5,5)--cycle);\ndraw((0,0)--(4.2,3.7));\ndraw((8,.7)--(1.64,3.2));\nlabel(\"$B$\",(0,0),W);\nlabel(\"$C$\",(8,.7),E);\nlabel(\"$D$\",(4.2,3.7),NE);\nlabel(\"$E$\",(1.64,3.2),NW);\nlabel(\"$A$\",(2.5,5),N);\n[/asy]",
+    "answer": "11",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "求在$2\\times3$的方格中，每个格子填入一个数字，使得从左到右读成的两个数的和为$999$，且从上到下读成的三个数的和为$99$的填法总数。下方便是符合要求的填法示例，因为$8+991=999$且$9+9+81=99$。\n\n$$\n\\begin{array}{|c|c|c|} \\hline\n0 & 0 & 8 \\\\ \\hline\n9 & 9 & 1 \\\\ \\hline\n\\end{array}\n$$",
+    "answer": "45",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "设菱形$ABCD$的四个顶点均在双曲线$\\tfrac{x^2}{20}-\\tfrac{y^2}{24}=1$上，且按$A,B,C,D$的顺序排列。若该菱形的对角线交于原点，求所有满足条件的菱形$ABCD$中，小于$BD^2$的最大整数。",
+    "answer": "480",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "存在唯一的正整数$a$，使得和\n\\[U=\\sum_{n=1}^{2023}\\left\\lfloor\\dfrac{n^{2}-na}{5}\\right\\rfloor\\]\n是严格介于$-1000$和$1000$之间的整数。对于该唯一的$a$，求$a+U$。\n（注：$\\lfloor x\\rfloor$表示不超过$x$的最大整数。）",
+    "answer": "944",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "求满足$a + b + c = 300$以及\n$$a^2 b + a^2 c + b^2 a + b^2 c + c^2 a + c^2 b = 6,000,000$$\n的非负整数三元组$(a, b, c)$的个数。",
+    "answer": "601",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "投掷一枚不均匀的六面骰子，其六个面分别标有数字1、2、3、4、5、6，得到面$F$的概率大于$\\frac{1}{6}$，得到与$F$相对的面的概率小于$\\frac{1}{6}$，其余每个面的点数出现的概率均为$\\frac{1}{6}$，且每对相对面上的数字之和为7。同时投掷两枚这样的骰子，点数之和为7的概率为$\\frac{47}{288}$。已知得到面$F$的概率为$\\frac{m}{n}$，其中$m$、$n$是互质的正整数，求$m+n$的值。",
+    "answer": "29",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "某班级要从6名男生、3名女生中选派6人参加社区宣传活动，如果要求至少有2名女生参加，那么不同的选派方案种数为____\n\nA. 19\nB. 38\nC. 55\nD. 65",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "假定下面出现的反常积分均绝对收敛。若 $(X, Y)$ 的联合概率密度为 $f(x, y)$，则 $E(X)=$\nA. $\\int_{-\\infty}^{+\\infty} y f_{Y}(y) \\mathrm{d} y$\nB. $\\int_{-\\infty}^{+\\infty} y f_{X}(x) \\mathrm{d} y$\nC. $\\int_{-\\infty}^{+\\infty} x f_{Y}(y) \\mathrm{d} x$\nD. $\\int_{-\\infty}^{+\\infty} x f_{X}(x) \\mathrm{d} x$",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "一个齿轮每分钟转$33\\frac{1}{3}$圈，另一个齿轮每分钟转45圈。初始时，两个齿轮上的标记都指向正北。经过多少秒后，两个齿轮的标记会再次同时指向正北？",
+    "answer": "36",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设$A_1 A_2 A_3 \\ldots A_{11}$是一个具有如下性质的11边非凸简单多边形：\n\\begin{itemize}\n\\item 对任意满足$2 \\le i \\le 10$的整数$i$，$\\triangle A_i A_{1} A_{i+1}$的面积等于1；\n\\item 对任意满足$2 \\le i \\le 10$的整数$i$，$\\cos(\\angle A_i A_{1} A_{i+1}) = \\frac{12}{13}$；\n\\item 11边形$A_1 A_2 A_3 \\dots A_{11}$的周长等于20。\n\\end{itemize}\n则$A_1 A_2 + A_1 A_{11} = \\frac{m \\sqrt{n} - p}{q}$，其中$m, n, p, q$均为正整数，$n$不被任何素数的平方整除，且没有素数能同时整除$m, p, q$。求$m + n + p + q$。",
+    "answer": "19",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "Joanne有一个空白的公平正六面体骰子，以及六张贴纸，每张贴纸上印有1到6中互不相同的整数。Joanne先掷一次骰子，随后将标有数字1的贴纸贴在骰子的顶面。接着再次掷骰子，将标有数字2的贴纸贴在此时的顶面，依此类推，按顺序贴上剩余的贴纸。若某次掷骰子后顶面已经贴有贴纸，则将新贴纸贴在旧贴纸上将其覆盖。设$p$为整个操作结束后恰好有一个面空白的条件下，所有偶数编号的贴纸均贴在骰子的面上且可见的条件概率。$p$可表示为既约分数$\\tfrac mn$，其中$m$和$n$是互质的正整数，求$m+n$的值。",
+    "answer": "29",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "10个牛棚每个原有20头牛。西拉斯先生买了40头牛，将其平均分配，把相同数量的新牛放入20个牛棚的每一个中。8个牛棚里一共有多少头牛？",
+    "answer": "192",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "一个狐獴群落共有10只狐獴。每晚有2只狐獴站岗，其余狐獴睡觉。在某段时间内，每只狐獴都与其他每只狐獴恰好共同站岗一次。问这段时间每只狐獴有多少晚的睡眠？",
+    "answer": "36",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "用数字1、1、5、0排列，能组成多少个四位数的5的倍数？",
+    "answer": "5",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "设$N$为将2010写成$2010 = a_3 \\cdot 10^3 + a_2 \\cdot 10^2 + a_1 \\cdot 10 + a_0$的形式的方法数，其中$a_i$均为整数，且满足$0 \\le a_i \\le 99$。例如，$1\\cdot 10^3 + 3\\cdot 10^2 + 67\\cdot 10^1 + 40\\cdot 10^0$即为符合要求的一种表示。求$N$。",
+    "answer": "202",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "六个点$A, B, C, D, E$和$F$按顺序位于同一条直线上。已知点$G$不在这条直线上，且$AC = 26$，$BD = 22$，$CE = 31$，$DF = 33$，$AF = 73$，$CG = 40$，$DG = 30$。求$\\triangle BGE$的面积。",
+    "answer": "468",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "Alice选取一个正整数集合$A$。随后Bob列出所有满足如下条件的有限非空正整数集合$B$：$B$的最大元素属于$A$。Bob的列表中共有2024个集合，求$A$的元素和。",
+    "answer": "055",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "正实数$x$和$y$满足$y^3 = x^2$且$(y-x)^2 = 4y^2$，求$x+y$的值。$\\textbf{(A)}\\ 42 \\qquad \\textbf{(B)}\\ 12 \\qquad \\textbf{(C)}\\ 36 \\qquad \\textbf{(D)}\\ 24 \\qquad \\textbf{(E)}\\ 18$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "求$\\left( \\dfrac{72}{-3528} \\times (-49) \\right) \\div \\dfrac{-1}{19}$的值。",
+    "answer": "-19",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "Alice 知道，3 张红牌和 3 张黑牌将按随机顺序依次揭晓给她。每次牌揭晓前，Alice 必须猜这张牌的颜色。若 Alice 采用最优策略，她猜对的牌的期望张数为 $\\frac{m}{n}$，其中 $m$ 和 $n$ 是互素的正整数。求 $m+n$。",
+    "answer": "51",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "一个正五边形绕其中心逆时针旋转，要使其与原来的位置重合，最少需要旋转多少度？",
+    "answer": "72",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "记所有2阶实方阵构成的线性空间为$M_{2}(\\mathbb{R})$，已知$A=\\left(\\begin{array}{cc}3 & 7 \\\\ 10 & 7\\end{array}\\right), B=\\left(\\begin{array}{ll}2 & 3 \\\\ 4 & 5\\end{array}\\right)$，定义线性变换$T: M_{2}(\\mathbb{R}) \\rightarrow M_{2}(\\mathbb{R}), T(X)=A X B$，则线性变换$\\operatorname{trace}(T)=$ $\\qquad$。",
+    "answer": "70",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "方程$y = x^2 - 4$所表示的抛物线绕原点逆时针旋转$60^\\circ$。原抛物线与其旋转后的图像在第四象限的唯一交点的纵坐标为$\\frac{a - \\sqrt{b}}{c}$，其中$a$、$b$、$c$均为正整数，且$a$与$c$互质。求$a + b + c$。",
+    "answer": "62",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "一年有多少个季度？\nA. 1\nB. 4\nC. 2\nD. 3",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "雷有25根棒棒糖。他留了5根，将剩下的棒棒糖平均分给四位朋友。他的每位朋友各得到多少根棒棒糖？",
+    "answer": "5",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "对于标准方程为$\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$的椭圆，其焦点三角形的面积是多少？（其中$\\theta=\\angle F_1MF_2$）\n\nA. $S_{\\Delta MF_1F_2}=a^2\\tan\\frac{\\theta}{2}$\nB. $S_{\\Delta MF_1F_2}=b^2\\tan\\frac{\\theta}{2}$\nC. $S_{\\Delta MF_1F_2}=b^2\\tan\\theta$\nD. $S_{\\Delta MF_1F_2}=b^2\\cdot\\frac{1}{\\tan\\frac{\\theta}{2}}$",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "设$K$为满足如下条件的序列$A_1, A_2, \\dots, A_n$的个数：$n$是不大于10的正整数，每个$A_i$都是集合$\\{1, 2, 3, \\dots, 10\\}$的子集，且对每个$2 \\leq i \\leq n$，均有$A_{i-1} \\subseteq A_i$。例如，$\\{\\}$，$\\{5, 7\\}$，$\\{2, 5, 7\\}$，$\\{2, 5, 7\\}$，$\\{2, 5, 6, 7, 9\\}$是满足$n=5$的一个这样的序列。求$K$除以10的余数？\n$\\textbf{(A) } 1 \\qquad \\textbf{(B) } 3 \\qquad \\textbf{(C) } 5 \\qquad \\textbf{(D) } 7 \\qquad \\textbf{(E) } 9$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "假设$f$是一个函数，$f^{-1}$是$f$的反函数。若$f(1)=2$，$f(2)=6$，$f(3)=5$，求$f^{-1}(f^{-1}(6))$。",
+    "answer": "1",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "整数和小数的计数法是几进制？\nA. 八进制\nB. 二进制\nC. 十六进制\nD. 十进制",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "求函数$f(x) = \\frac{2-x}{\\log(2-\\log(x-2))}$的定义域，其中$\\log$是底数为$10$的对数函数，用区间表示你的答案。",
+    "answer": "(2,12) \\cup (12,102)",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "Neo拥有无限的红药片和蓝药片。当他服用一颗红药片时，他的体重将加倍；当他服用一颗蓝药片时，他的体重将减少1磅。如果Neo原本的体重为1磅，那么他最少需要服用多少颗药片才能使自己的体重达到\\(2015\\)磅？",
+    "answer": "13",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "等腰三角形的两个底角（ ）\nA. 不等\nB. 不确定\nC. 相等\nD. 和为90°",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "乔丹每天玩2小时电子游戏。他还有一份兼职工作，每小时可赚10美元。如果乔丹把玩电子游戏的时间用来工作，他一周能赚多少钱？",
+    "answer": "140",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设$A$为2025的所有正约数构成的集合，$B$是$A$中随机选取的子集。$B$是非空集合且其元素的最小公倍数为2025的概率为$\\frac{m}{n}$，其中$m$与$n$是互质的正整数，求$m+n$。",
+    "answer": "237",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "$99(\\dot{0.4}\\dot{9} - \\dot{0.4})$ 的值是多少？\n$\\textbf{(A) }5\\qquad\\textbf{(B) }4\\qquad\\textbf{(C) }3\\qquad\\textbf{(D) }2\\qquad\\textbf{(E) }1$",
+    "answer": "A",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "求小于1000的最大素数$p$，使得存在复数$z$满足：\n\\begin{itemize}\n \\item $z$的实部和虚部均为整数；\n \\item $|z|=\\sqrt{p}$，且\n \\item 存在一个三角形，其三边长分别为$p$、$z^3$的实部和$z^3$的虚部。\n\\end{itemize}",
+    "answer": "349",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "用 $[x]$ 表示不超过实数 $x$ 的最大整数，$\\{x\\}=x-[x]$。设集合 $A=\\{x\\in\\bR\\ |\\ 0<x<10\\}$，$B=\\{x\\in\\bR\\ |\\ [x]\\{x\\}=5\\}$，则集合 $A\\cap B$ 中最大元素与最小元素之差为________。若该差值为最简分数 $\\frac{m}{n}$ 的形式，其中 $m$、$n$ 互质，求 $m+n$ 的值。",
+    "answer": "67",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "求 $\\lceil (3.6)^2 \\rceil - ( \\lceil 3.6 \\rceil ) ^2$ 的值。",
+    "answer": "-3",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "计算 (((-1476)/(-615))/(3/50))/(2/1)。",
+    "answer": "20",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "设$\\mathcal{B}$为所有表面积为$54$、体积为$23$的长方体的集合。设$r$为能包含$\\mathcal{B}$中每一个长方体的最小球的半径。$r^2$可表示为$\\frac{p}{q}$，其中$p$和$q$是互素的正整数。求$p+q$。",
+    "answer": "721",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "若一个四边形可通过旋转和平移得到另一个，则称这两个四边形相同。边长为整数且周长为32的不同的凸圆内接四边形有多少个？请以整数形式给出你的答案。",
+    "answer": "568",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "设$N$为将整数$1$至$12$填入$2\\times 6$网格的$12$个格子中，使得任意两个有公共边的格子内的数的差不被$3$整除的不同填法总数。下面给出了一种填法示例。求$N$的正整数因数的个数。\n[asy]\nsize(160);\ndefaultpen(linewidth(0.6));\nfor(int j=0;j<=6;j=j+1)\n{\ndraw((j,0)--(j,2));\n}\nfor(int i=0;i<=2;i=i+1)\n{\ndraw((0,i)--(6,i));\n}\nfor(int k=1;k<=12;k=k+1)\n{\nlabel(\"$\"+((string) k)+\"$\",(floor((k-1)/2)+0.5,k%2+0.5));\n}\n[/asy]",
+    "answer": "144",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "斜率为$2$和$\\tfrac{1}{3}$的两条直线所成锐角的度数是多少？\n$\\textbf{(A)}~45\\qquad\\textbf{(B)}~30\\qquad\\textbf{(C)}~52.5\\qquad\\textbf{(D)}~60\\qquad\\textbf{(E)}~37.5$",
+    "answer": "A",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "根据绝对值三角不等式，$\\left | a \\right | -\\left | b \\right | \\le \\left | a\\pm b \\right | \\le \\left | a \\right | +\\left | b \\right |$，以下哪个说法是正确的？\nA. 当$a>b$时等式成立\nB. 当$a=b$时等式成立\nC. 当$a=0$时等式成立\nD. 无论$a$、$b$满足何种关系都成立",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "一个四边形内接于半径为$200\\sqrt{2}$的圆，该四边形的三条边长为$200$，求第四条边的长度。",
+    "answer": "500",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "埃利奥特每天计划走10000步。他在上学和放学的往返路上走完了当天步数目标的一半，和朋友短途散步又走了1000步。之后他绕着街区慢跑了一段，跑完后发现还剩下2000步需要完成。埃利奥特慢跑时走了多少步？",
+    "answer": "2000",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "对于焦点在x轴上的双曲线，标准方程为？\n\nA. $\\dfrac{y^2}{a^2}-\\dfrac{x^2}{b^2}=1(a>b>0)$\nB. $\\dfrac{y^2}{a^2}+\\dfrac{x^2}{b^2}=1(a>b>0)$\nC. $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1(a>b>0)$\nD. $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1(a>b>0)$",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "兰迪有9块燕麦饼干、4块巧克力曲奇饼干和5块糖饼干。他早餐吃了3块饼干，每种口味各1块。午餐他吃了2块燕麦饼干。他给了朋友2块糖饼干。之后，他烤了每种口味各4块作为晚餐。现在他有多少块饼干？",
+    "answer": "23",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "若每个车牌由2个不重复的字母（A至Z）后接2个不重复的一位数（0至9）组成，则可构成多少个车牌？",
+    "answer": "58,500",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "计算 $\\arcsin \\left( -\\frac{1}{2} \\right)$，结果用弧度表示。",
+    "answer": "-\\frac{\\pi}{6}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "爱丽丝与鲍勃进行如下游戏：他们面前有一堆$n$个筹码，双方轮流取筹码，爱丽丝先手。每轮中，玩家可以从堆中取走1个或4个筹码，取走最后一个筹码的玩家获胜。求不超过2024的正整数$n$中，满足存在一种策略可保证鲍勃获胜（无论爱丽丝如何操作）的$n$的个数。",
+    "answer": "809",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "一个两位数的各位数字之和为13。该数与它的各位数字顺序颠倒后得到的数的差为27。求原数和它的各位数字顺序颠倒后得到的数的和。",
+    "answer": "143",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "鲍勃花费27000美元分配给3所学校用于购买图书。每500美元可购买100本书。每所学校可购买多少本书？",
+    "answer": "1800",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "对每个正整数$n$，设$f(n)$为将十进制数$n$按$b$进制解读后的数值，其中$b$是大于$n$中最大数字的最小整数。例如，若$n=72$，则$b=8$，此时将$72$按八进制解读的数值为$7\\cdot 8+2=58$，因此$f(72)=58$。求小于$1000$的正整数$n$中满足$f(n)=n$的个数。",
+    "answer": "279",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "解方程\n\\[\\sqrt{x + \\sqrt{3x + 6}} + \\sqrt{x - \\sqrt{3x + 6}} = 6.\\]",
+    "answer": "10",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "某班共有50名学生，其中28人参加MATHCOUNTS，21人参加科学俱乐部，6人两项活动均不参加。问同时参加MATHCOUNTS和科学俱乐部的学生有多少人？",
+    "answer": "5",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "能整除$50!$的7的最高次幂为$7^k$（$n! = 1\\times 2\\times 3\\times 4\\times \\dots \\times (n-1) \\times n$）。求$k$的值。\n$\\textbf{(A) }4\\qquad\\textbf{(B) }5\\qquad\\textbf{(C) }6\\qquad\\textbf{(D) }7\\qquad\\textbf{(E) }8$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "杰拉尔德和朱莉娅按$3:2$的比例分$100$美元。若杰拉尔德花$10$美元买了一本书，他还剩多少钱？",
+    "answer": "50",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设$a$、$b$为非零整数，若多项式$x^3 + ax^2 + bx + 9a$有两个相等的根，且三个根均为整数，求$|ab|$。",
+    "answer": "1344",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "如图，两个圆心均为点$D$的圆的半径分别为$1$和$2$。阴影区域的总面积是大圆面积的$\\frac{5}{12}$。求（较小的）$\\angle ADC$的度数是多少？\n[asy]\nsize(4cm);\ndefaultpen(linewidth(0.75));\nreal adc = 100;\npair d = (0, 0); pair a = 2 * dir(100); pair c = (2, 0);\npath inner = arc(d, a/2, c/2, CW);\n\npath outer = arc(d, c, a, CCW);\nguide region1 = (a--a/2)..inner..(c/2--c)..outer..cycle;\nguide region2 = arc(d, a/2, c/2, CCW)..(c/2--d--a/2)..cycle;\nfill(region1, gray(0.75));\nfill(region2, gray(0.75));\ndraw(unitcircle); draw(scale(2) * unitcircle);\ndraw(a--d--c);\nlabel(\"$A$\", a, N); label(\"$C$\", c, E); label(\"$D$\", d, NE);\n[/asy]",
+    "answer": "120",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设$S$为正24边形的顶点集合。求画12条等长的线段，使得$S$中的每个顶点恰好是这12条线段中某一条的端点的方法数。",
+    "answer": "113",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "设 $p$ 为奇素数。对于集合 $\\{1, 2, \\ldots, p-1\\}$ 中的每个 $i$，记 $r_i$ 为 $i^p$ 除以 $p^2$ 所得的余数。求和：\n\\[\nr_1 + r_2 + \\ldots + r_{p-1}\n\\]",
+    "answer": "0",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "点$(6, 0)$到直线$y = 2x-2$的最短距离是多少？请将答案用最简根式表示。",
+    "answer": "2\\sqrt{5}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "实数$\\Lambda$与向量$\\vec{a}$的积是一个向量，这种一个实数和一个向量的运算叫做向量的数乘，记作：$\\Lambda \\cdot \\vec{a}$。当$\\Lambda$<<<Answer 1>>>$0$时，$\\Lambda \\cdot \\vec{a}$的方向与$\\vec{a}$的方向相同；当$\\Lambda$<<<Answer 2>>>$0$时，$\\Lambda \\cdot \\vec{a}$的方向与$\\vec{a}$的方向相反。\nA. $>$，$<$\nB. $<$，$>$\nC. $<$，$<$\nD. $>$，$>$",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "一个面积为$\\sqrt{5}+1$的正五边形被印在纸上并剪下。将该五边形的五个顶点向五边形的中心折叠，形成一个更小的五边形。这个新五边形的面积是多少？\n$\\textbf{(A)}~4-\\sqrt{5}$\n$\\textbf{(B)}~\\sqrt{5}-1$\n$\\textbf{(C)}~8-3\\sqrt{5}$\n$\\textbf{(D)}~\\frac{\\sqrt{5}+1}{2}$\n$\\textbf{(E)}~\\frac{2+\\sqrt{5}}{3}$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "有多少个复数满足方程 $z^{5}=\\overline{z}$，其中 $\\overline{z}$ 是复数 $z$ 的共轭？\n$\\textbf{(A)}~6\\qquad\\textbf{(B)}~7\\qquad\\textbf{(C)}~3\\qquad\\textbf{(D)}~2\\qquad\\textbf{(E)}~5$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "在清明节假期的星期日，李小芳去了市区公园参加清明献祭求平安的彩蛋活动，最后她共得到了一篮子彩蛋。她得到了5个绿色的，蓝色的彩蛋数量是绿色的两倍，粉色的彩蛋比蓝色的少一个，黄色的彩蛋是粉色的三分之一。请问李小芳总共得到了多少个彩蛋呢？",
+    "answer": "27",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "李过去跑400米栏的成绩比杰拉尔德跑400米栏的成绩快2秒。但杰拉尔德调整了饮食，他的速度提升了10%。如果李跑400米栏的成绩是38秒，那么调整饮食后的杰拉尔德跑400米栏的成绩是多少秒？",
+    "answer": "36",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "周长为60单位的不全等非等边三角形有多少个，其整数边长$a$、$b$、$c$成等差数列？",
+    "answer": "9",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "阿莉萨以每小时12英里的速度骑行了4.5小时。斯坦利以每小时10英里的速度骑行了2.5小时。阿莉萨和斯坦利一共骑了多少英里？",
+    "answer": "79",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设实数$x$，$y$，$z$满足方程组\n\\begin{align*}\nxy+4z&=60\\\\\nyz+4x&=60\\\\\nzx+4y&=60.\n\\end{align*}\n记$S$为$x$的所有可能取值构成的集合，求$S$中元素的平方和。",
+    "answer": "273",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "一张矩形纸片的长度是宽度的3倍。将纸片折叠，使一个顶点落在其对顶点的上方，从而形成一个五边形。该五边形的面积是原矩形面积的几分之几？\n$\\textbf{(A) }\\frac{2}{3}\\qquad\\textbf{(B) }\\frac{11}{16}\\qquad\\textbf{(C) }\\frac{12}{17}\\qquad\\textbf{(D) }\\frac{13}{18}\\qquad\\textbf{(E) }\\frac{14}{19}$",
+    "answer": "D",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "35名学生参加数学俱乐部会议。参会女生人数是13的倍数，且女生人数多于男生人数。参会男生有多少人？",
+    "answer": "9",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设$P$是正方形$ABCD$外接圆上的一点，满足$PA \\cdot PC = 56$，$PB \\cdot PD = 90$，求正方形$ABCD$的面积。",
+    "answer": "106",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "求满足以下条件的有序7元组$(a_1, a_2, a_3, \\ldots, a_7)$的个数：\n- 对所有$k$，$a_k \\in \\{1,2,3\\}$；\n- $a_1+a_2+a_3+a_4+a_5+a_6+a_7$是3的倍数；\n- $a_1a_2a_4 + a_2a_3a_5 + a_3a_4a_6 + a_4a_5a_7 + a_5a_6a_1 + a_6a_7a_2 + a_7a_1a_3$是3的倍数。",
+    "answer": "393",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "设函数$f$由$f(x) = x^3 - 49x^2 + 623x - 2015$定义，且$g(x) = f(x + 5)$，求$g$的根的和。",
+    "answer": "34",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "马克患病3个月，在此期间他每月减轻体重10磅。若他的最终体重为70磅，求他的初始体重。",
+    "answer": "100",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "对于正整数$m$和$n$，分数$\\tfrac{m}{n}$的十进制表示以$0.711$开头，其后还有其他数字，求$n$的最小可能值。",
+    "answer": "45",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "一个等腰梯形有一个内切圆，与它的四条边都相切。该圆的半径为$3$，梯形的面积为$72$。设梯形的上底和下底的长度分别为$r$和$s$，且$r \\neq s$。求$r^2+s^2$。",
+    "answer": "504",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "四位数正整数称为*虚拟数*，如果它具有形式$\\overline{abab}$，其中$a$、$b$为数字，且$a \\neq 0$。例如，2020、2121、2222是虚拟数，而2002、0202不是。求所有可表示为$n^2+1$（其中$n$为正整数）的虚拟数。",
+    "answer": "8282",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "求函数的最大值\n\\[f(x,y) = x \\sqrt{1 - y^2} + y \\sqrt{1 - x^2},\\]\n其中$-1 \\le x, y \\le 1$。",
+    "answer": "1",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "三角形任意两边的和与第三边的大小关系是怎样的，任意两边的差与第三边的大小关系呢？\n\nA. 小于；小于\nB. 大于；小于\nC. 小于；大于\nD. 大于；大于",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "若 $z, w \\in \\mathbf{C}$，$|z+w|=1$，$\\left|z^{2}+w^{2}\\right|=4$，则 $|zw|$ 的最大值可以表示为 $\\frac{k}{m}$，求 $k+m$ 的值。",
+    "answer": "7",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "实值函数$f$满足：对任意实数$a$和$b$，有\n\\[f(a + b) + f(a - b) = 2f(a) f(b).\\]\n以下哪一个不可能是$f(1)$的值？\n$\\textbf{(A) } 0 \\qquad \\textbf{(B) } 1 \\qquad \\textbf{(C) } -1 \\qquad \\textbf{(D) } 2 \\qquad \\textbf{(E) } -2$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "房间里有若干玩具：5辆红色小汽车、3个可动人偶和1个玩偶。玩偶的价格与3个可动人偶的价格相等，1辆红色小汽车售价4美元。若1个可动人偶售价5美元，则所有玩具的总价值是多少？",
+    "answer": "50",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "若$Q$、$A$为多面体的两个顶点，定义$d(Q, A)$为连接$Q$与$A$需要经过的多面体的边的最少条数。例如，若$\\overline{QA}$是该多面体的一条边，则$d(Q, A)=1$；若$\\overline{QV}$与$\\overline{VA}$是该多面体的边，且$\\overline{QA}$不是边，则$d(Q, A)=2$。设$E$、$H$、$J$是正二十面体（由20个等边三角形构成的正多面体）中随机选取的三个互异顶点，求$d(E, H) > d(H, J)$的概率为多少？\n$\\textbf{(A)}~\\frac5{12}\\qquad\\textbf{(B)}~\\frac38\\qquad\\textbf{(C)}~\\frac12\\qquad\\textbf{(D)}~\\frac13\\qquad\\textbf{(E)}~\\frac{7}{22}$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "如果事件$A_1,A_2,A_3\\cdots A_n$中任意两个都是互斥事件，则称事件$A_1,A_2,A_3\\cdots A_n$ ？\nA. 彼此类似\nB. 彼此互斥\nC. 彼此相同\nD. 彼此不一致",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "一个包有5%的折扣，若其标价为140美元，折扣后需支付多少钱？",
+    "answer": "133",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "约翰需要赶一趟火车。火车在2:00至3:00之间的某个随机时刻到达，停靠20分钟后离开。若约翰同样在2:00至3:00之间的某个随机时刻到达，求约翰到达时火车尚未离开的概率。答案可表示为最简分数$\\frac{m}{n}$（其中$\\gcd(m, n) = 1$），求$m+n$的值。",
+    "answer": "23",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "戈默吃的土豆泥比23勺少5勺。如果制作比3勺少1勺的土豆泥需要比6个土豆少3个土豆，那么戈默吃了多少个土豆？",
+    "answer": "27",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "求当复数$z$满足$|z|=4$时，$(75+117i)z+\\dfrac{96+144i}{z}$的实部的最大可能值。",
+    "answer": "540",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "Brian的地下室潮湿发霉，于是他购买了一台除湿器去除空气中的水分。该设备有三个档位：低档、中档、高档。Brian测试了该设备的除湿效率，发现低档每天可从空气中去除1升水，中档每天去除的水量是低档的2倍，高档每天去除的水量是中档的2倍。若Brian将除湿器在低档运行3天，接着在中档运行3天，再在高档运行5天，则该除湿器从他的地下室中总共去除了多少升水？",
+    "answer": "29",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "掷$n$个标准六面骰子时，所得点数的乘积共有$936$种可能的取值，求$n$。\n$\\textbf{(A)}~11\\qquad\\textbf{(B)}~9\\qquad\\textbf{(C)}~6\\qquad\\textbf{(D)}~8\\qquad\\textbf{(E)}~10$",
+    "answer": "A",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "$\\overline{AB}$是直角三角形$ABC$的斜边，中线$\\overline{AD}$的长度为7，中线$\\overline{BE}$的长度为4。$\\overline{AB}$的长度为$a\\sqrt{b}$的形式，求$a+b$的值。",
+    "answer": "15",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "一个棱锥的底面是边长为$300$厘米的等边三角形，棱锥的顶点位于底面三角形中心正上方$100$厘米处。一只小鼠从棱锥底面的一个顶点出发，沿棱锥的侧棱向顶部的顶点爬行。当小鼠爬行的距离为$134$厘米时，它距离棱锥底面多少厘米？",
+    "answer": "67",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "Joey在拼字游戏轮到他的回合前有214分，他获得了26分。随后，拥有225分的Marcy获得了10分。Joey现在领先多少分？",
+    "answer": "5",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "将5个不可区分的球放入2个不可区分的盒子中，共有多少种不同的放法？",
+    "answer": "3",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设$\\triangle{ABC}$为等腰三角形，且$\\angle A=90^{\\circ}$。存在点$P$在$\\triangle{ABC}$内部，使得$\\angle PAB=\\angle PBC=\\angle PCA$，且$AP=10$。求$\\triangle{ABC}$的面积。",
+    "answer": "250",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "设复数$z$满足\n\\[z + \\frac{1}{z} = \\frac{1 + \\sqrt{5}}{2}.\\]\n求\n\\[z^{85} + \\frac{1}{z^{85}}.\\]",
+    "answer": "-2",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设等边三角形$\\triangle ABC$的边长为$55$。点$D$、$E$、$F$分别在线段$\\overline{BC}$、$\\overline{CA}$、$\\overline{AB}$上，且$BD=7$，$CE=30$，$AF=40$。$\\triangle ABC$内部存在唯一的点$P$，满足\n\\[\\measuredangle AEP=\\measuredangle BFP=\\measuredangle CDP.\\]\n求$\\tan^{2}\\left(\\measuredangle AEP\\right)$。",
+    "answer": "75",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "在当地的“自摘果园”，采摘桃子每磅2.00美元，李子每磅1.00美元，杏每磅3.00美元。如果温斯顿采摘了6磅桃子、8磅李子和6磅杏，他在水果上总共花了多少钱？",
+    "answer": "38",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "平坦的场地上有五个点$A$、$B$、$C$、$D$、$O$。$A$在$O$的正北方向，$B$在$O$的正西方向，$C$在$O$的正南方向，$D$在$O$的正东方向。$C$、$D$两点之间的距离为140米。热气球位于$O$点正上方的空中$H$点，由四根绳子$HA$、$HB$、$HC$、$HD$固定。其中绳子$HC$长150米，绳子$HD$长130米。\n[asy]\nsize(250);\npair A, B, C, D, O, H, W, X, Y, Z;\nO=(0,0);\nA=(1,1);\nD=(1.5,-.3);\nB=(-1.5,.3);\nC=(-1,-1);\nH=(0,2.5);\nW=(5/3)*(A+D);\nX=(5/3)*(A+B);\nY=(-1)*(W);\nZ=(-1)*(X);\ndraw(W--X--Y--Z--W);\ndraw(A--C);\ndraw(B--D);\ndraw(O--H, linewidth(1));\ndraw(A--H, dashed);\ndraw(B--H, dashed);\ndraw(C--H, dashed);\ndraw(D--H, dashed);\ndot(A);\ndot(B);\ndot(C);\ndot(D);\ndot(O);\ndot(H);\nlabel(\"A\", A, NE);\nlabel(\"B\", B, SW);\nlabel(\"C\", C, SE);\nlabel(\"D\", D, NE);\nlabel(\"O\", O, SE);\nlabel(\"H\", H, NW);\n[/asy]\n\n为减少所用绳子的总长度，拟将绳子$HC$和$HD$替换为一根绳子$HP$，其中$P$是线段$CD$上的一点。（气球仍保持前述在$O$点正上方的$H$位置不变。）求最多能节省多长的绳子。",
+    "answer": "160",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "2016名选手的循环赛中，每两名选手之间仅进行一场比赛，且所有比赛均无平局。我们称选手$A$与$B$组成**优势对**，若其余所有选手要么同时击败$A$与$B$，要么同时被$A$与$B$击败。求优势对的最大数量。",
+    "answer": "2015",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "一个盒子里装有六张卡片，其中三张卡片两面都是黑色，一张卡片一面黑色、一面红色，两张卡片两面都是红色。现从盒中均匀随机抽取一张卡片，并随机观察其一面。若观察到的一面为红色，求该卡片另一面也为红色的概率。将答案化为最简分数$\\frac{m}{n}$（其中$\\gcd(m,n)=1$），求$m+n$的值。",
+    "answer": "9",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "利亚姆和米切尔在对街各开了一家相互竞争的柠檬水摊。当利亚姆吹嘘自己某个周末赚了63美元时，米切尔笑着告诉利亚姆，同一个周末他卖了21杯柠檬水，每杯4美元。请问那个周末米切尔卖柠檬水的收入比利亚姆多多少美元？",
+    "answer": "21",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "小丽和小强正在阅读同一本书。昨天，小丽读了10页，而小强读了13页。今天，小丽比小强昨天所读的页数多读了5页，而小强今天没有阅读任何内容。小丽比小强多阅读了多少页呢？",
+    "answer": "15",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "设$F_1 = (10,2)$，$F_2 = (-16,2)$。满足$|PF_1 - PF_2| = 24$的点$P$的集合构成双曲线。该双曲线的方程可写为$\\frac{(x - h)^2}{a^2} - \\frac{(y - k)^2}{b^2} = 1$。求$h + k + a + b$。",
+    "answer": "16",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "Rani比Monic多10只螃蟹，Monic比Bo少4只。若Bo有40只螃蟹，求三人拥有的螃蟹总数。",
+    "answer": "122",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设菱形$ABCD$的四个顶点均在双曲线$\\tfrac{x^2}{20}-\\tfrac{y^2}{24}=1$上，且按$A,B,C,D$的顺序排列。若其对角线交于原点，求所有满足条件的菱形$ABCD$中，小于$BD^2$的最大数。",
+    "answer": "480",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "Marilyn的第一张唱片的销量是Harald的10倍。若两人总共卖出88000张，Harald卖出了多少张？",
+    "answer": "8000",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "菱形$ABCD$中，$\\angle BAD<90^{\\circ}$。菱形内切圆上有一点$P$，点$P$到直线$DA$、$AB$、$BC$的距离分别为$9$、$5$、$16$，求$ABCD$的周长。",
+    "answer": "125",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "设$\\mathcal{S}$为十进制下末三位是$256$的所有完全平方数构成的集合。设$\\mathcal{T}$为所有形如$\\frac{x-256}{1000}$的数构成的集合，其中$x\\in\\mathcal{S}$。换言之，$\\mathcal{T}$是将$\\mathcal{S}$中每个数的末三位截去后得到的数构成的集合。求$\\mathcal{T}$中第10小的元素除以$1000$的余数。",
+    "answer": "170",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "设$a,b,n$为正整数，且$a,b$均满足$2 \\leq a,b \\leq 2n$。定义$2n \\times 2n$方格网中的$a \\times b$单元环为围绕一个$(a-2) \\times (b-2)$（可能为空）的矩形单元的那$2a + 2b - 4$个单元。例如，下图展示了一种将$6 \\times 6$的方格网划分为4个单元环的方法。\n\n| P   P P   P | Y   Y |\n| P | R R | P | Y | Y |\n| P | R R | P | Y | Y |\n| P   P P   P | Y | Y |\n| G   G G   G | Y | Y |\n| G   G G   G | Y   Y |\n\n求将$10 \\times 10$的方格网划分为5个单元环，使得方格网中每个单元恰好属于其中一个单元环的分法数。",
+    "answer": "83",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "设$\\omega=\\cos\\frac{2\\pi}{7}+i\\cdot\\sin\\frac{2\\pi}{7}$，其中$i=\\sqrt{-1}$。求\n$$\\prod_{k=0}^{6}(\\omega^{3k}+\\omega^k+1).$$",
+    "answer": "24",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "下表的数据是对中央高中学生的一项调查中乘公交的学生所占的百分比；每个年级各调查了300名男生和300名女生。哪个年级的男生乘公交人数最接近该年级女生乘公交人数的$135\\%$？\n\\begin{tabular}{|l|c|c|}\\hline\n年级 & 男生 & 女生 \\\\ \\hline\n$9^{\\mathrm{th}}$年级 & $41.1\\%$ & $39.4\\%$ \\\\ \\hline\n$10^{\\mathrm{th}}$年级 & $34.4\\%$ & $33.1\\%$ \\\\ \\hline\n$11^{\\mathrm{th}}$年级 & $20.6\\%$ & $13.8\\%$ \\\\ \\hline\n$12^{\\mathrm{th}}$年级 & $11.6\\%$ & $8.6\\%$ \\\\ \\hline\n\\end{tabular}",
+    "answer": "12",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "在$\\triangle ABC$中，$AB=12$，$BC=13$，$AC=15$，设$M$是$\\overline{AC}$上的一点，使得$\\triangle ABM$和$\\triangle BCM$的内切圆半径相等。则$\\frac{AM}{CM}=\\frac{p}{q}$，其中$p$和$q$是互质的正整数，求$p+q$。",
+    "answer": "45",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "将2023个球每个放入3个箱子中的某一个，以下哪个选项最接近每个箱子中都装有奇数个球的概率？$\\textbf{(A) } \\frac{1}{3} \\qquad \\textbf{(B) } \\frac{2}{3} \\qquad \\textbf{(C) } \\frac{1}{4} \\qquad \\textbf{(D) } \\frac{3}{10} \\qquad \\textbf{(E) } \\frac{1}{2}$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "定义$f(x)=|| x|-\\tfrac{1}{2}|$，$g(x)=|| x|-\\tfrac{1}{4}|$。求$y=4g(f(\\sin (2 \\pi x)))$与$x=4g(f(\\cos (3 \\pi y)))$的图像的交点个数。",
+    "answer": "385",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "设$\\triangle ABC$的内心为$I$，外心为$O$，满足$\\overline{IA} \\perp \\overline{OI}$，外接圆半径为$13$，内切圆半径为$6$，求$AB \\cdot AC$。",
+    "answer": "468",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "考虑满足 $|1+z+z^{2}|=4$ 的复数 $z$ 的集合。$z$ 的虚部的最大值可写成 $\\tfrac{\\sqrt{m}}{n}$ 的形式，其中 $m$ 和 $n$ 是互素的正整数。求 $m+n$ 的值。\n$\\textbf{(A)}~23\\qquad\\textbf{(B)}~24\\qquad\\textbf{(C)}~20\\qquad\\textbf{(D)}~21\\qquad\\textbf{(E)}~22$",
+    "answer": "D",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "凸等边六边形$ABCDEF$中，所有组对边互相平行。以线段$\\overline{AB}$、$\\overline{CD}$、$\\overline{EF}$的延长线为边的三角形的边长分别为$200$、$240$、$300$，求该六边形的边长。",
+    "answer": "80",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "什么是互斥事件？\nA. 不可能同时发生的两个事件称为互斥事件\nB. 一定同时发生的两个事件称为互斥事件\nC. 同时发生的两个事件称为互斥事件\nD. 可能同时发生的两个事件称为互斥事件",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "求所有满足$\\log_{3^2}(x-1)^2 = -1$的$x$值的和。",
+    "answer": "2",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "求所有小于$1000$的正整数的十进制表示中所有数字的和。",
+    "answer": "13500",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "矩形ABCD中，$AB = 24$，$BC = 7$。设$d$为$\\triangle ABC$和$\\triangle CDA$的内心之间的距离，求$d^2$。",
+    "answer": "325",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "平面上的点$(a,b)$若也位于直线$ax+by=1$上，则称其为闪亮点。求两个闪亮点之间的最大可能距离。",
+    "answer": "2",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "在区间 $0 < x < 2\\pi$ 内，有 $n$ 个 $x$ 的取值使得 $f(x) = \\sin\\left(7\\pi \\cdot \\sin(5x)\\right) = 0$。在这 $n$ 个 $x$ 的取值中，有 $t$ 个值对应的 $y = f(x)$ 的图像与 $x$ 轴相切。求 $n + t$。",
+    "answer": "149",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "马克的车发生故障，需要更换新的散热器。新散热器的价格为400美元，他到废品店购买时享受八折优惠。随后他雇了一名机械师进行安装，安装耗时3小时，机械师每小时收费50美元。他一共支付了多少钱？",
+    "answer": "230",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "存在实数$x$和$y$，二者均大于1，满足$$\\log_x(y^x) = \\log_y(x^{4y}) = 10.$$求$xy$。",
+    "answer": "25",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "你在玩一个游戏。一个$2 \\times 1$的矩形覆盖$3 \\times 3$方格网中两个相邻的方格（可水平或垂直放置），但未告知你覆盖的是哪两个方格。你的目标是找到至少一个被该矩形覆盖的方格。每一轮你猜测一个方格，之后会被告知该方格是否被隐藏的矩形覆盖。问至少需要多少轮才能保证你至少有一个猜测的方格被矩形覆盖？$\\textbf{(A)}~3\\qquad\\textbf{(B)}~5\\qquad\\textbf{(C)}~4\\qquad\\textbf{(D)}~8\\qquad\\textbf{(E)}~6$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "布伦丹有一个装弹珠的袋子，里面共有10颗弹珠。他搬运袋子时被一块小石子绊倒，掉了一半弹珠。他赶忙寻找，只找回了3颗。回到家后，他进一步检查弹珠，发现其中一颗并不是弹珠，而是一颗珠子，于是将它丢弃了。布伦丹最后有多少颗弹珠？",
+    "answer": "7",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "一个正方体形容器的顶点为$A$、$B$、$C$、$D$，其中$\\overline{AB}$和$\\overline{CD}$是正方体的平行棱，$\\overline{AC}$和$\\overline{BD}$是正方体表面的面的对角线。将正方体的顶点$A$放置在水平平面$\\mathcal{P}$上，使得矩形$ABCD$所在的平面与$\\mathcal{P}$垂直，顶点$B$在$\\mathcal{P}$上方$2$米处，顶点$C$在$\\mathcal{P}$上方$8$米处，顶点$D$在$\\mathcal{P}$上方$10$米处。正方体内装有水，水面在$\\mathcal{P}$上方$7$米处。水的体积为$\\frac{m}{n}$立方米，其中$m$和$n$是互质的正整数。求$m+n$。\n\n[asy]\nsize(250);\ndefaultpen(linewidth(0.6));\npair A = origin, B = (6,3), X = rotate(40)*B, Y = rotate(70)*X, C = X+Y, Z = X+B, D = B+C, W = B+Y;\npair P1 = 0.8*C+0.2*Y, P2 = 2/3*C+1/3*X, P3 = 0.2*D+0.8*Z, P4 = 0.63*D+0.37*W;\npair E = (-20,6), F = (-6,-5), G = (18,-2), H = (9,8);\nfilldraw(E--F--G--H--cycle,rgb(0.98,0.98,0.2));\nfill(A--Y--P1--P4--P3--Z--B--cycle,rgb(0.35,0.7,0.9));\ndraw(A--B--Z--X--A--Y--C--X^^C--D--Z);\ndraw(P1--P2--P3--P4--cycle^^D--P4);\ndot(\"$A$\",A,S);\ndot(\"$B$\",B,S);\ndot(\"$C$\",C,N);\ndot(\"$D$\",D,N);\nlabel(\"$\\mathcal P$\",(-13,4.5));\n[/asy]",
+    "answer": "751",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "△ABC位于平面$\\mathcal P$内，$AB=6$，$AC=4$，且$\\angle BAC=90^\\circ$。设$D$为$\\triangle ABC$的重心关于直线$\\overline{BC}$的对称点。四个球均在平面$\\mathcal P$的同侧，半径分别为$1$、$2$、$3$和$r$，且分别与平面$\\mathcal P$切于点$A$、$B$、$C$、$D$。这四个球还均与第二个平面$\\mathcal T$相切，且都在平面$\\mathcal T$的同侧。$r$可表示为$\\tfrac{m}{n}$，其中$m$与$n$是互素的正整数，求$m+n$的值。",
+    "answer": "161",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "为庆祝儿童节，孩子们将在国家总统面前进行团体操表演。每行站8人，5所不同的学校各排7行。这场团体操最多有多少名儿童？",
+    "answer": "280",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "求从集合$A=\\{1,2,3,4,5,6\\}$到$A$的满射$\\pi$的个数，使得对任意$a\\in A$，都有\n\\[\n\\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a.\n\\]",
+    "answer": "396",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "壁虎位于一间长12英尺、宽10英尺、高8英尺的房间内。壁虎当前处于一面侧墙（10英尺×8英尺）上，距离天花板1英尺，且距离后墙（12英尺×8英尺）1英尺。壁虎发现对面侧墙上有一只苍蝇，该苍蝇距离地面1英尺，且距离前墙1英尺。若壁虎不能跳跃，只能在墙面和天花板表面行走，求它到达苍蝇的最短路径长度，结果用最简根式表示。",
+    "answer": "2\\sqrt{113}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "-39.0 + (-0.07) =",
+    "answer": "-39.07",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "丹尼尔在一家电子产品商店工作，他声称电视的受欢迎程度（以销量衡量）与其价格成反比。若售价为$\\$$1500的电视有15位顾客购买，根据丹尼尔的理论，售价为$\\$$2500的电视会有多少位顾客购买？",
+    "answer": "9",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "定义对于任意实数$x$和$y$，$x\\diamond y$为$|x-y|$。求$(1\\diamond(2\\diamond3))-((1\\diamond2)\\diamond3)$的值。\n\nA. $1$\nB. $-2$\nC. $2$\nD. $-1$",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "Janet掷一个标准的6面骰子4次，并记录每次投掷后点数的累加和。求在某一时刻，她的累加和等于3的概率是多少？\n$\\textbf{(A) }\\frac{2}{9}\\qquad\\textbf{(B) }\\frac{49}{216}\\qquad\\textbf{(C) }\\frac{25}{108}\\qquad\\textbf{(D) }\\frac{17}{72}\\qquad\\textbf{(E) }\\frac{13}{54}$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "珍妮特给女儿买了一枚胸针。她支付500美元购买制作材料，之后又支付800美元请珠宝商制作。随后，她支付前述总费用的10%为胸针投保。她总共支付了多少钱？",
+    "answer": "1430",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设随机变量$X$的分布函数为$F(x)=\\alpha\\Phi(x)+(1-\\alpha)\\Phi\\left(\\frac{x-1}{2}\\right)$，其中$\\Phi(x)$为标准正态分布函数，$0<\\alpha<1$，则$E(X)$和$D(X)$分别为____\n\nA. $1-\\alpha$ 和$5-(\\alpha+1) 2$\nB. $1-\\alpha$ 和$5- (\\alpha-1) 2$\nC. $\\alpha$ 和$5-(\\alpha+1) 2$\nD. $\\alpha$ 和$5-(\\alpha-1)2$",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "将表达式 \\[\\frac{4+6a}{5}-\\frac{1+3a}{4}\\] 写成一个分式。",
+    "answer": "\\frac{11+9a}{20}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "求满足以下条件的十进制正整数回文数的个数：各位数字均不为0，且各位数字之和为13。例如，42124 就满足这些条件。\n注：回文数是指其数位表示从左到右读取与从右到左读取结果相同的数。",
+    "answer": "62",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "卡洛斯去一家体育用品店购买跑鞋。跑鞋正在促销，每双鞋的价格均降低$20\\%$。卡洛斯还知道，他需要按折扣后的价格缴纳$7.5\\%$的销售税。他有43美元。他能负担得起的最贵的跑鞋的原价（折扣前）是多少？\n$\\textbf{(A) }46\\qquad\\textbf{(B) }50\\qquad\\textbf{(C) }48\\qquad\\textbf{(D) }47\\qquad\\textbf{(E) }49$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "对于随机变量$X$的分布函数$F(x)$，若存在非负可积函数$f(x)$，使得对任意实数$x$，$F(x)=\\int_{-\\infty}^{x} f(t) \\mathrm{d} t$，则称$X$为\nA. 离散随机变量$X$的分布律\nB. 连续型随机变量\nC. 连续型随机变量$X$的分布律\nD. 离散型随机变量",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "设$S$为所有正有理数$r$构成的集合，满足：将$r$与$55r$化为最简分数后，其中一个分数的分子与分母之和等于另一个分数的分子与分母之和。$S$中所有元素的和可表示为$\\frac{p}{q}$的形式，其中$p$、$q$为互质的正整数，求$p+q$的值。",
+    "answer": "719",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "一天早上，亨特进教室时数了数学校停车场里停放的汽车，共有50辆。第一节课间休息时，他又数了数停车场，发现比之前多了20辆汽车。当他下课去吃午饭时，发现停车场里的汽车有一半已经开走了。请问午餐休息时他数的汽车总数是多少？",
+    "answer": "35",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "苏珊娜每三天走4英里。她在二月最少能走多少英里？",
+    "answer": "36",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "一个灯罩呈直圆台的侧面形状。该圆台的高为$3\\sqrt3$英寸，顶面直径为$6$英寸，底面直径为$12$英寸。一只虫子位于灯罩底部，灯罩顶面边缘有一滴蜂蜜，该位置是顶面边缘距离虫子最远的点。虫子想要爬到蜂蜜处，但必须始终停留在灯罩表面上。求虫子到蜂蜜的最短路径长度（单位：英寸）？\n\nA. $6 + 6\\pi$\nB. $6\\sqrt5$\nC. $6\\sqrt3 + \\pi$\nD. $6 + 3\\pi$",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "数 $M=124563987$ 是满足以下条件的最小数：它恰好使用全部非零数字各一次，且任意相邻两位数均为非质数。例如，$M$ 的第5位与第6位数字组成的数为63，不是质数。$N$ 是满足上述条件的最大数，求$N$的第5位和第6位数字。\n$\\textbf{(A) }6和3\\qquad\\textbf{(B) }5和4\\qquad\\textbf{(C) }5和2\\qquad\\textbf{(D) }4和8\\qquad\\textbf{(E) }3和5$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "求$\\left(4\\dfrac{5}{8}\\right)^{55} \\cdot \\left(\\dfrac{8}{37}\\right)^{55}$的值。",
+    "answer": "1",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "已知$a+b=8$，$b+c=-3$，$a+c=-5$，求$abc$的值。",
+    "answer": "-120",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设非负实数 $x_1,x_2,\\cdots,x_{2018}$ 满足 $\\sum_{1\\leq i<j\\leq 2018}x_ix_j=1$。求 $\\sum_{i=1}^{2018}\\frac{1}{s-x_i}$ 的最小值，其中 $s=\\sum_{i=1}^{2018}x_i$。（赵斌、王坤供题）原始的答案是 $k\\sqrt{m}+n$ 的形式，求 $k+m+n$ 的值。",
+    "answer": "38",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "求所有满足 $n+2$ 整除乘积 $3(n+3)(n^2+9)$ 的正整数 $n$ 的和。",
+    "answer": "49",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "鸭子每周需要食用3.5磅昆虫才能生存。若有一群共10只鸭子，它们每天需要多少磅昆虫？",
+    "answer": "5",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "在整数集$\\mathbb{Z}$上定义二元运算$\\cdot$，满足等式$m \\cdot n = m + n + mn$。关于二元结构$(\\mathbb{Z}, \\cdot)$，以下陈述中正确的是（ ）\nI. 该结构不是群，因为该运算不满足结合律。\nII. 该结构不是群，因为该结构没有单位元。\nIII. 该结构不是群，因为并非所有元素都有逆元。\nIV. 该结构是群。\n\nA. 仅I和II\nB. 仅I和III\nC. 仅II和III\nD. 仅III",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "三角形的一个外角与任何一个和它不相邻的内角的大小关系是？\nA. 小于\nB. 大于\nC. 等于\nD. 无关",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "求最大的实数$c$，使得对平面上任意两个单位向量$\\overrightarrow{v_1}$、$\\overrightarrow{v_2}$，均存在单位向量$\\overrightarrow{v}$，满足$|\\overrightarrow{v}\\cdot\\overrightarrow{v_1}|\\cdot|\\overrightarrow{v}\\cdot\\overrightarrow{v_2}|\\geq c$。（胡珏伟供题）",
+    "answer": "3",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "有多少个有序整数对$(a,b)$，使得多项式$x^3+ax^2+bx+6$有3个不同的整数根？\n$\\textbf{(A)}\\ 4 \\qquad\\textbf{(B)}\\ 8 \\qquad\\textbf{(C)}\\ 5 \\qquad\\textbf{(D)}\\ 6 \\qquad\\textbf{(E)}\\ 7$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "Alex 用两条互相垂直且交于圆盘中心的两条直径将圆盘划分为四个象限。他在圆盘内额外画了 25 条线段，每条线段的绘制方式为：随机选取圆盘周界上位于不同象限的两个点，连接这两点得到该线段。求这 27 条线段将圆盘分割成的区域数的期望值。",
+    "answer": "204",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "在一张矩形便利贴的表面上，你随意画一些与它的边平行的直线。每画一条直线时，该直线平行于矩形的一组对边或另一组对边的概率均为$50\\%$，且不会与已有的直线或便利贴的边缘重合。几分钟后，你发现一共画了20条直线。问这张便利贴被分割成的矩形的期望数量是多少？",
+    "answer": "116",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "一个整数三角形阵列的第1、2、3、4、5行如下所示：\n[asy] size(4.5cm); label(\"$1$\", (0,0)); label(\"$1$\", (-0.5,-2/3)); label(\"$1$\", (0.5,-2/3)); label(\"$1$\", (-1,-4/3)); label(\"$3$\", (0,-4/3)); label(\"$1$\", (1,-4/3)); label(\"$1$\", (-1.5,-2)); label(\"$5$\", (-0.5,-2)); label(\"$5$\", (0.5,-2)); label(\"$1$\", (1.5,-2)); label(\"$1$\", (-2,-8/3)); label(\"$7$\", (-1,-8/3)); label(\"$11$\", (0,-8/3)); label(\"$7$\", (1,-8/3)); label(\"$1$\", (2,-8/3)); [/asy]\n第一行之后的每一行均在该行的两端放置数字1，每个内部项等于前一行的两个对角上方数字之和加1。第2023行的2023个数之和的个位数是多少？\n$\\textbf{(A) }9\\qquad\\textbf{(B) }7\\qquad\\textbf{(C) }1\\qquad\\textbf{(D) }5\\qquad\\textbf{(E) }3$",
+    "answer": "D",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "求所有满足如下条件的实数$r$的和：存在至少一个点，使得圆心在$(4, 39)$、半径为$r$的圆与方程为$2y = x^2 - 8x + 12$的抛物线相切。",
+    "answer": "50",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "设凸五边形$ABCDE$满足$AB=14$，$BC=7$，$CD=24$，$DE=13$，$EA=26$，且$\\angle B=\\angle E=60^{\\circ}$。对于平面内的任意一点$X$，定义$f(X)=AX+BX+CX+DX+EX$。$f(X)$的最小可能值可表示为$m+n\\sqrt{p}$，其中$m$、$n$为正整数，$p$不被任何素数的平方整除。求$m+n+p$。",
+    "answer": "60",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "为了庆祝六一儿童节，孩子们将在我国领导人的见证下进行盛大的集体操表演。他们每行站8人，每个学校站成7行，共有五个不同的学校参加。那么参加这次表演的孩子可能有多少个呢？",
+    "answer": "280",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "扎克有三个袋子，还有一堆需要放入这些袋子的铅笔。要求每个袋子放的铅笔数尽可能多，且三个袋子中的铅笔数量相同，他最多可能剩下多少支铅笔？",
+    "answer": "2",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "计算\n\\[\\sin (\\arcsin 0.4 + \\arcsin 0.5) \\cdot \\sin (\\arcsin 0.5 - \\arcsin 0.4).\\]",
+    "answer": "\\frac{9}{100}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "关于单项式的乘法法则，下列说法正确的是？\nA. 只在某一个单项式中出现的字母及其指数，应当被去掉\nB. 系数相乘，同底数幂相除\nC. 系数相除，同底数幂分别运算\nD. 系数相乘，同底数幂分别运算",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "对于二次函数，当横坐标分别为$x_{1}$和$x_{2}$时，对应的纵坐标相等，那么它的对称轴是\nA. $x=\\frac{x_{1}^{2}+x_{2}^{2}}{2}$\nB. $x=\\frac{x_{1}^{2}-x_{2}^{2}}{2}$\nC. $x=\\frac{x_{1}+x_{2}}{2}$\nD. $x=\\frac{x_{1}-x_{2}}{2}$",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "数字显示屏将当前日期显示为一个$8$位整数，由$4$位年份、$2$位月份、$2$位当月日期依次组成。例如，2023年的情人节显示为$20230214$。在2023年的所有日期中，有多少个日期的8位数字显示里每个数字都出现偶数次？$\\textbf{(A)}~9\\qquad\\textbf{(B)}~7\\qquad\\textbf{(C)}~5\\qquad\\textbf{(D)}~6\\qquad\\textbf{(E)}~8$",
+    "answer": "A",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "六棵苹果树每棵上结的苹果数构成等差数列，其中六棵树中结苹果最多的棵的苹果数是结苹果最少的棵的苹果数的2倍，六棵树上的苹果总数为$990$。求六棵树中结苹果最多的那棵的苹果数。",
+    "answer": "220",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "环面$T$是将半径为3的圆绕该圆所在平面内且与圆心距离为6的一条轴旋转所得的曲面（类似甜甜圈的形状）。设$S$是半径为11的球。当$T$置于$S$内部时，$T$与$S$沿半径为$r_i$的圆内切；当$T$置于$S$外部时，$T$与$S$沿半径为$r_o$的圆外切。差$r_i - r_o$可表示为$\\frac{m}{n}$，其中$m$、$n$是互质的正整数，求$m+n$。\n\n<asy>\nunitsize(0.3 inch);\ndraw(ellipse((0,0), 3, 1.75));\ndraw((-1.2,0.1)..(-0.8,-0.03)..(-0.4,-0.11)..(0,-0.15)..(0.4,-0.11)..(0.8,-0.03)..(1.2,0.1));\ndraw((-1,0.04)..(-0.5,0.12)..(0,0.16)..(0.5,0.12)..(1,0.04));\ndraw((0,2.4)--(0,-0.15));\ndraw((0,-0.15)--(0,-1.75), dashed);\ndraw((0,-1.75)--(0,-2.25));\ndraw(ellipse((2,0), 1, 0.9));\ndraw((2.03,-0.02)--(2.9,-0.4));\n</asy>",
+    "answer": "127",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "现有$25$个不可区分的白色筹码和$25$个不可区分的黑色筹码。求将这些筹码中的若干个放入$5 \\times 5$方格，满足以下条件，求此时的方案数：\n* 每个方格中至多放$1$个筹码；\n* 同一行中的所有筹码颜色相同，同一列中的所有筹码颜色相同；\n* 若再向方格中放入任意一个筹码，将违反上述两个条件中的至少一个。",
+    "answer": "902",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "设向量$\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$满足\n\\[\\mathbf{a} \\times \\mathbf{b} = \\begin{pmatrix} 6 \\\\ -7 \\\\ 3 \\end{pmatrix}, \\quad \\mathbf{a} \\times \\mathbf{c} = \\begin{pmatrix} 4 \\\\ 7 \\\\ 2 \\end{pmatrix}, \\quad \\mathbf{b} \\times \\mathbf{c} = \\begin{pmatrix} 1 \\\\ -7 \\\\ 18 \\end{pmatrix},\\]\n计算$(2 \\mathbf{b} - \\mathbf{a}) \\times (3 \\mathbf{c} + \\mathbf{a})$。",
+    "answer": "\\begin{pmatrix} -18 \\\\ -49 \\\\ 96 \\end{pmatrix}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "Alice和Bob正在进行一场游戏，Alice先手。在Alice的回合，她抛一枚硬币，若抛出正面则她获胜；若未抛出正面，则轮到Bob的回合。在Bob的回合，他抛一枚硬币，若抛出反面则他获胜；若未抛出反面，则回到Alice的回合。求Alice获胜的概率？",
+    "answer": "\\frac{2}{3}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "一组互不相同的正整数的乘积为84，这些整数的最小可能和是多少？",
+    "answer": "14",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "如果安今年9岁，她的兄弟的年龄是她的两倍，3年后她的兄弟多少岁？",
+    "answer": "21",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "环面$T$是将半径为3的圆绕该圆所在平面内、与圆心距离为6的一条轴旋转得到的曲面（类似甜甜圈）。设$S$是半径为11的球。当$T$置于$S$内部时，$T$与$S$沿半径为$r_i$的圆内切；当$T$置于$S$外部时，$T$与$S$沿半径为$r_o$的圆外切。差$r_i - r_o$可写成$\\frac{m}{n}$，其中$m$和$n$是互质的正整数，求$m+n$。\n[asy] unitsize(0.3 inch); draw(ellipse((0,0), 3, 1.75)); draw((-1.2,0.1)..(-0.8,-0.03)..(-0.4,-0.11)..(0,-0.15)..(0.4,-0.11)..(0.8,-0.03)..(1.2,0.1)); draw((-1,0.04)..(-0.5,0.12)..(0,0.16)..(0.5,0.12)..(1,0.04)); draw((0,2.4)--(0,-0.15)); draw((0,-0.15)--(0,-1.75), dashed); draw((0,-1.75)--(0,-2.25)); draw(ellipse((2,0), 1, 0.9)); draw((2.03,-0.02)--(2.9,-0.4)); [/asy]",
+    "answer": "127",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "求连接点$(-5,5)$与点$(3,7)$的线段的中点，将你的答案表示为有序对$(x,y)$的形式。",
+    "answer": "(-1,6)",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "珍有3条鱼，每条每天需要价值1美元的食物，她在五月份花在食物上的钱是多少？",
+    "answer": "93",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "图中阴影三角形的面积是多少？\n[asy]\nfill((0,0)--(2,3)--(10,0)--cycle,gray);\ndraw((0,0)--(10,0)--(10,3)--(0,3)--cycle,linewidth(1));\ndraw((0,0)--(2,3)--(10,0),linewidth(1));\nlabel(\"10 cm\",(5,3),N);\nlabel(\"10 cm\",(5,0),S);\nlabel(\"3 cm\",(0,1.5),W);\nlabel(\"3 cm\",(10,1.5),E);\ndraw((0,2.5)--(.5,2.5)--(.5,3));\ndraw((10,2.5)--(9.5,2.5)--(9.5,3));\n[/asy]",
+    "answer": "15\\mbox{ cm}^2",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设$\\triangle ABC$为三角形，点$D$在$\\overline{BC}$上，且$\\overline{AD}$平分$\\angle BAC$。记$\\omega$为过点$A$且与线段$\\overline{BC}$切于点$D$的圆。设$E\\neq A$、$F\\neq A$分别为$\\omega$与线段$\\overline{AB}$、$\\overline{AC}$的交点。已知$AB=200$，$AC=225$，且$AE$、$AF$、$BD$、$CD$均为正整数，求$BC$的所有可能值的和。",
+    "answer": "850",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "根据极值的大小，公约数有——；公倍数有——？\n\nA. 最小公因数；最大公倍数\nB. 以上都不是\nC. 最大公约数；最小公倍数\nD. 最小公约数；最大公倍数",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "罗伯特想购买一个书架和一张沙发，收到了两份报价。“家具联合公司”的报价包含1350美元预付款，以及每月350美元、共6期的月分期付款；“温馨家居公司”的报价包含1100美元预付款，以及每月250美元、共9期的月分期付款。这两份报价的费用差价是多少？",
+    "answer": "100",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设$Q$为满足如下条件的序列$A_1$，$A_2$，$\\dots$，$A_n$的个数：$n$是不超过10的正整数，每个$A_i$都是集合$\\{1, 2, 3, \\dots, 10\\}$的子集，且对每个$2 \\leq i \\leq n$，$A_{i-1}$都是$A_i$的子集。例如，$\\{\\}$，$\\{5, 7\\}$，$\\{2, 5, 7\\}$，$\\{2, 5, 7\\}$，$\\{2, 5, 6, 7, 9\\}$是其中一个符合条件的序列，此时$n=5$。$Q$除以$10$的余数是多少？$\\textbf{(A) } 9 \\qquad \\textbf{(B) } 1 \\qquad \\textbf{(C) } 3 \\qquad \\textbf{(D) } 5 \\qquad \\textbf{(E) } 7$",
+    "answer": "D",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "xy平面上满足$x^3 y^2 - x^2 y^2 - x y^4 + x y^3 \\geq 0$且$0 \\leq x \\leq y$的区域的面积是多少？\n$\\textbf{(A) }\\frac{1}{4}\\qquad\\textbf{(B) }\\frac{1}{2}\\qquad\\textbf{(C) }1\\qquad\\textbf{(D) }2\\qquad\\textbf{(E) }4$",
+    "answer": "A",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "如下直线经参数化后，其方向向量为$\\begin{pmatrix} -7 \\\\ b \\end{pmatrix}$的形式，求$b$。\n[asy]\nunitsize(0.4 cm);\n\npair A, B, L, R;\nint i, n;\n\nfor (i = -8; i <= 8; ++i) {\n  draw((i,-8)--(i,8),gray(0.7));\n  draw((-8,i)--(8,i),gray(0.7));\n}\n\ndraw((-8,0)--(8,0),Arrows(6));\ndraw((0,-8)--(0,8),Arrows(6));\n\nA = (-5,4);\nB = (-1,3);\nL = extension(A, B, (-8,0), (-8,1));\nR = extension(A, B, (8,0), (8,1));\n\ndraw(L--R, red);\n\nlabel(\"$x$\", (8,0), E);\nlabel(\"$y$\", (0,8), N);\n[/asy]",
+    "answer": "\\frac{7}{4}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "青蛙Flora从数轴上的0点出发，向右进行一系列跳跃。每一次跳跃相互独立，与之前的跳跃无关，Flora跳出的正整数距离$m$的概率为$\\frac{1}{2^m}$。求Flora最终落在10处的概率？\n$\\textbf{(A) } \\frac{5}{512} \\qquad \\textbf{(B) } \\frac{45}{1024} \\qquad \\textbf{(C) } \\frac{127}{1024} \\qquad \\textbf{(D) } \\frac{511}{1024} \\qquad \\textbf{(E) } \\frac{1}{2}$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "四个单位正方形组成一个$2\\times 2$网格。构成这些正方形的边的12条单位线段每条被染成红色或蓝色，且每个单位正方形都恰有2条红边和2条蓝边。下面给出了一种示例（红色为实线，蓝色为虚线）。求这样的染色方案数。\n\n\\begin{tikzpicture}\n    \\foreach \\x in {0,1} {\n        \\foreach \\y in {0,1} {\n            \\draw[dashed, blue, very thick] (\\x, \\y) rectangle ++(1,1);\n        }\n    }\n    \n    \\draw[red, very thick] (1,2) -- (2,2);\n    \\draw[red, very thick] (1,1) -- (1,2);\n    \\draw[red, very thick] (0,1) -- (1,1);\n    \\draw[red, very thick] (2,0) -- (2,1);\n    \\draw[red, very thick] (1,0) -- (2,0);\n    \\draw[red, very thick] (0,0) -- (1,0);\n\\end{tikzpicture}",
+    "answer": "82",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "汉娜备考期末时精神崩溃，在高中停车场砸碎车辆车窗。她砸了学生车辆的$\\frac{1}{4}$的车窗，以及教师车辆的$\\frac{3}{4}$的车窗。已知共有64辆学生车，每辆有4个车窗；32辆教师车，每辆有2个车窗，问汉娜一共砸了多少个车窗？",
+    "answer": "112",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "设$X$是定义在正整数集上的离散型随机变量，对任意正整数$n$，事件$X=n$的概率为$\\frac{1}{2^n}$。若$Y$是与$X$同分布的随机变量，且$X$与$Y$相互独立，求$X$和$Y$中至少有一个取值大于3的概率。\n\nA. $\\frac{1}{64}$\nB. $\\frac{15}{64}$\nC. $\\frac{1}{4}$\nD. $\\frac{3}{8}$",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "设函数$N$、$O$满足$N(x) = 2\\sqrt{x}$，$O(x) = x^2$，求$N(O(N(O(N(O(3))))))$的值。",
+    "answer": "24",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "神采奕奕的林戈正在套一匹倔强的离群小牛。林戈决定先给小牛缓期追捕，计算$|(1-i)^8|$后再去追它，他应该得到什么答案？",
+    "answer": "16",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "$\\sqrt{a^{2}} (a \\leq 0)$的结果是什么？\n\nA. a\nB. -a\nC. 1\nD. 0",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "正整数$a$、$b$、$c$从集合$\\{1,2,3,\\cdots,2010\\}$中随机独立有放回地选取，求$abc+ab+a$能被$3$整除的概率。原答案为$\\frac{k}{m}$的形式，求$k+m$的值。",
+    "answer": "40",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "设$n$为给定的正整数。求在满足对所有$i=1,2,\\cdots,2n$，均有$-1\\leqslant x_{i}\\leqslant1$的条件下，表达式\n$$\\sum\\limits_{1\\leqslant r<s\\leqslant2n}(s-r-n)x_rx_s$$\n的最大可能值。",
+    "answer": "20",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "玛丽的食品储藏室里有6罐糖珠。每罐糖珠可以装饰8个纸杯蛋糕。玛丽想烤足够的纸杯蛋糕，用完她所有的糖珠。如果每个烤盘能容纳12个纸杯蛋糕，她应该烤多少个烤盘的纸杯蛋糕？",
+    "answer": "4",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "$10 \\times 15 \\times 24$ 的积的正平方根是多少？",
+    "answer": "60",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "帕特里克从学校出发，沿一条直路以恒定速率步行前往公园。帕特里克出发1小时后，坦娅从学校出发，沿同一条路跑步前往公园。坦娅出发1小时后，何塞从学校出发，沿同一条路骑车前往公园。坦娅的跑步速率比帕特里克的步行速率快每小时2英里，何塞的骑车速率比坦娅的跑步速率快每小时7英里，且三人同时到达公园。学校到公园的距离为$\\frac{m}{n}$英里，其中$m$和$n$是互素的正整数，求$m+n$。",
+    "answer": "277",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "在美制计量单位中，长度单位“mi”的缩写所对应的单位名称是？\nA. 里程表\nB. 英里\nC. 里程碑\nD. 里程碑柱",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "设$\\triangle ABC$为直角三角形，$\\angle A = 90^\\circ$，$BC = 38$。三角形内部存在点$K$和$L$，使得\n$$AK = AL = BK = CL = KL = 14.$$\n四边形$BKLC$的面积可表示为$n\\sqrt{3}$，其中$n$为正整数，求$n$。",
+    "answer": "104",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "下列哪项不是\"小于\"的标志？\n\nA. 低于\nB. 小于\nC. 至少\nD. 少于",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "比阿特丽斯为她的美术课买了10包蜡笔。其中6包每包含8种颜色，另外4包每包含16种颜色。比阿特丽斯一共买了多少种颜色的蜡笔？",
+    "answer": "112",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "求满足$a + b + c = 300$且$a^2 b + a^2 c + b^2 a + b^2 c + c^2 a + c^2 b = 6,000,000$的非负整数三元组$(a, b, c)$的个数。",
+    "answer": "601",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "若连续随机变量$X$的概率密度为\n$$\nf(x)= \\begin{cases}\\lambda \\mathrm{e}^{-\\lambda x}, & x>0, \\\\ 0, & \\text { otherwise, }\\end{cases}\n$$\n其中$\\lambda>0$为常数，则称$X$服从参数为$\\lambda$的何种分布？\nA. 伽马分布\nB. 均匀分布\nC. 正态分布\nD. 指数分布",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "两个分式相除，需要把什么的分子和分母颠倒位置后再与什么相乘。\n\nA. 除式、被除式\nB. 较大的分式、较小的分式\nC. 被除式、除式\nD. 较小的分式、较大的分式",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "Wenlu、Xander、Yasser和Zoe分别作出如下陈述：Wenlu说“Xander在说谎”。Xander说“Yasser在说谎”。Yasser说“Zoe说的是真话”。Zoe说“Wenlu说的是真话”。说真话的人的可能个数是多少？\n$\\textbf{(A) }1或2\\qquad\\textbf{(B) }1或3\\qquad\\textbf{(C) }2\\qquad\\textbf{(D) }2或3\\qquad\\textbf{(E) }3$",
+    "answer": "B",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "Jen参加一项抽奖活动，从集合$S=\\{1,2,3,\\cdots,9,10\\}$中选取4个互不相同的数。之后从$S$中随机抽取4个数。若Jen选取的数中至少有2个与随机抽取的数重合，则她获得普通奖项；若她选取的4个数与随机抽取的4个数完全一致，则她获得头奖。已知她获得了普通奖项，则她获得头奖的概率为$\\tfrac{m}{n}$，其中$m$与$n$为互质的正整数，求$m+n$。",
+    "answer": "116",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "在美国计量单位中，一英里等价于多少英尺？\nA. 5280英尺\nB. 1000英尺\nC. 20000英尺\nD. 10000英尺",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "同分母分数加减法的法则是什么？\nA. 分母不变，分子相加减\nB. 分母不变，分母相加减\nC. 分子不变，分母相加减\nD. 分子不变，分子相加减",
+    "answer": "A",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "如果两条直线平行，那么同位角之间有什么关系？\n\nA. 两倍\nB. 相等\nC. 无关\nD. 三倍",
+    "answer": "B",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "设$a$、$b$、$c$为正整数，满足\\[\\frac{a}{14}+\\frac{b}{15}=\\frac{c}{210}.\\]下列命题中必然成立的有哪些？\nI. 若$\\gcd(a,14)=1$或$\\gcd(b,15)=1$或两者同时成立，则$\\gcd(c,210)=1$。\nII. 若$\\gcd(c,210)=1$，则$\\gcd(a,14)=1$或$\\gcd(b,15)=1$或两者同时成立。\nIII. $\\gcd(c,210)=1$当且仅当$\\gcd(a,14)=\\gcd(b,15)=1$。\n$\\textbf{(A)}$ I、II和III均成立$\\qquad\\textbf{(B)}$ 仅I成立$\\qquad\\textbf{(C)}$ 仅I和II成立$\\qquad\\textbf{(D)}$ 仅III成立$\\qquad\\textbf{(E)}$ 仅II和III成立",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "半径为6、圆心为点$A$的圆$\\omega_1$与半径为15的圆$\\omega_2$内切于点$B$。点$C$、$D$在圆$\\omega_2$上，且$\\overline{BC}$是$\\omega_2$的直径，$\\overline{BC} \\perp \\overline{AD}$。矩形$EFGH$内接于$\\omega_1$，满足$\\overline{EF} \\perp \\overline{BC}$，且点$C$到$\\overline{GH}$的距离比到$\\overline{EF}$的距离近，点$D$到$\\overline{FG}$的距离比到$\\overline{EH}$的距离近，如图所示。$\\triangle DGF$与$\\triangle CHG$的面积相等。矩形$EFGH$的面积为$\\frac{m}{n}$，其中$m$、$n$是互质的正整数，求$m+n$的值。\n\n\\begin{tikzpicture}[scale=0.15]\n\n    \\coordinate (A) at (0,0);\n    \\coordinate (B) at (6,0);\n    \\coordinate (C) at (-24,0);\n    \\coordinate (D) at (0,12);\n\n    \\coordinate (O) at (-9, 0);\n\n    \\def\\rone{6} \n    \\def\\rtwo{15} \n\n    \\coordinate (E) at (5,-3.3166);\n    \\coordinate (F) at (5,3.3166);\n    \\coordinate (G) at (-5,3.3166);\n    \\coordinate (H) at (-5,-3.3166);\n\n    \\fill[gray!30] (D) -- (G) -- (F) -- cycle;\n    \\fill[gray!30] (C) -- (H) -- (G) -- cycle;\n    \n    \\draw[thick] (E) -- (F) -- (G) -- (H) -- cycle; \n\n    \\foreach \\p in {A,B,C,D,E,F,G,H}\n        \\fill[black] (\\p) circle (12pt);\n\n    \\node[below] at (A) {$A$};\n    \\node[right] at (B) {$B$};\n    \\node[left] at (C) {$C$};\n    \\node[above] at (D) {$D$};\n    \\node[below right] at (E) {$E$};\n    \\node[above right] at (F) {$F$};\n    \\node[above left] at (G) {$G$};\n    \\node[below left] at (H) {$H$};\n    \\node at (0,-4.75) {$\\omega_1$};\n    \\node at (-9, -14) {$\\omega_2$};\n\n    \\draw[thick] (A) circle (\\rone); \n    \\draw[thick] (O) circle (\\rtwo); \n    \\draw[thick] (C) -- (B);\n    \\draw[thick] (D) -- (A);\n    \\draw[thick] (C) -- (G);\n    \\draw[thick] (C) -- (H);\n    \\draw[thick] (D) -- (G);\n    \\draw[thick] (D) -- (F);\n\n    \n\n\\end{tikzpicture}",
+    "answer": "293",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "下图是一个圆心为$F$的圆，各角满足以下关系：\n- $\\angle BFC = 2\\angle AFB$\n- $\\angle CFD = 3\\angle AFB$\n- $\\angle DFE = 4\\angle AFB$\n- $\\angle EFA = 5\\angle AFB$\n求$\\angle BFC$的度数。",
+    "answer": "48",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "点$Q$和$A$在函数$y=\\log_{2}x$的图像上，线段$\\overline{QA}$的中点为$(6, 2)$，求$Q$与$A$的$x$坐标的正差值？\n$\\textbf{(A)}~8\\qquad\\textbf{(B)}~9\\qquad\\textbf{(C)}~4\\sqrt{3}\\qquad\\textbf{(D)}~2\\sqrt{11}\\qquad\\textbf{(E)}~4\\sqrt{5}$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "点$P(d, -d)$和$Q(12 - d, 2d - 6)$都在同一个以原点为圆心的圆周上，求$d$的两个可能值的和？$\\textbf{(A) }-16\\qquad\\textbf{(B) }-4\\qquad\\textbf{(C) }4\\qquad\\textbf{(D) }8\\qquad\\textbf{(E) }16$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "已知回文数是指顺读与逆读都相同的数。求小于1000的最大整数，使得它在十进制和八进制下均为回文数，例如$292=444_{\\text{eight}}$。",
+    "answer": "585",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "数字显示屏将当前日期显示为一个$8$位整数，由$4$位的年份、$2$位的月份以及$2$位的当月日期依次组成。例如，今年的植树节显示为$20230428$。在2023年的所有日期中，有多少天的$8$位日期显示里，每个数字出现的次数都是偶数？\n$\\textbf{(A)}~5\\qquad\\textbf{(B)}~6\\qquad\\textbf{(C)}~7\\qquad\\textbf{(D)}~8\\qquad\\textbf{(E)}~9$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "求数 $5+\\sqrt{3}$ 与其共轭根式的乘积。",
+    "answer": "22",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设四面体$ABCD$满足$AB = CD = \\sqrt{41}$，$AC = BD = \\sqrt{80}$，$BC = AD = \\sqrt{89}$。四面体内部存在一点$I$，到该四面体各个面的距离均相等。该距离可表示为$\\frac{m\\sqrt{n}}{p}$的形式，其中$m$、$n$、$p$均为正整数，$m$与$p$互质，且$n$不被任何素数的平方整除。求$m+n+p$的值。",
+    "answer": "104",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "有$8!=40320$个八位正整数，每个都恰好使用数字1、2、3、4、5、6、7、8各一次。设$N$是这些数中能被22整除的数的个数，求$N$与2025的差。",
+    "answer": "279",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "三角形$ABC$满足$AC=20$，内接于圆$\\omega$。过点$B$作圆$\\omega$的切线$t$，点$A$到直线$t$的距离为$25$，点$C$到直线$t$的距离为$16$。若$S$表示三角形$ABC$的面积，求不超过$\\frac{S}{20}$的最大整数。",
+    "answer": "10",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "三角形的底增加$20\\%$，高减少$15\\%$，它的面积会发生什么变化？$\\textbf{(A) }$减少$3\\%\\qquad\\textbf{(B) }$保持不变\\qquad\\textbf{(C) }$减少$2\\%\\qquad\\textbf{(D) }$增加$2\\%\\qquad\\textbf{(E) }$增加$5\\%$",
+    "answer": "D",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "计算 \\(1000 \\times 1993 \\times 0.1993 \\times 10\\) 的值，并将结果表示为 \\(x^2\\) 的形式，求 \\(x\\) 的值。",
+    "answer": "1993",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "求 $1+3+5+\\cdots+2017+2019-2-4-6-\\cdots-2016-2018$ 的值是多少？\n\nA. 1008\nB. -1010\nC. 1010\nD. -1009",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "某班共有50名学生，拥有不同的爱好。其中10人喜欢烘焙，5人喜欢打篮球，其余学生要么喜欢玩电子游戏，要么喜欢玩音乐。若喜欢音乐的人数是喜欢篮球的人数的2倍，问喜欢玩电子游戏的学生有多少人？",
+    "answer": "25",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "$PQRST$ 是正五边形。点 $U$ 在线段 $ST$ 上，且 $\\angle QPU$ 为直角。求 $\\triangle PUT$ 的内角之比？\n$\\textbf{(A) }1:3:6\\qquad\\textbf{(B) }1:2:4\\qquad\\textbf{(C) }2:3:4\\qquad\\textbf{(D) }1:4:8\\qquad\\textbf{(E) }1:3:5$",
+    "answer": "A",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "每天早上，Aya会步行9公里，之后前往咖啡店。当她以$s$公里/小时的速度匀速步行时，全程（包含在咖啡店停留的$t$分钟）耗时4小时；当她以$s+2$公里/小时的速度步行时，全程（同样包含在咖啡店停留的$t$分钟）耗时2小时24分钟。假设Aya以$s+\\frac{1}{2}$公里/小时的速度步行，求全程（包含在咖啡店停留的$t$分钟）的耗时（单位：分钟）。",
+    "answer": "204",
+    "data_source": "AIME_2024"
+  },
+  {
+    "problem": "设$A, B, C$是$\\triangle A B C$的三个内角，则$3 \\cos A+2 \\cos 2 B+\\cos 3 C$的取值范围为____，求该范围的端点之和的整数部分。",
+    "answer": "4",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "负有理数除了负整数，还有什么数？\nA. 无理数\nB. 超越数\nC. 负分数\nD. 循环小数",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "阮女士正在给她的四个儿子往四个相同的玻璃杯中倒水。她将前三个玻璃杯完全倒满，但水在第四个玻璃杯仅被倒至$\\frac{1}{3}$满时就用完了。需要从每个前三个玻璃杯中各倒出几分之一玻璃杯的水到第四个玻璃杯中，才能使四个玻璃杯中的水量相同？\n$\\textbf{(A) }\\frac{1}{6}\\qquad\\textbf{(B) }\\frac{2}{9}\\qquad\\textbf{(C) }\\frac{1}{12}\\qquad\\textbf{(D) }\\frac{1}{4}\\qquad\\textbf{(E) }\\frac{1}{8}$",
+    "answer": "A",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "数列$(a_n)$由如下递推关系定义：$a_0=1$，$a_1=\\sqrt[19]{2}$，且当$n \\ge 2$时，$a_n=a_{n-1}a_{n-2}^2$。求最小的正整数$k$，使得乘积$a_1a_2 \\cdots a_k$为整数。",
+    "answer": "17",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "凯特琳和同学们在学校操场玩耍时，看到附近森林上方有50个仙女在飞舞。大约二十分钟后，她的一个朋友看到从东边飞来的仙女数量是凯特琳所见的一半，这些仙女加入了原本在那里的仙女中。十分钟后，30个仙女飞走了。还剩多少仙女？",
+    "answer": "45",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "给定一块 $2 \\times 2$ 的瓷砖和七张多米诺骨牌（$2 \\times 1$ 瓷砖），求用这些瓷砖中的部分铺满一个 $2 \\times 7$ 的矩形，且无空隙、任意两块瓷砖不重叠的铺法总数。",
+    "answer": "59",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "求整数有序对$(a,b)$的个数，使得多项式$x^3+ax^2+bx+6$有3个互不相同的整数根。\n\nA. 6 \nB. 4\nC. 8 \nD. 5",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "存在唯一的整数序列 $a_1, a_2, \\cdots, a_{2023}$，使得当 $\\tan 2023x$ 有定义时，有\n\\[\\tan2023x = \\frac{a_1 \\tan x + a_3 \\tan^3 x + a_5 \\tan^5 x + \\cdots + a_{2023} \\tan^{2023} x}{1 + a_2 \\tan^2 x + a_4 \\tan^4 x \\cdots + a_{2022} \\tan^{2022} x}\\]\n求 $a_{2023}$ 的值。$\\textbf{(A) } -2023 \\qquad\\textbf{(B) } -2022 \\qquad\\textbf{(C) } -1 \\qquad\\textbf{(D) } 1 \\qquad\\textbf{(E) } 2023$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "称正整数$n$为超互异数，如果$n$除以$2,3,4,5,6$的余数两两不同。求小于$1000$的超互异正整数的个数。",
+    "answer": "49",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "若一份零食装罐装桃子含40卡路里，占一个人每日卡路里需求的2%，则多少卡路里可满足一个人的每日卡路里需求？",
+    "answer": "2000",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "求满足如下性质的最小正整数$n$：对任意满足$x$整除$y^3$、$y$整除$z^3$、$z$整除$x^3$的正整数三元组$(x,y,z)$，均有$xyz$整除$(x+y+z)^n$。",
+    "answer": "13",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "Xander掷一个标准的6面骰子4次，并记录每次投掷后的累计点数。求在某一时刻，他的累计点数等于3的概率是多少？\n$\\textbf{(A) }\\frac{25}{108}\\qquad\\textbf{(B) }\\frac{13}{54}\\qquad\\textbf{(C) }\\frac{17}{72}\\qquad\\textbf{(D) }\\frac{2}{9}\\qquad\\textbf{(E) }\\frac{49}{216}$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "一个灯罩呈直圆台的侧面形状，该圆台的高为$3\\sqrt3$英寸，顶面直径为6英寸，底面直径为12英寸。一只甲虫位于灯罩底部，灯罩顶部边缘距离甲虫最远的位置有一团蜂蜜。甲虫需要爬到蜂蜜处，且必须始终停留在灯罩表面上，求甲虫到蜂蜜的最短路径长度（单位：英寸）。\n$\\textbf{(A) } 6 + 3\\pi\\qquad \\textbf{(B) }6 + 6\\pi\\qquad \\textbf{(C) } 6\\sqrt3 \\qquad \\textbf{(D) } 6\\sqrt5 \\qquad \\textbf{(E) } 6\\sqrt3 + \\pi$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "一家面包店的面包数量比萨姆上周五拥有的面包数量的7倍少40个。如果萨姆上周五有70个面包，这家面包店有多少个面包？",
+    "answer": "450",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "X城和Y城相距45英里。Ava住在X城，Maria住在Y城。Ava以每小时18英里的速度骑车前往Y城，两人同时出发，Maria以每小时12英里的速度骑车前往X城。他们相遇时距离X城多少英里？$\\textbf{(A) }25\\qquad\\textbf{(B) }26\\qquad\\textbf{(C) }27\\qquad\\textbf{(D) }20\\qquad\\textbf{(E) }24$",
+    "answer": "C",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "若两个向量$\\boldsymbol{\\alpha}_{1}$与$\\boldsymbol{\\alpha}_{2}$线性相关，则它们的几何关系是？\nA. 它们线性无关\nB. 它们共面但不一定共线\nC. 它们互相垂直\nD. 它们共线",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "Nik有200支蜡笔。他要把这些蜡笔分成每组8支，分别放入盒子中。每个盒子重8盎司，每支蜡笔重1盎司。若他把所有蜡笔都放入盒子，已知1磅等于16盎司，求蜡笔和盒子的总重量为多少磅？",
+    "answer": "25",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "约翰决定通过抵押房屋获得贷款。他的房屋价值250000美元。他获得的贷款金额为该房屋价值的40%。他用所获贷款金额的60%偿还债务。偿还债务后剩余多少钱？",
+    "answer": "40,000",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "$\\frac{4}{x+1}+\\frac{9}{x+2}+\\frac{16}{x+3}=(4 x+5)(2-x)$ 有几个正实数解?",
+    "answer": "2",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "16+59=",
+    "answer": "75",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "每个集合都有的子集是什么？\nA. 非空集\nB. 复数集\nC. 实数集\nD. 空集",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "设$f(x)=|x-p|+|x-15|+|x-p-15|$，其中$0 < p < 15$。求当$x$在区间$p \\leq x\\leq15$上时，$f(x)$的最小值。",
+    "answer": "15",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "在美国计量体系中，长度单位的缩写“in.”所对应的名称为？\n\nA. fort\nB. fountain\nC. forty\nD. foot",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "苏珊完成一项在线任务，每工作10分钟可获得5美元报酬。若她在上午8点至11点期间工作，中途暂停半小时，则她完成该在线任务共可获得多少报酬？",
+    "answer": "75",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "一张演出票的全价为$\\$20$。苏珊使用一张可享25%折扣的优惠券购买了4张票，帕姆使用一张可享30%折扣的优惠券购买了5张票。帕姆比苏珊多付多少美元？",
+    "answer": "10",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "设$A$为锐角，且$\\tan A = 2\\cos A$。求不超过$1000$的正整数$n$的个数，使得$\\sec^n A + \\tan^n A$是正整数，且其个位数字为$9$。",
+    "answer": "167",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "64.0 + (-0.83) =",
+    "answer": "63.17",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "Brian的朋友Bobby拥有的电子游戏数量比Brian的3倍少5台。若Brian共有20台电子游戏，且在对比前刚丢失了5台，Bobby有多少台电子游戏？",
+    "answer": "40",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "在五边形$ABCDE$中，$BC=CD=DE=2$个单位，$\\angle E$是直角，且$m\\angle B=m\\angle C=m\\angle D=135^\\circ$。线段$AE$的长度可表示为最简二次根式$a+2\\sqrt{b}$个单位，求$a+b$的值。",
+    "answer": "6",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "设$b \\geq 2$为整数。若正整数$n$在$b$进制下恰好有两位，且这两个数位上的数字之和等于$\\sqrt{n}$，则称$n$为$b$-美观数。例如，$81$是$13$-美观数，因为$81=\\underline{6}\\underline{3}_{13}$且$6+3=\\sqrt{81}$。求满足存在超过十个$b$-美观数的最小整数$b \\geq 2$。",
+    "answer": "211",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "圆$\\omega_1$和$\\omega_2$相交于两点$P$和$Q$，它们的靠近$P$的公切线分别交$\\omega_1$、$\\omega_2$于点$A$、$B$。过$P$且平行于$AB$的直线第二次分别交$\\omega_1$、$\\omega_2$于点$X$、$Y$。已知$PX=10$，$PY=14$，$PQ=5$，求梯形$XABY$的面积，其面积可表示为$m\\sqrt{n}$（其中$m$、$n$为正整数，且$n$不被任何素数的平方整除），求$m+n$的值。",
+    "answer": "33",
+    "data_source": "AIME_2023"
+  },
+  {
+    "problem": "假设以下提到的反常积分均为绝对收敛。若随机变量$(X, Y)$的联合概率密度为$f(x, y)$，则$E(X)=$\n\nA. $\\int_{-\\infty}^{+\\infty} y f_{Y}(y) \\mathrm{d} y$\nB. $\\int_{-\\infty}^{+\\infty} y f_{X}(x) \\mathrm{d} y$\nC. $\\int_{-\\infty}^{+\\infty} x f_{Y}(y) \\mathrm{d} x $\nD. $\\int_{-\\infty}^{+\\infty} x f_{X}(x) \\mathrm{d} x $",
+    "answer": "D",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "设△ABC的三边长满足$AB = 13$，$BC = 14$，$CA = 15$。将△ABC绕其外心旋转得到△A'B'C'，使得$\\overline{AC}$与$\\overline{BC}$垂直，且$A'$与$B$位于直线$B'C'$的两侧。求与六边形$AA'CC'BB'$的面积最接近的整数。",
+    "answer": "156",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "Anders去商店购买咖啡机。咖啡机正在促销，所有咖啡机价格均降低20%。Anders还得知，他需要为折扣后的价格支付7.5%的销售税。他有43美元。他能负担得起的最贵的咖啡机的原价（折扣前）是多少？$\\textbf{(A) }48\\qquad\\textbf{(B) }47\\qquad\\textbf{(C) }49\\qquad\\textbf{(D) }46\\qquad\\textbf{(E) }50$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "若$A$、$B$是多面体的两个顶点，定义$d(A, B)$为连接$A$、$B$所需经过的多面体棱的最少条数。例如，若$\\overline{AB}$是多面体的一条棱，则$d(A, B)=1$；若$\\overline{AC}$和$\\overline{CB}$是多面体的棱，且$\\overline{AB}$不是棱，则$d(A, B)=2$。设$Q$、$R$、$S$是正二十面体（由20个等边三角形构成的正多面体）中随机选取的三个不同顶点。求$d(Q, R) > d(R, S)$的概率是多少？\n$\\textbf{(A)}~\\frac{7}{22}\\qquad\\textbf{(B)}~\\frac13\\qquad\\textbf{(C)}~\\frac38\\qquad\\textbf{(D)}~\\frac5{12}\\qquad\\textbf{(E)}~\\frac12$",
+    "answer": "A",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "若$n \\equiv 2 \\pmod{7}$，求$(n + 2)(n + 4)(n + 6)$除以7的余数。",
+    "answer": "3",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "求不超过100的整数中，能写成两个不同正整数$a$、$b$的$a+b+ab$形式的数的个数。",
+    "answer": "70",
+    "data_source": "AIME_2026"
+  },
+  {
+    "problem": "在$xy$平面内，有一个半径为$4$、圆心在$x$轴正半轴上且与$y$轴相切于原点的圆，还有一个半径为$10$、圆心在$y$轴正半轴上且与$x$轴相切于原点的圆。求过这两个圆交点的直线的斜率为多少？\n$\\textbf{(A)}\\ \\dfrac{3}{7} \\qquad\\textbf{(B)}\\ \\dfrac{2}{\\sqrt{29}}  \\qquad\\textbf{(C)}\\ \\dfrac{2}{7}  \\qquad\\textbf{(D)}\\ \\dfrac{2}{5}  \\qquad\\textbf{(E)}\\ \\dfrac{1}{\\sqrt{29}}$",
+    "answer": "D",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "整数集合用什么字母表示？\n\nA. A\nB. S\nC. Z\nD. D",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "设直线 $l$ 的方向向量是 $\\overrightarrow{a}$，平面 $\\alpha$ 的法向量是 $\\overrightarrow{u}$。要证明直线 $l$ 平行于平面 $\\alpha$，应当证明下列哪项条件？\n\nA. $\\overrightarrow{a}$ 和 $\\overrightarrow{u}$ 是共线的\nB. $\\overrightarrow{a}$ 和 $\\overrightarrow{u}$ 的长度相等\nC. $\\overrightarrow{a} \\cdot \\overrightarrow{u} = 0$\nD. $\\overrightarrow{a} \\cdot \\overrightarrow{u} = 1$",
+    "answer": "C",
+    "data_source": "MathBench"
+  },
+  {
+    "problem": "计算 $\\log_264$。",
+    "answer": "6",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "女孩们正在为嘉年华筹款。金筹到的金额比亚历山德拉多320美元，亚历山德拉筹到了430美元；玛丽亚姆筹到的金额比莎拉多400美元，莎拉筹到了300美元。她们总共筹到了多少美元？",
+    "answer": "2280",
+    "data_source": "GSM8K_test"
+  },
+  {
+    "problem": "在$\\triangle ABC$中，点$A, D, E, B$在边$\\overline{AB}$上依次排列，且$AD = 4$，$DE = 16$，$EB = 8$。点$A, F, G, C$在边$\\overline{AC}$上依次排列，且$AF = 13$，$FG = 52$，$GC = 26$。设$M$是$D$关于$F$的对称点，$N$是$G$关于$E$的对称点。若四边形$DEGF$的面积为$288$，求七边形$AFNBCEM$的面积。\n\n\\begin{tikzpicture}[scale=0.07, line join=round, line cap=round, >=stealth]\n\n    \\coordinate (A) at (100,100);\n\n    \\coordinate (D) at (95,80);\n    \\coordinate (F) at (130,80);\n    \\coordinate (M) at (165,80);\n\n    \\coordinate (N) at (0,50);\n    \\coordinate (E) at (87.5,50);\n    \\coordinate (G) at (175,50);\n\n    \\coordinate (B) at ($(D)!2!(E)$);\n    \\coordinate (C) at ($(F)!2!(G)$);\n    \n    \\fill[draw=black, fill=gray!20] (N) -- (E) -- (M) -- (F) -- cycle;\n    \\fill[draw=black, fill=gray!20] (N) -- (E) -- (C) -- (B) -- cycle;\n    \\fill[draw=black, fill=gray!20] (A) -- (F) -- (M) --  cycle;\n    \n    \\draw[line width=0.5mm] (A) -- (B) -- (C) -- cycle;\n\n    \\draw (D) -- (M);\n    \\draw (G) -- (N);\n    \n    \\foreach \\point in {A,B,C,D,E,F,G,M,N}\n    \\filldraw [black] (\\point) circle (20pt);\n    \n    \\node[above]  at (A) {$A$};\n    \\node[below]       at (B) {$B$};\n    \\node[below]  at (C) {$C$};\n    \\node[left]       at (D) {$D$};\n    \\node[above left]       at (E) {$E$};\n    \\node[below]        at (F) {$F$};\n    \\node[below left]        at (G) {$G$};\n    \\node[right]        at (M) {$M$};\n    \\node[left]       at (N) {$N$};\n    \n\\end{tikzpicture}",
+    "answer": "588",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "对于多少个整数$n$，表达式\\[\\sqrt{\\frac{\\log (n^2) - (\\log n)^2}{\\log n - 3}}\\]表示实数，其中$\\log$表示以10为底的对数？$\\textbf{(A) }900 \\qquad \\textbf{(B) }2\\qquad \\textbf{(C) }902 \\qquad \\textbf{(D) } 2  \\qquad \\textbf{(E) }901$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "一个参议院委员会共有8名共和党人和6名民主党人，问组成一个5人小组委员会，且其中每个党派至少有1名成员的方式共有多少种？",
+    "answer": "1940",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "现有无限供应的1美分硬币、10美分硬币和25美分硬币，Silas想要凑出总价值为$N$美分的硬币组合，其中$N$为正整数。他采用所谓的贪心算法，依次选择面值最大的硬币，使得当前所选硬币的总价值不超过$N$。例如，要凑出42美分时，Silas会先选1枚25美分硬币，再选1枚10美分硬币，最后选7枚1美分硬币。然而，这个由9枚硬币组成的组合并非凑出42美分的最优方案：事实上，选4枚10美分硬币和2枚1美分硬币即可得到同样的总价值，且仅需6枚硬币。\n\n一般地，若对于某个给定的$N$，不存在其他由1美分、10美分、25美分硬币组成的组合，其总价值为$N$美分，且所用硬币数量严格少于贪心算法得到的组合的硬币数量，则称贪心算法对该$N$是成功的。求在1到1000（包含两端）的所有整数$N$中，贪心算法成功的$N$的个数。",
+    "answer": "610",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "已知在3到100（包含两端）之间有24个素数，求有序对$(p, a)$的个数，其中$p$为素数，$3 \\le p < 100$，$1 \\le a < p$，且满足$p \\mid (a^{p-2} - a)$。",
+    "answer": "48",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "等边三角形内接于抛物线$x^2 = 8y$，且三角形的一个顶点与抛物线的顶点重合，求该等边三角形的边长。",
+    "answer": "16 \\sqrt{3}",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "艾莎的画笔刷出的细条宽度为$6.5$毫米。艾莎的颜料足够刷出一条$25$米长的细条。艾莎能用这些颜料覆盖多少平方厘米的纸张？\n$\\textbf{(A) }162.5\\qquad\\textbf{(B) }16,250\\qquad\\textbf{(C) }1,625,000\\qquad\\textbf{(D) }162,500\\qquad\\textbf{(E) }1,625$",
+    "answer": "E",
+    "data_source": "LiveBench_Math_math_comp"
+  },
+  {
+    "problem": "$3$只兔子挖$9$个洞需要$5$小时。$5$只海狸筑$2$座坝需要$36$分钟。按此速率，$1$只兔子挖$1$个洞比$1$只海狸筑$1$座坝多花多少分钟？",
+    "answer": "10",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "判断：对于每一个满足$0<t<\\frac{1}{2}$的实数$t$，是否存在一个由正整数构成的无限集$S$，使得对$S$中任意两个不同的元素$x$和$y$，以及任意正整数$m$（即$m>0$），均有$|x - m y| > t y$。原答案的形式为$t<\\left\\{\\frac{s_{n-1}}{s_{n}}\\right\\}<\\frac{a}{b}$，求$a+b$的值。",
+    "answer": "3",
+    "data_source": "dapo-math-17k"
+  },
+  {
+    "problem": "设实数$k$满足方程组\n\\begin{align*} |25+20i-z|&=5\\\\ |z-4-k|&=|z-3i-k| \\\\ \\end{align*}\n有且仅有一个复数解$z$。所有可能的$k$的值之和可表示为$\\frac{m}{n}$，其中$m$与$n$是互质的正整数，求$m+n$。此处$i=\\sqrt{-1}$。",
+    "answer": "77",
+    "data_source": "AIME_2025"
+  },
+  {
+    "problem": "两个连续正偶数的乘积为288，这两个整数中较大的是多少？",
+    "answer": "18",
+    "data_source": "MATH-500"
+  },
+  {
+    "problem": "Bethany的班级共有30名学生，打篮球的人数是踢足球人数的2倍，踢足球的人数是两项均未参加的人数的2倍。下列选项中，可能的两项都参加的人数是\n$\\textbf{(A) }19\\qquad\\textbf{(B) }14\\qquad\\textbf{(C) }9\\qquad\\textbf{(D) }5\\qquad\\textbf{(E) }0$",
+    "answer": "D",
+    "data_source": "LiveBench_Math_math_comp"
+  }
+]

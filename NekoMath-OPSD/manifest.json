@@ -1,0 +1,41 @@
+{
+  "total_records": 12400,
+  "arms": {
+    "coldstart": {
+      "file": "rollouts/evaluation/coldstart.jsonl.gz",
+      "records": 2480,
+      "correct": 785,
+      "failed": 1695,
+      "sha256": "c558e78189425ebaf1d71cb6faa7e97a7d344a45c65ad970275f6f5cc57c9c47"
+    },
+    "rft": {
+      "file": "rollouts/evaluation/rft.jsonl.gz",
+      "records": 2480,
+      "correct": 908,
+      "failed": 1572,
+      "sha256": "d6af81381bb5846b868862bffa4d97bdb9639e392d3f647b7f3cfcda1ff9ec20"
+    },
+    "opsd_v3": {
+      "file": "rollouts/evaluation/opsd_v3.jsonl.gz",
+      "records": 2480,
+      "correct": 945,
+      "failed": 1535,
+      "sha256": "4519a0e15039ec86c6ae9801a65733bd33bc8919cbaaffc9da54df5be2a9f6df"
+    },
+    "opsd_v4_s1234": {
+      "file": "rollouts/evaluation/opsd_v4_s1234.jsonl.gz",
+      "records": 2480,
+      "correct": 964,
+      "failed": 1516,
+      "sha256": "9cc71a48b7c0fc7c1d44002700e30fb4a2dd302f17dba42a177a51abbb327dbc"
+    },
+    "opsd_v5_s5678": {
+      "file": "rollouts/evaluation/opsd_v5_s5678.jsonl.gz",
+      "records": 2480,
+      "correct": 995,
+      "failed": 1485,
+      "sha256": "f74155ea4d8dc6ef8f31f53b90ea1ce4136c290a5a590dc745602669bdf5f3b2"
+    }
+  },
+  "privacy": "Generated external links are redacted; scientific scores refer to original completions."
+}

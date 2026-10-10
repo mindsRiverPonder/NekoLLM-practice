@@ -1,0 +1,55 @@
+{
+  "scope": "Public release only; original source archive not modified.",
+  "removed": {
+    "external_url_occurrences": 96,
+    "evaluation_rollouts_with_redacted_links": 15,
+    "training_records_with_redacted_links": 14,
+    "parquet_messages_with_redacted_links": 6,
+    "operational_fields_removed": 49755,
+    "nonempty_retry_logs_removed": 3022,
+    "diagnostic_messages_redacted": 79,
+    "final_training_references_with_redacted_links": 6,
+    "intermediate_training_references_with_redacted_links": 8
+  },
+  "changed_data_files": [
+    "rollouts/evaluation/coldstart.jsonl.gz",
+    "rollouts/evaluation/opsd_v3.jsonl.gz",
+    "rollouts/evaluation/opsd_v4_s1234.jsonl.gz",
+    "rollouts/evaluation/opsd_v5_s5678.jsonl.gz",
+    "rollouts/evaluation/rft.jsonl.gz",
+    "data/train/shared_core.jsonl",
+    "data/train/shared_core_len8192.jsonl",
+    "data/train/rft_core.parquet",
+    "results/judges/deepseek/coldstart.jsonl.gz",
+    "results/judges/deepseek/opsd_v3.jsonl.gz",
+    "results/judges/deepseek/opsd_v4_s1234.jsonl.gz",
+    "results/judges/deepseek/opsd_v5_s5678.jsonl.gz",
+    "results/judges/deepseek/rft.jsonl.gz",
+    "results/judges/qwen/coldstart.jsonl.gz",
+    "results/judges/qwen/opsd_v3.jsonl.gz",
+    "results/judges/qwen/opsd_v4_s1234.jsonl.gz",
+    "results/judges/qwen/opsd_v5_s5678.jsonl.gz",
+    "results/judges/qwen/rft.jsonl.gz",
+    "results/persona_equal_weight/paired_scores.jsonl"
+  ],
+  "retained": [
+    "question/sample IDs",
+    "mathematical text and answers",
+    "all numerical judge scores and categories",
+    "public dataset attribution",
+    "loopback addresses required by local evaluation"
+  ],
+  "scan_notes": [
+    "No actual credential, personal profile path, email or non-loopback host IP identified.",
+    "Numeric matches were arithmetic values, sample IDs or SHA256 fragments.",
+    "Apparent private-name match was a Chinese phrase inside mathematical reasoning.",
+    "Binary email-like matches in compressed Parquet bytes were not present in decoded rows or schema metadata."
+  ],
+  "archive_metadata": "ZIP entry dates fixed to 1980-01-01; no archive comments/extra fields; gzip mtime=0 and no filename.",
+  "verification": {
+    "parquet_final_jsonl_alignment": "passed (1613 rows)",
+    "paired_scores_and_summary": "passed (12400 pairs)",
+    "scientific_scores_and_labels": "unchanged",
+    "decoded_contents_and_metadata": "reviewed; no actual private identifiers detected"
+  }
+}

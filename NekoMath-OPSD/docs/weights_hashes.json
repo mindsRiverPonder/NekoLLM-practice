@@ -1,0 +1,341 @@
+{
+  "note": "Archived weight hashes only; weight files are not included.",
+  "files": [
+    {
+      "artifact": "opsd_v3/student.pt",
+      "file": "student.pt",
+      "size_bytes": 5033670585,
+      "sha256": "5e58bf56caf202e1e2ecaa097f9f26964797a36ba60550675082ec30063aa040"
+    },
+    {
+      "artifact": "opsd_v3/trainer_state.json",
+      "file": "trainer_state.json",
+      "size_bytes": 452,
+      "sha256": "61b0877d8ef59769172e93d617e7ae8a1be460b11a695e2772187c05de99088d"
+    },
+    {
+      "artifact": "opsd_v3/merged_hf",
+      "file": "chat_template.jinja",
+      "size_bytes": 9060,
+      "sha256": "cc945752db555d60949b16989df4ccfeb52a313d6b4b5c5229dd786e2e9fcf1c"
+    },
+    {
+      "artifact": "opsd_v3/merged_hf",
+      "file": "config.json",
+      "size_bytes": 726,
+      "sha256": "564c097dad107dc9b341ad8862f71151785d9e031947bdf7e2548d44c3453d7c"
+    },
+    {
+      "artifact": "opsd_v3/merged_hf",
+      "file": "generation_config.json",
+      "size_bytes": 213,
+      "sha256": "e0f51e8f01b09c8d89a74d2826c02921b64fe4b7e66f47a172483033a67c197a"
+    },
+    {
+      "artifact": "opsd_v3/merged_hf",
+      "file": "model-00001-of-00002.safetensors",
+      "size_bytes": 4989507944,
+      "sha256": "08cf411454e74842c147b4b7d736a76ee3d90be66b33baa44e177db06b93d76f"
+    },
+    {
+      "artifact": "opsd_v3/merged_hf",
+      "file": "model-00002-of-00002.safetensors",
+      "size_bytes": 44049184,
+      "sha256": "b6e949a35d4fb8acba4879a48823dffda292c2dee9d9bb1be0d85926e912d30a"
+    },
+    {
+      "artifact": "opsd_v3/merged_hf",
+      "file": "model.safetensors.index.json",
+      "size_bytes": 31415,
+      "sha256": "9e267247df9f467f7b6b0b8ac84d677b4e78cadaba27cf4e2b8c00a4348bc6b5"
+    },
+    {
+      "artifact": "opsd_v3/merged_hf",
+      "file": "tokenizer.json",
+      "size_bytes": 9894271,
+      "sha256": "3e065a558a034185fe299917b398685c1facd0169a9eea1e629eb30c171fed81"
+    },
+    {
+      "artifact": "opsd_v3/merged_hf",
+      "file": "tokenizer_config.json",
+      "size_bytes": 435,
+      "sha256": "b89503c3e5070c6b6d33daf2e20cb4a5c88537c1670d9b7e0cfb4506a61448a9"
+    },
+    {
+      "artifact": "opsd_v4_s1234/student.pt",
+      "file": "student.pt",
+      "size_bytes": 5033670585,
+      "sha256": "06083bd0424ae0715bea28448f9cc231fcb54cb97134a7ddcc57a601d4feaaa1"
+    },
+    {
+      "artifact": "opsd_v4_s1234/trainer_state.json",
+      "file": "trainer_state.json",
+      "size_bytes": 451,
+      "sha256": "feb7c0c18734acc7a8aba7186b2b9c55eb63b1fd65f8ace340f7a5cb44cddada"
+    },
+    {
+      "artifact": "opsd_v4_s1234/merged_hf",
+      "file": "chat_template.jinja",
+      "size_bytes": 9060,
+      "sha256": "cc945752db555d60949b16989df4ccfeb52a313d6b4b5c5229dd786e2e9fcf1c"
+    },
+    {
+      "artifact": "opsd_v4_s1234/merged_hf",
+      "file": "config.json",
+      "size_bytes": 726,
+      "sha256": "564c097dad107dc9b341ad8862f71151785d9e031947bdf7e2548d44c3453d7c"
+    },
+    {
+      "artifact": "opsd_v4_s1234/merged_hf",
+      "file": "generation_config.json",
+      "size_bytes": 213,
+      "sha256": "e0f51e8f01b09c8d89a74d2826c02921b64fe4b7e66f47a172483033a67c197a"
+    },
+    {
+      "artifact": "opsd_v4_s1234/merged_hf",
+      "file": "model-00001-of-00002.safetensors",
+      "size_bytes": 4989507944,
+      "sha256": "ee73e39c8666f8373a928e89a353772157dd2dd220b8a08ae8b4c787d5c4c73e"
+    },
+    {
+      "artifact": "opsd_v4_s1234/merged_hf",
+      "file": "model-00002-of-00002.safetensors",
+      "size_bytes": 44049184,
+      "sha256": "52e456346f2575b139fe1a7fab580da98b7766a3ee0f407d2cbb572da1ae502f"
+    },
+    {
+      "artifact": "opsd_v4_s1234/merged_hf",
+      "file": "model.safetensors.index.json",
+      "size_bytes": 31415,
+      "sha256": "9e267247df9f467f7b6b0b8ac84d677b4e78cadaba27cf4e2b8c00a4348bc6b5"
+    },
+    {
+      "artifact": "opsd_v4_s1234/merged_hf",
+      "file": "tokenizer.json",
+      "size_bytes": 9894271,
+      "sha256": "3e065a558a034185fe299917b398685c1facd0169a9eea1e629eb30c171fed81"
+    },
+    {
+      "artifact": "opsd_v4_s1234/merged_hf",
+      "file": "tokenizer_config.json",
+      "size_bytes": 435,
+      "sha256": "b89503c3e5070c6b6d33daf2e20cb4a5c88537c1670d9b7e0cfb4506a61448a9"
+    },
+    {
+      "artifact": "opsd_v5_s5678/student.pt",
+      "file": "student.pt",
+      "size_bytes": 5033670585,
+      "sha256": "3bbb78400632ffc605a23ee30e35a3968cab2c7eec3de1d601fbbf14de1b1f3c"
+    },
+    {
+      "artifact": "opsd_v5_s5678/trainer_state.json",
+      "file": "trainer_state.json",
+      "size_bytes": 452,
+      "sha256": "5300a5358ca8ec1c76bf10fb300bafdd042c41b06ea1a6e631de327d4f06ee08"
+    },
+    {
+      "artifact": "opsd_v5_s5678/merged_hf",
+      "file": "chat_template.jinja",
+      "size_bytes": 9060,
+      "sha256": "cc945752db555d60949b16989df4ccfeb52a313d6b4b5c5229dd786e2e9fcf1c"
+    },
+    {
+      "artifact": "opsd_v5_s5678/merged_hf",
+      "file": "config.json",
+      "size_bytes": 726,
+      "sha256": "564c097dad107dc9b341ad8862f71151785d9e031947bdf7e2548d44c3453d7c"
+    },
+    {
+      "artifact": "opsd_v5_s5678/merged_hf",
+      "file": "generation_config.json",
+      "size_bytes": 213,
+      "sha256": "e0f51e8f01b09c8d89a74d2826c02921b64fe4b7e66f47a172483033a67c197a"
+    },
+    {
+      "artifact": "opsd_v5_s5678/merged_hf",
+      "file": "model-00001-of-00002.safetensors",
+      "size_bytes": 4989507944,
+      "sha256": "cbb6317fd2ec98c7660de1783297eeba588598e719c4f3addf45f812955ada9b"
+    },
+    {
+      "artifact": "opsd_v5_s5678/merged_hf",
+      "file": "model-00002-of-00002.safetensors",
+      "size_bytes": 44049184,
+      "sha256": "21d77a6593247f3ae299f053bf4a4efaa31e0cc16f3146a8a69f759c6757489b"
+    },
+    {
+      "artifact": "opsd_v5_s5678/merged_hf",
+      "file": "model.safetensors.index.json",
+      "size_bytes": 31415,
+      "sha256": "9e267247df9f467f7b6b0b8ac84d677b4e78cadaba27cf4e2b8c00a4348bc6b5"
+    },
+    {
+      "artifact": "opsd_v5_s5678/merged_hf",
+      "file": "tokenizer.json",
+      "size_bytes": 9894271,
+      "sha256": "3e065a558a034185fe299917b398685c1facd0169a9eea1e629eb30c171fed81"
+    },
+    {
+      "artifact": "opsd_v5_s5678/merged_hf",
+      "file": "tokenizer_config.json",
+      "size_bytes": 435,
+      "sha256": "b89503c3e5070c6b6d33daf2e20cb4a5c88537c1670d9b7e0cfb4506a61448a9"
+    },
+    {
+      "artifact": "rft/merged_hf",
+      "file": "chat_template.jinja",
+      "size_bytes": 9060,
+      "sha256": "cc945752db555d60949b16989df4ccfeb52a313d6b4b5c5229dd786e2e9fcf1c"
+    },
+    {
+      "artifact": "rft/merged_hf",
+      "file": "config.json",
+      "size_bytes": 726,
+      "sha256": "564c097dad107dc9b341ad8862f71151785d9e031947bdf7e2548d44c3453d7c"
+    },
+    {
+      "artifact": "rft/merged_hf",
+      "file": "generation_config.json",
+      "size_bytes": 213,
+      "sha256": "e0f51e8f01b09c8d89a74d2826c02921b64fe4b7e66f47a172483033a67c197a"
+    },
+    {
+      "artifact": "rft/merged_hf",
+      "file": "model.safetensors",
+      "size_bytes": 5033557128,
+      "sha256": "c1ecf9e9e5ae161dab71f7d60781f22aca707469685ba50aaae487d875444319"
+    },
+    {
+      "artifact": "rft/merged_hf",
+      "file": "tokenizer.json",
+      "size_bytes": 9894271,
+      "sha256": "3e065a558a034185fe299917b398685c1facd0169a9eea1e629eb30c171fed81"
+    },
+    {
+      "artifact": "rft/merged_hf",
+      "file": "tokenizer_config.json",
+      "size_bytes": 435,
+      "sha256": "b89503c3e5070c6b6d33daf2e20cb4a5c88537c1670d9b7e0cfb4506a61448a9"
+    },
+    {
+      "artifact": "rft/global_step_402",
+      "file": "data_0.pt",
+      "size_bytes": 1511,
+      "sha256": null
+    },
+    {
+      "artifact": "rft/global_step_402",
+      "file": "data_1.pt",
+      "size_bytes": 1511,
+      "sha256": null
+    },
+    {
+      "artifact": "rft/global_step_402",
+      "file": "extra_state_world_size_2_rank_0.pt",
+      "size_bytes": 15141,
+      "sha256": null
+    },
+    {
+      "artifact": "rft/global_step_402",
+      "file": "extra_state_world_size_2_rank_1.pt",
+      "size_bytes": 15077,
+      "sha256": null
+    },
+    {
+      "artifact": "rft/global_step_402",
+      "file": "fsdp_config.json",
+      "size_bytes": 46,
+      "sha256": "1df34c1f433cd641f48d99b3981b311f0362bfcfd4c4e1f727301e3b50cf03bf"
+    },
+    {
+      "artifact": "rft/global_step_402",
+      "file": "chat_template.jinja",
+      "size_bytes": 9060,
+      "sha256": "cc945752db555d60949b16989df4ccfeb52a313d6b4b5c5229dd786e2e9fcf1c"
+    },
+    {
+      "artifact": "rft/global_step_402",
+      "file": "config.json",
+      "size_bytes": 759,
+      "sha256": "bb086e91e2444aeaa2d43105a26488f5124971d4c88f733e08cf1b69c56af309"
+    },
+    {
+      "artifact": "rft/global_step_402",
+      "file": "generation_config.json",
+      "size_bytes": 213,
+      "sha256": "e0f51e8f01b09c8d89a74d2826c02921b64fe4b7e66f47a172483033a67c197a"
+    },
+    {
+      "artifact": "rft/global_step_402",
+      "file": "tokenizer.json",
+      "size_bytes": 9894271,
+      "sha256": "3e065a558a034185fe299917b398685c1facd0169a9eea1e629eb30c171fed81"
+    },
+    {
+      "artifact": "rft/global_step_402",
+      "file": "tokenizer_config.json",
+      "size_bytes": 435,
+      "sha256": "b89503c3e5070c6b6d33daf2e20cb4a5c88537c1670d9b7e0cfb4506a61448a9"
+    },
+    {
+      "artifact": "rft/global_step_402",
+      "file": "model_world_size_2_rank_0.pt",
+      "size_bytes": 2516981387,
+      "sha256": "0eb4d52e36a833816d6af4c10fdbaebf8b850db432b2e236cc657168cf4a01f3"
+    },
+    {
+      "artifact": "rft/global_step_402",
+      "file": "model_world_size_2_rank_1.pt",
+      "size_bytes": 2516981387,
+      "sha256": "4e7c836dcf774684fce86d6d4ce4bbdf86e959ff50de79d4a1c4d9887f1181ed"
+    },
+    {
+      "artifact": "rft/global_step_402",
+      "file": "optim_world_size_2_rank_0.pt",
+      "size_bytes": 5033552291,
+      "sha256": "332c7ea94a82f55df7c3d266e09a4e4634aa8a4ba7d8babd90ecf85d8fc496b8"
+    },
+    {
+      "artifact": "rft/global_step_402",
+      "file": "optim_world_size_2_rank_1.pt",
+      "size_bytes": 5033552291,
+      "sha256": "0b8d45c4ad8e0ad3dc75992c777623b1c0a46ba6aa1da8715f629a2432e7dd70"
+    },
+    {
+      "artifact": "coldstart/merged_hf",
+      "file": "chat_template.jinja",
+      "size_bytes": 9060,
+      "sha256": "cc945752db555d60949b16989df4ccfeb52a313d6b4b5c5229dd786e2e9fcf1c"
+    },
+    {
+      "artifact": "coldstart/merged_hf",
+      "file": "config.json",
+      "size_bytes": 726,
+      "sha256": "564c097dad107dc9b341ad8862f71151785d9e031947bdf7e2548d44c3453d7c"
+    },
+    {
+      "artifact": "coldstart/merged_hf",
+      "file": "generation_config.json",
+      "size_bytes": 213,
+      "sha256": "e0f51e8f01b09c8d89a74d2826c02921b64fe4b7e66f47a172483033a67c197a"
+    },
+    {
+      "artifact": "coldstart/merged_hf",
+      "file": "model.safetensors",
+      "size_bytes": 5033557128,
+      "sha256": "3624fd5b93d65eb44a163dafdaec1dc04b29fb5237ce5f9e772f300cb65ad1c8"
+    },
+    {
+      "artifact": "coldstart/merged_hf",
+      "file": "tokenizer.json",
+      "size_bytes": 9894271,
+      "sha256": "3e065a558a034185fe299917b398685c1facd0169a9eea1e629eb30c171fed81"
+    },
+    {
+      "artifact": "coldstart/merged_hf",
+      "file": "tokenizer_config.json",
+      "size_bytes": 435,
+      "sha256": "b89503c3e5070c6b6d33daf2e20cb4a5c88537c1670d9b7e0cfb4506a61448a9"
+    }
+  ]
+}

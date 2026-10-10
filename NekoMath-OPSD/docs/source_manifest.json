@@ -1,0 +1,385 @@
+{
+  "archive": "rft_opsd_review_package_20261002",
+  "files": [
+    {
+      "source": "02_training/code/train_opsd_core.py",
+      "destination": "scripts/train_opsd_core.py",
+      "source_sha256": "4505b0001ee9aeb11252bc5b130e90a9570e628d1ab8063ec5c84154da623012",
+      "release_sha256": "8d5cb8be70e6baa86f69b670e5145814b9409022c75897584369882e6780fba8",
+      "modified": true,
+      "gzip": false
+    },
+    {
+      "source": "02_training/code/persona_reward.py",
+      "destination": "scripts/persona_reward.py",
+      "source_sha256": "4501df65b4478174d0959294901cfe13076c1f297c839429ec3fbba31da88032",
+      "release_sha256": "4501df65b4478174d0959294901cfe13076c1f297c839429ec3fbba31da88032",
+      "modified": false,
+      "gzip": false
+    },
+    {
+      "source": "02_training/code/prepare_shared_core.py",
+      "destination": "scripts/prepare_shared_core.py",
+      "source_sha256": "623309176723696f36e6c1f9e41cacbed642810a6d83c25ca78340c06eae6f49",
+      "release_sha256": "a9ac96d9a5bc0524eeded583e67a5db74817fe810e006b534e7020c7e0d451f9",
+      "modified": true,
+      "gzip": false
+    },
+    {
+      "source": "02_training/code/filter_shared_by_length.py",
+      "destination": "scripts/filter_shared_by_length.py",
+      "source_sha256": "30874538bcd96445142f5ede537b6c44c57ae8da519aad2d260deb0986e19787",
+      "release_sha256": "ba815cbce73eb26b097cebb1c3173bd16bc1539e4c1bfee0e471824633d9c989",
+      "modified": true,
+      "gzip": false
+    },
+    {
+      "source": "02_training/code/build_rft_parquet.py",
+      "destination": "scripts/build_rft_parquet.py",
+      "source_sha256": "c5c0ed1513e5ff65fa8f01edc739c8b529148139a24f82705e9f77ff186f9d98",
+      "release_sha256": "34a300ae83e441b4dcd845ba2d0850e7843a26d72c5523632e6cb344de8e377c",
+      "modified": true,
+      "gzip": false
+    },
+    {
+      "source": "02_training/code/export_opsd_hf.py",
+      "destination": "scripts/export_opsd_hf.py",
+      "source_sha256": "12445dfcb64a73ceabc2454666749d17c2a9718c26e4d00d794d0e3bf39d0aec",
+      "release_sha256": "fb13084c2322151467c6027c7c9484748524348bc315aa1a57f3813c94bdbc41",
+      "modified": true,
+      "gzip": false
+    },
+    {
+      "source": "05_rollouts/math/coldstart/predictions.jsonl",
+      "destination": "rollouts/evaluation/coldstart.jsonl.gz",
+      "source_sha256": "bd60ec45391c513c0cc7768d0e0842d5ad479330f603246819f7aa05edb99ec3",
+      "release_sha256": "c558e78189425ebaf1d71cb6faa7e97a7d344a45c65ad970275f6f5cc57c9c47",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "04_results/math/coldstart_metrics.json",
+      "destination": "results/math/coldstart_metrics.json",
+      "source_sha256": "7f63d67b7c9740cd83159675a71140b67cb0068b6e23a4e1fe87bdff16e405bd",
+      "release_sha256": "7f63d67b7c9740cd83159675a71140b67cb0068b6e23a4e1fe87bdff16e405bd",
+      "modified": false,
+      "gzip": false
+    },
+    {
+      "source": "04_results/persona_judge/raw/judge_out/coldstart.jsonl",
+      "destination": "results/judges/qwen/coldstart.jsonl.gz",
+      "source_sha256": "f0f328d922d813dfb632114845fd12343aec7d7e45bf669830a8f91c4eb970ec",
+      "release_sha256": "d54f47535c9aaae32b7317807371995292f6ff9f5640277a5fc6666d377219f5",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "04_results/persona_judge/raw/judge_out_ds/coldstart.jsonl",
+      "destination": "results/judges/deepseek/coldstart.jsonl.gz",
+      "source_sha256": "63fde0701c53390590826022a247df35adb8f5fe5ed6a075413a4b5fb903851d",
+      "release_sha256": "cfa821937722612fe25b2b328dd198ed3c92f0aa8c61024c9f6a84ac6dc021ba",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "05_rollouts/math/rft/predictions.jsonl",
+      "destination": "rollouts/evaluation/rft.jsonl.gz",
+      "source_sha256": "94cb9bb723ffe423156ddba79d485d4dac6455ed7f052979722f3e531d098ebf",
+      "release_sha256": "d6af81381bb5846b868862bffa4d97bdb9639e392d3f647b7f3cfcda1ff9ec20",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "04_results/math/rft_metrics.json",
+      "destination": "results/math/rft_metrics.json",
+      "source_sha256": "a8d8c911260859b66510372d90ec30ca0dbe4b95b26f26526e5a7d89dfd393f5",
+      "release_sha256": "a8d8c911260859b66510372d90ec30ca0dbe4b95b26f26526e5a7d89dfd393f5",
+      "modified": false,
+      "gzip": false
+    },
+    {
+      "source": "04_results/persona_judge/raw/judge_out/rft.jsonl",
+      "destination": "results/judges/qwen/rft.jsonl.gz",
+      "source_sha256": "011127888eb5f96210a543c4a308a94742bd7daa321662269748c663be467293",
+      "release_sha256": "063243401071bf2e9dd41f03e052776d32d8a8ae35a689e07e11deeeb394385e",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "04_results/persona_judge/raw/judge_out_ds/rft.jsonl",
+      "destination": "results/judges/deepseek/rft.jsonl.gz",
+      "source_sha256": "15d5c882fb4fa684fe5dbc4e64be973b53346e7d8ab7637155c160c3fe3486f0",
+      "release_sha256": "635af9b23cca1cd4fb9f337dd3b52641602733db139b8521db162b6188429f7d",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "05_rollouts/math/opsd_v3/predictions.jsonl",
+      "destination": "rollouts/evaluation/opsd_v3.jsonl.gz",
+      "source_sha256": "7bc909bb1d26653e8a1d28fa0181902e7631a64f1529cbae19d4aad103c9944f",
+      "release_sha256": "4519a0e15039ec86c6ae9801a65733bd33bc8919cbaaffc9da54df5be2a9f6df",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "04_results/math/opsd_v3_metrics.json",
+      "destination": "results/math/opsd_v3_metrics.json",
+      "source_sha256": "ca3cb4307e5255e00750d4f98e3fe903b6f60cf6aaa04e54a0f030038d92d552",
+      "release_sha256": "ca3cb4307e5255e00750d4f98e3fe903b6f60cf6aaa04e54a0f030038d92d552",
+      "modified": false,
+      "gzip": false
+    },
+    {
+      "source": "04_results/persona_judge/raw/judge_out/opsd_v3.jsonl",
+      "destination": "results/judges/qwen/opsd_v3.jsonl.gz",
+      "source_sha256": "f9deedccd700bf02e3747c9179dd5b6c7901c1aa58990f859b37f9e9e6084d48",
+      "release_sha256": "8c3295657f2e7c761d6a3bb86e14b682f7eac525724b803753a9c945fe96e3e7",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "04_results/persona_judge/raw/judge_out_ds/opsd_v3.jsonl",
+      "destination": "results/judges/deepseek/opsd_v3.jsonl.gz",
+      "source_sha256": "91fb08dd3bb26526974773ace9a82e8f2e9e6fa21954c8755af09597c6c568fa",
+      "release_sha256": "21b6855853001f7f01ccf7fcd809bef434f37aeee3347dd95b6c2411f46085da",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "05_rollouts/math/opsd_v4_s1234/predictions.jsonl",
+      "destination": "rollouts/evaluation/opsd_v4_s1234.jsonl.gz",
+      "source_sha256": "9918ed8257f33fccee03abd7dd7e09f845fedb5171ab84d49b95e91705b984cd",
+      "release_sha256": "9cc71a48b7c0fc7c1d44002700e30fb4a2dd302f17dba42a177a51abbb327dbc",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "04_results/math/opsd_v4_s1234_metrics.json",
+      "destination": "results/math/opsd_v4_s1234_metrics.json",
+      "source_sha256": "b81932fa277f22a0cde672f3588f0befef06a57b016dd623d35b1e395110bded",
+      "release_sha256": "b81932fa277f22a0cde672f3588f0befef06a57b016dd623d35b1e395110bded",
+      "modified": false,
+      "gzip": false
+    },
+    {
+      "source": "04_results/persona_judge/raw/judge_out/opsd_v4_s1234.jsonl",
+      "destination": "results/judges/qwen/opsd_v4_s1234.jsonl.gz",
+      "source_sha256": "e7b5b98d218a5c7b6c5ec38eab314981cd8224c043dfb593c25b8ff436bb8b0b",
+      "release_sha256": "81c761bc299db5a8c50710c5728915cb2611a04e60210d521b645e40a228554e",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "04_results/persona_judge/raw/judge_out_ds/opsd_v4_s1234.jsonl",
+      "destination": "results/judges/deepseek/opsd_v4_s1234.jsonl.gz",
+      "source_sha256": "d6981bcd8a02b9d519149cb86a83f32984d223b4c005c5d51b9d1889da66b14a",
+      "release_sha256": "373d751cb9afbad70ff0f284830394748c20140574a220070a3f3d1530414de3",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "05_rollouts/math/opsd_v5_s5678/predictions.jsonl",
+      "destination": "rollouts/evaluation/opsd_v5_s5678.jsonl.gz",
+      "source_sha256": "7b74ba4e9e592cd286ee6bd0eaf4ec6639b37e088cd28e639c9eea78cd1878d7",
+      "release_sha256": "f74155ea4d8dc6ef8f31f53b90ea1ce4136c290a5a590dc745602669bdf5f3b2",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "04_results/math/opsd_v5_s5678_metrics.json",
+      "destination": "results/math/opsd_v5_s5678_metrics.json",
+      "source_sha256": "2b3b0bf273b8890c6e2c768325819a9194beef28fdebb03740a3aa4a4c2c2894",
+      "release_sha256": "2b3b0bf273b8890c6e2c768325819a9194beef28fdebb03740a3aa4a4c2c2894",
+      "modified": false,
+      "gzip": false
+    },
+    {
+      "source": "04_results/persona_judge/raw/judge_out/opsd_v5_s5678.jsonl",
+      "destination": "results/judges/qwen/opsd_v5_s5678.jsonl.gz",
+      "source_sha256": "099bf741161bf556039681ab1d03acf7b0e08a184ebf265050a2961df56b1482",
+      "release_sha256": "233349d14f75b006cf390ef2049d4a2fc104b04b143f00f5bcf28cdd104d86f3",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "04_results/persona_judge/raw/judge_out_ds/opsd_v5_s5678.jsonl",
+      "destination": "results/judges/deepseek/opsd_v5_s5678.jsonl.gz",
+      "source_sha256": "2e3f3147079cd61c54f9181ed936fc65764bff6c667f68dc0d80fb57bf2e49d4",
+      "release_sha256": "100ccbfa031e47ef6ce8dc7278ee489833d07e4e6d677c04c15ee4de209aa1f1",
+      "modified": true,
+      "gzip": true,
+      "privacy_redacted": true
+    },
+    {
+      "source": "02_training/data/system_prompt.txt",
+      "destination": "prompts/system.txt",
+      "source_sha256": "e7090e9a022c291e359fa49ff1a256491afedfba801ec8d14b5f197faab65713",
+      "release_sha256": "e7090e9a022c291e359fa49ff1a256491afedfba801ec8d14b5f197faab65713",
+      "modified": false,
+      "gzip": false
+    },
+    {
+      "source": "02_training/data/testset_zh_compact.json",
+      "destination": "data/evaluation/testset_zh_compact.json",
+      "source_sha256": "60a53da514a4d43e4ec6e08fcf083a4e8169b520cbf5dea121e2f2912fc44050",
+      "release_sha256": "60a53da514a4d43e4ec6e08fcf083a4e8169b520cbf5dea121e2f2912fc44050",
+      "modified": false,
+      "gzip": false
+    },
+    {
+      "source": "02_training/data/shared_core.jsonl",
+      "destination": "data/train/shared_core.jsonl",
+      "source_sha256": "1cd18ddcf703b0644ea7b05652c1d7aa6163d286cdf53ea7e6723e0fc1a4937f",
+      "release_sha256": "04eab3fa708ad57a941027b3608bc890af090cc3fc989c609369630bd117899c",
+      "modified": true,
+      "gzip": false,
+      "privacy_redacted": true
+    },
+    {
+      "source": "02_training/data/shared_core_len8192.jsonl",
+      "destination": "data/train/shared_core_len8192.jsonl",
+      "source_sha256": "c423e1a7fb4dfaa1e995a055d00aacf2a223e7cdfb5a03800a74d031fa44e5d4",
+      "release_sha256": "58d6f405572463054b1fa4758dd4fa871261e8bfb4c492bfff49c22ce6b6188d",
+      "modified": true,
+      "gzip": false,
+      "privacy_redacted": true
+    },
+    {
+      "source": "02_training/data/rft_core.parquet",
+      "destination": "data/train/rft_core.parquet",
+      "source_sha256": "d6e0e8b425dfd7d7e6e24f5a161637c3a06f1d26818acb844d290c9e62e0e67d",
+      "release_sha256": "551e0f171f8e63c4471dad227c8f7eda08cd84ef5f238f04e1772e7227648fb8",
+      "modified": true,
+      "gzip": false,
+      "privacy_redacted": true
+    },
+    {
+      "source": "02_training/data/shared_core_manifest.json",
+      "destination": "data/provenance/shared_core_manifest.json",
+      "source_sha256": "6b61be1d627a2a1cc85c5dd53e5d3d102f7ef4952701a257bcad4c95eff1b077",
+      "release_sha256": "9af360e63e1eeebe60ec8e2bb4ee856e273c0e4b37eab488d011191e26011c48",
+      "modified": true,
+      "gzip": false
+    },
+    {
+      "source": "02_training/data/shared_core_len8192_manifest.json",
+      "destination": "data/provenance/shared_core_len8192_manifest.json",
+      "source_sha256": "daf090d3df282aa24d40cdda9a5cc6b0e8fd250019fd7d30f696b769a33d8cb0",
+      "release_sha256": "de899f890b0817ede19419feef22ed3c3cfd90a25f36696f4c90a421d2df618d",
+      "modified": true,
+      "gzip": false
+    },
+    {
+      "source": "02_training/data/rollout_source_manifest.json",
+      "destination": "data/provenance/rollout_source_manifest.json",
+      "source_sha256": "bae561a580456d8777f7e1886e09358cfe5081e44d5074fdedacc6d84c9740d0",
+      "release_sha256": "1ebb9d0a8d256a90267368efaed2798cb2f385ac40aa89816ab41337b6350dab",
+      "modified": true,
+      "gzip": false
+    },
+    {
+      "source": "03_evaluation/persona_judge/prompts/persona_correct.txt",
+      "destination": "prompts/evaluation/persona_correct.txt",
+      "source_sha256": "1ebb7e7e92a654debdb8fac3fbe85707af6e15a756f4e7cceb76d69d9811ea75",
+      "release_sha256": "1ebb7e7e92a654debdb8fac3fbe85707af6e15a756f4e7cceb76d69d9811ea75",
+      "modified": false,
+      "gzip": false
+    },
+    {
+      "source": "03_evaluation/persona_judge/prompts/persona_failed.txt",
+      "destination": "prompts/evaluation/persona_failed.txt",
+      "source_sha256": "53ed415ddd558530fd8c3a3b45a5b79c46f044b7a3136689a496dc7ce4076912",
+      "release_sha256": "53ed415ddd558530fd8c3a3b45a5b79c46f044b7a3136689a496dc7ce4076912",
+      "modified": false,
+      "gzip": false
+    },
+    {
+      "source": "03_evaluation/math/code/evaluate_vllm_http.py",
+      "destination": "scripts/evaluate_vllm_http.py",
+      "source_sha256": "0970442307d1115e597e6bfd25cc566cfdce531ca404dd5b8a3e6a57d1ea60e5",
+      "release_sha256": "7bfb0914fa9e438beaaf2163111e546a7982eae53a4a590d00b8fbe3275d007f",
+      "modified": true,
+      "gzip": false
+    },
+    {
+      "source": "03_evaluation/persona_judge/code/eval_persona.py",
+      "destination": "scripts/eval_persona.py",
+      "source_sha256": "45c8051001cf4587c61eabf2951d438c7559e8d52a2ec62bc45996423823a8a7",
+      "release_sha256": "1e2b8394a44da5b1b1a72d3f8568b7136449fdefc8aa0f93a39b91ddea08caa0",
+      "modified": true,
+      "gzip": false
+    },
+    {
+      "source": "03_evaluation/persona_judge/code/summarize.py",
+      "destination": "scripts/summarize.py",
+      "source_sha256": "c2298bda7b15aeefc5aeea55996210dfdcfe79bd3761b643277c0e7caf2fe117",
+      "release_sha256": "824da6b79523bea33f8dfaa117882a3903fe08457858024229b6b39d3f06ae75",
+      "modified": true,
+      "gzip": false
+    },
+    {
+      "source": "03_evaluation/persona_judge/code/compare_judges.py",
+      "destination": "scripts/compare_judges.py",
+      "source_sha256": "6efa86f98ad9947b1bef742fd78b8fc220f78c18fef5d5d5a83969ce3b05c564",
+      "release_sha256": "fd45d1cec2e1f3ac5cf8c260c85c40dd90bb355219604a77432a36d1fdc4040e",
+      "modified": true,
+      "gzip": false
+    },
+    {
+      "source": "03_evaluation/persona_judge/code/reparse.py",
+      "destination": "scripts/reparse.py",
+      "source_sha256": "e92df1485fedc6932fdf26d47f7e1df3f24fd1ed9788334d95582c61309bfbd5",
+      "release_sha256": "bcdc13a6395c9105a20fe0fa9fb5fa3b1029aa38eac06eafcd46b320ca7249e0",
+      "modified": true,
+      "gzip": false
+    },
+    {
+      "source": "aggregate_persona_equal_weight.py (local analysis)",
+      "destination": "scripts/aggregate_persona_equal_weight.py",
+      "source_sha256": "c7794102e6ef33195cb33873e57b9ff5f6e8848c20dc78c3571506c3db916417",
+      "release_sha256": "f3a88458178de8d6bc01d9e207a30f54d4ad6a2aa0bd04ee4f5e6ce4be7042a5",
+      "modified": true
+    }
+  ],
+  "additional_release_files": [
+    ".env.example",
+    ".gitattributes",
+    ".gitignore",
+    "docs/METHOD.md",
+    "docs/PRIVACY_REPORT.json",
+    "docs/REPRODUCIBILITY.md",
+    "docs/VERIFICATION.md",
+    "docs/weights_hashes.json",
+    "manifest.json",
+    "README.md",
+    "requirements-evaluation.txt",
+    "requirements-training.txt",
+    "results/math/recomputed_summary.json",
+    "results/persona_equal_weight/manifest.json",
+    "results/persona_equal_weight/paired_scores.jsonl",
+    "results/persona_equal_weight/summary.csv",
+    "results/persona_equal_weight/summary.json",
+    "results/persona_equal_weight/summary.md",
+    "scripts/chain_opsd_seed.sh",
+    "scripts/evaluate_hf_vllm.sh",
+    "scripts/prepare_shared_core.sh",
+    "scripts/summarize_math.py",
+    "scripts/train_opsd_core.sh",
+    "scripts/train_rft_core.sh",
+    "scripts/verify_release.py"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "source_package": ".",
+  "models": {
+    "qwen": "qwen3.8-flash-next-2",
+    "deepseek": "deepseek-v4-flash-ascend"
+  },
+  "weights": {
+    "qwen": 0.5,
+    "deepseek": 0.5
+  },
+  "paired_records": 12400,
+  "counts": {
+    "coldstart": {
+      "all": 2480,
+      "correct": 785,
+      "failed": 1695
+    },
+    "rft": {
+      "all": 2480,
+      "correct": 908,
+      "failed": 1572
+    },
+    "opsd_v3": {
+      "all": 2480,
+      "correct": 945,
+      "failed": 1535
+    },
+    "opsd_v4_s1234": {
+      "all": 2480,
+      "correct": 964,
+      "failed": 1516
+    },
+    "opsd_v5_s5678": {
+      "all": 2480,
+      "correct": 995,
+      "failed": 1485
+    }
+  },
+  "source_sha256": {
+    "rollouts/evaluation/coldstart.jsonl.gz": "c558e78189425ebaf1d71cb6faa7e97a7d344a45c65ad970275f6f5cc57c9c47",
+    "results/judges/qwen/coldstart.jsonl.gz": "d54f47535c9aaae32b7317807371995292f6ff9f5640277a5fc6666d377219f5",
+    "results/judges/deepseek/coldstart.jsonl.gz": "cfa821937722612fe25b2b328dd198ed3c92f0aa8c61024c9f6a84ac6dc021ba",
+    "rollouts/evaluation/rft.jsonl.gz": "d6af81381bb5846b868862bffa4d97bdb9639e392d3f647b7f3cfcda1ff9ec20",
+    "results/judges/qwen/rft.jsonl.gz": "063243401071bf2e9dd41f03e052776d32d8a8ae35a689e07e11deeeb394385e",
+    "results/judges/deepseek/rft.jsonl.gz": "635af9b23cca1cd4fb9f337dd3b52641602733db139b8521db162b6188429f7d",
+    "rollouts/evaluation/opsd_v3.jsonl.gz": "4519a0e15039ec86c6ae9801a65733bd33bc8919cbaaffc9da54df5be2a9f6df",
+    "results/judges/qwen/opsd_v3.jsonl.gz": "8c3295657f2e7c761d6a3bb86e14b682f7eac525724b803753a9c945fe96e3e7",
+    "results/judges/deepseek/opsd_v3.jsonl.gz": "21b6855853001f7f01ccf7fcd809bef434f37aeee3347dd95b6c2411f46085da",
+    "rollouts/evaluation/opsd_v4_s1234.jsonl.gz": "9cc71a48b7c0fc7c1d44002700e30fb4a2dd302f17dba42a177a51abbb327dbc",
+    "results/judges/qwen/opsd_v4_s1234.jsonl.gz": "81c761bc299db5a8c50710c5728915cb2611a04e60210d521b645e40a228554e",
+    "results/judges/deepseek/opsd_v4_s1234.jsonl.gz": "373d751cb9afbad70ff0f284830394748c20140574a220070a3f3d1530414de3",
+    "rollouts/evaluation/opsd_v5_s5678.jsonl.gz": "f74155ea4d8dc6ef8f31f53b90ea1ce4136c290a5a590dc745602669bdf5f3b2",
+    "results/judges/qwen/opsd_v5_s5678.jsonl.gz": "233349d14f75b006cf390ef2049d4a2fc104b04b143f00f5bcf28cdd104d86f3",
+    "results/judges/deepseek/opsd_v5_s5678.jsonl.gz": "100ccbfa031e47ef6ce8dc7278ee489833d07e4e6d677c04c15ee4de209aa1f1"
+  },
+  "dedup_rule": "same as source summarize.py: first valid judgement per key",
+  "output_sha256": {
+    "paired_scores.jsonl": "6a65b1a1888c0cf41ed72ee580d37c90dca7805a118dcd530b9bf6dfaf2eb7f2",
+    "summary.csv": "6ac652cde4d07186a33bc2b9f48e0e30ef02216d7eab5072fd23c6f191b661b4",
+    "summary.json": "5d43259ff349015f71c917ac37ffa4eafacaaee6a463eaa3bc93fdddc923c151",
+    "summary.md": "f09bb714be70d02ec3d980329b289d7ce6167447366d45dc94c5f99060260130"
+  },
+  "script_sha256": "f3a88458178de8d6bc01d9e207a30f54d4ad6a2aa0bd04ee4f5e6ce4be7042a5",
+  "privacy_redacted": true,
+  "privacy_note": "Scores unchanged; current and original completion hashes identify redacted text and pre-redaction judge inputs."
+}

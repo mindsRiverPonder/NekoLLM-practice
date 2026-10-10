@@ -1,0 +1,6 @@
+# Original mathematical sampling environment; separate from training.
+vllm==0.28.0
+torch==2.13.0
+aiohttp
+sympy
+# External persona evaluation and stored-result aggregation use stdlib only.

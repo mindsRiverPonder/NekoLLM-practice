@@ -1,0 +1,26 @@
+{
+  "rollout_file": "original_archive/rollouts.jsonl",
+  "seed": 20260915,
+  "candidate_problem_groups": 5000,
+  "core_problems": 1848,
+  "correct_count_histogram": {
+    "0": 1908,
+    "1": 1144,
+    "2": 812,
+    "3": 531,
+    "4": 340,
+    "5": 165,
+    "6": 70,
+    "7": 27,
+    "8": 3
+  },
+  "rejected": {
+    "correct_count_0": 1908,
+    "correct_count_1": 1144,
+    "correct_count_6": 70,
+    "correct_count_7": 27,
+    "correct_count_8": 3
+  },
+  "verifier": "persona_reward.parse_strict_answer + answers_equivalent",
+  "selected_trajectory_contract": "same selected_completion in RFT and OPSD"
+}

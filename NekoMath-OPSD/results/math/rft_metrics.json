@@ -1,0 +1,8 @@
+{
+  "outputs": 2480,
+  "questions": 620,
+  "samples_per_question": 4,
+  "MathPass@4": 0.6483870967741936,
+  "MeanRolloutAccuracy": 0.36612903225806454,
+  "AnswerTagValidRate": 0.7233870967741935
+}
